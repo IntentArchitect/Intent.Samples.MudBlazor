@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<deviationsLog>
+  <files>
+    <file>
+      <correlationId>Intent.Blazor.Templates.Client.RazorComponentCodeBehindTemplate#0e8e843e-4544-4839-8a71-2d3dd21dc1d9</correlationId>
+      <path>MudBlazor.ExampleApp.Client/Pages/Customers/CustomerEdit.razor.cs</path>
+      <count>2</count>
+      <updatedByAccountName>gareth.baars@intentarchitect.com</updatedByAccountName>
+      <updatedByDisplayName>Gareth Baars</updatedByDisplayName>
+      <updatedAt>2024-08-04T12:53:31.1774474Z</updatedAt>
+      <deviationsHash>7D1E1895D7C392FA05539664BE1A120918CA43367D9B68B34A72C72D8FCFE700</deviationsHash>
+      <fileHash>6C2C8B7F2C69406DA6368ED924A1C83696E8EF71D6357F98DE5ABBA94395CE59</fileHash>
+    </file>
+  </files>
+</deviationsLog>

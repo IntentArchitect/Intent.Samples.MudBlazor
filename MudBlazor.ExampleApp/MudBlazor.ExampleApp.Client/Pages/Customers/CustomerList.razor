@@ -1,0 +1,35 @@
+@page "/customers"
+@using MudBlazor.ExampleApp.Client.HttpClients.Contracts.Services.Customers
+
+<MudButton Variant="Variant.Filled"
+           Class="my-2 mr-2"
+           Color="Color.Default"
+           OnClick="() => AddCustomerClick()">
+    Add Customer
+</MudButton>
+<MudDataGrid T="CustomerDto"
+             ServerData="LoadDataGridData"
+             Hover="true"
+             RowClick="(e) => DataGridRowClick(e.Item.Id.ToString())">
+    <ToolBarContent />
+    <Columns>
+        <PropertyColumn Property="x => x.Name"
+                        Class="cursor-pointer" />
+        <PropertyColumn Property="x => x.AccountNo"
+                        Class="cursor-pointer" />
+        <PropertyColumn Property="x => x.AddressLine1"
+                        Class="cursor-pointer" />
+        <PropertyColumn Property="x => x.AddressLine2"
+                        Class="cursor-pointer" />
+        <PropertyColumn Property="x => x.AddressCity"
+                        Class="cursor-pointer" />
+        <PropertyColumn Property="x => x.AddressCountry"
+                        Class="cursor-pointer" />
+        <PropertyColumn Property="x => x.AddressPostal"
+                        Class="cursor-pointer" />
+    </Columns>
+    <PagerContent>
+        <MudDataGridPager T="CustomerDto"
+                          PageSizeOptions="new int[] { 5, 10, 20 }" />
+    </PagerContent>
+</MudDataGrid>

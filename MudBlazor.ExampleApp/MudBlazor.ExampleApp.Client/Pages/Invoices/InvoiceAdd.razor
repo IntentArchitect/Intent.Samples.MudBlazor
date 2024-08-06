@@ -1,0 +1,80 @@
+@page "/invoices/invoice-add"
+@using MudBlazor.ExampleApp.Client.Common.Validation
+@using MudBlazor.ExampleApp.Client.HttpClients.Contracts.Services.Invoices
+@inject IValidatorProvider ValidatorProvider
+
+@if (Model is not null) 
+{
+    <MudGrid>
+        <MudItem xs="12"
+                 sm="7">
+            <MudForm @ref="@_form"
+                     Model="Model"
+                     Validation="@(ValidatorProvider.GetValidationFunc<InvoiceDto>())">
+                <MudCard>
+                    <MudCardHeader>
+                        <CardHeaderContent />
+                    </MudCardHeader>
+                    <MudCardContent>
+                        <MudTextField @bind-Value="Model.InvoiceNo"
+                                      Label="Invoice No"
+                                      For="@(() => Model.InvoiceNo)" />
+                        <MudSelect @bind-Value="Model.CustomerId"
+                                   Label="Customer Id">
+                            @foreach (var item in CustomerIdOptions) 
+                            {
+                                <MudSelectItem Value="item.Id">@item.Name</MudSelectItem>
+                            }
+                        </MudSelect>
+                        <MudTextField @bind-Value="Model.CustomerName"
+                                      Label="Customer Name"
+                                      For="@(() => Model.CustomerName)" />
+                        <MudTextField @bind-Value="Model.CustomerAccountNo"
+                                      Label="Customer Account No"
+                                      For="@(() => Model.CustomerAccountNo)" />
+                        <MudTextField @bind-Value="Model.AddressLine1"
+                                      Label="Address Line1"
+                                      For="@(() => Model.AddressLine1)" />
+                        <MudTextField @bind-Value="Model.AddressLine2"
+                                      Label="Address Line2"
+                                      For="@(() => Model.AddressLine2)" />
+                        <MudTextField @bind-Value="Model.AddressCity"
+                                      Label="Address City"
+                                      For="@(() => Model.AddressCity)" />
+                        <MudTextField @bind-Value="Model.AddressCountry"
+                                      Label="Address Country"
+                                      For="@(() => Model.AddressCountry)" />
+                        <MudTextField @bind-Value="Model.AddressPostal"
+                                      Label="Address Postal"
+                                      For="@(() => Model.AddressPostal)" />
+                    </MudCardContent>
+                    <MudCardActions>
+                        <MudButton Variant="Variant.Filled"
+                                   Class="my-2 mr-2"
+                                   Color="Color.Primary"
+                                   OnClick="() => OnSaveClicked()"
+                                   Disabled="@_onSaveClickedProcessing">
+                            @if (_onSaveClickedProcessing) 
+                            {
+                                <MudProgressCircular Class="ms-n1"
+                                                     Size="Size.Small"
+                                                     Indeterminate="true" />
+                                <MudText Class="ms-2">Processing</MudText>
+                            }
+                            else 
+                            {
+                                <MudText>Save</MudText>
+                            }
+                        </MudButton>
+                        <MudButton Variant="Variant.Filled"
+                                   Class="my-2 mr-2"
+                                   Color="Color.Default"
+                                   OnClick="() => OnCancelClicked()">
+                            Cancel
+                        </MudButton>
+                    </MudCardActions>
+                </MudCard>
+            </MudForm>
+        </MudItem>
+    </MudGrid>
+}

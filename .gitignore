@@ -1,0 +1,53 @@
+**/.DS_Store
+*.suo
+*.user
+*.sln.docstates
+bin/
+obj/
+Installers/
+*.unc-backup*
+*.user
+_Resharper.*
+TestResults
+*.log
+*.o 
+*.lo 
+*.la 
+*.al 
+.libs 
+*.so 
+.so.[0-9] 
+*.a 
+*.pyc 
+*.pyo 
+*.rej 
+*.js.map
+**/Templates/**/*.txt
+sys$command
+*.svclog
+*.templateOutput
+/Samples/ReactJs-Flux/.vs/config/applicationhost.config
+**/.vs*
+node_modules/
+lib/
+
+# As per: https://docs.nuget.org/consume/package-restore#git
+
+# Ignore NuGet Packages
+*.nupkg
+# Ignore the packages folder
+**/packages/*
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/packages/repositories.config
+/Intent.IntentArchitect/IntentArchitect.ElectronClient/Intent.IArchitect.Electron/Assemblies
+tempkey.jwk
+
+# INTENT FILES:
+*.imod
+*.iat
+!*.application.output.log
+.intent/
+.idea/
+/source/nestjs-petclinic-rest/target/sqlite-dev-db.sql

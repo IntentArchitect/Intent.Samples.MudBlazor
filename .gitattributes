@@ -1,0 +1,48 @@
+# Auto detect text files and perform LF normalization
+*        	text=auto
+
+# These files are text and should be normalized (convert crlf =&gt; lf)
+*.cs     	text diff=csharp
+*.java   	text diff=java
+*.html   	text
+*.css    	text
+*.js     	text
+*.sql    	text
+*.cshtml	text
+*.txt 		text
+*.xml		text
+*.ps1		text
+*.xaml		text
+*.md		text
+*.cmd		text
+*.bat		text
+*.msbuild	text
+*.config	text
+*.xsd		text
+*.xslt		text
+*.xmi		text
+
+*.csproj 	text eol=crlf
+*.sln    	text eol=crlf
+
+*.tt 	 	text eol=crlf
+*.ttinclude text eol=crlf
+
+# BINARY FILES
+
+*.docx   	binary diff=astextplain
+*.DOCX   	binary diff=astextplain
+
+*.png     	binary
+*.jepg    	binary
+*.jpg 		binary
+*.ico		binary
+*.dll		binary
+*.exe		binary
+*.sdf     	binary
+*.mdf		binary
+*.pdb		binary
+*.zip		binary
+*.jar		binary
+
+sqlite-dev-db.sql	binary

@@ -1,0 +1,69 @@
+@page "/products/{ProductId:guid}"
+@using MudBlazor.ExampleApp.Client.Common.Validation
+@using MudBlazor.ExampleApp.Client.HttpClients.Contracts.Services.Products
+@inject IValidatorProvider ValidatorProvider
+
+@if (Model is null) 
+{
+    <MudProgressLinear Color="Color.Primary"
+                       Indeterminate="true"
+                       Class="my-7" />
+}
+@if (Model is not null) 
+{
+    <MudGrid>
+        <MudItem xs="12"
+                 sm="7">
+            <MudForm @ref="@_form"
+                     Model="Model"
+                     Validation="@(ValidatorProvider.GetValidationFunc<ProductDto>())">
+                <MudCard>
+                    <MudCardHeader>
+                        <CardHeaderContent>
+                            <MudText>Update Product</MudText>
+                        </CardHeaderContent>
+                    </MudCardHeader>
+                    <MudCardContent>
+                        <MudTextField @bind-Value="Model.Name"
+                                      Label="Name"
+                                      For="@(() => Model.Name)" />
+                        <MudTextField @bind-Value="Model.Description"
+                                      Label="Description"
+                                      For="@(() => Model.Description)" />
+                        <MudTextField @bind-Value="Model.Price"
+                                      Label="Price"
+                                      For="@(() => Model.Price)" />
+                        <MudTextField @bind-Value="Model.ImageUrl"
+                                      Label="Image Url"
+                                      For="@(() => Model.ImageUrl)" />
+                    </MudCardContent>
+                    <MudCardActions>
+                        <MudButton Variant="Variant.Filled"
+                                   Class="my-2 mr-2"
+                                   Color="Color.Primary"
+                                   OnClick="() => OnSaveClicked()"
+                                   Disabled="@_onSaveClickedProcessing">
+                            @if (_onSaveClickedProcessing) 
+                            {
+                                <MudProgressCircular Class="ms-n1"
+                                                     Size="Size.Small"
+                                                     Indeterminate="true" />
+                                <MudText Class="ms-2">Processing</MudText>
+                            }
+                            else 
+                            {
+                                <MudText>Save</MudText>
+                            }
+                        </MudButton>
+                        <MudButton Variant="Variant.Filled"
+                                   Class="my-2 mr-2"
+                                   Color="Color.Default"
+                                   OnClick="() => OnCancelClicked()">
+                            Cancel
+                        </MudButton>
+                    </MudCardActions>
+                </MudCard>
+            </MudForm>
+        </MudItem>
+    </MudGrid>
+}

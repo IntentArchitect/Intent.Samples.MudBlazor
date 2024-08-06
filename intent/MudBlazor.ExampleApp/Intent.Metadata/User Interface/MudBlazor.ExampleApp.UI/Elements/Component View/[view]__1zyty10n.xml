@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="dbb7eb1c-f5ef-484d-a1eb-a433f8ba0479" type="Component View" typeId="624513a6-cba8-4dde-8ebe-6b19f00f0364">
+  <name>[view]</name>
+  <display>[view]</display>
+  <externalReference>4cd6c2f9-9d07-47f5-94c5-cb49410f1ccb</externalReference>
+  <isAbstract>false</isAbstract>
+  <sort-children>manually</sort-children>
+  <order>0</order>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>c39eb8c5-5b7a-4eec-a13f-e6c9b5a932a1</parentFolderId>
+  <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
+  <packageName>MudBlazor.ExampleApp.UI</packageName>
+  <stereotypes />
+  <metadata />
+  <childElements>
+    <childElement id="3f36454e-e562-481a-afec-ec88b0352300" type="Text" typeId="922150d2-42e6-4805-a002-f9580cdf7f6f">
+      <name>Head</name>
+      <display>Head = ###Hello, world!</display>
+      <externalReference>72a6938d-d404-493f-aadd-d2b231fabdb1</externalReference>
+      <isAbstract>false</isAbstract>
+      <value>###Hello, world!</value>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>dbb7eb1c-f5ef-484d-a1eb-a433f8ba0479</parentFolderId>
+      <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
+      <packageName>MudBlazor.ExampleApp.UI</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="44e1e5a3-f4ac-4174-b4d0-6c2b9e81509a" type="Text" typeId="922150d2-42e6-4805-a002-f9580cdf7f6f">
+      <name>Text</name>
+      <display>Text = Welcome to your new app, powered by .NET 8!</display>
+      <externalReference>c2ebf3f0-a5be-4e70-82d7-baffdd4abd1e</externalReference>
+      <isAbstract>false</isAbstract>
+      <value>Welcome to your new app, powered by .NET 8!</value>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>dbb7eb1c-f5ef-484d-a1eb-a433f8ba0479</parentFolderId>
+      <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
+      <packageName>MudBlazor.ExampleApp.UI</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements />
+    </childElement>
+  </childElements>
+</class>

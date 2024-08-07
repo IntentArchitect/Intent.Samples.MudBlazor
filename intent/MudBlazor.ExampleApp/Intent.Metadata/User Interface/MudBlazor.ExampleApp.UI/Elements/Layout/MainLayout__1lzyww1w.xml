@@ -33,7 +33,7 @@
             <target id="40385617-a034-4086-8398-a20bfb2f4a3a" name="MainLayout" type="element" specialization="Layout" specializationId="776a9393-6b23-4a8c-8937-fd7e833fa0ef" />
             <target id="fd0a5035-a146-4ac3-ab01-e2f110107efa" name="Sider" type="element" specialization="Layout Sider" specializationId="c505f35f-7148-46a3-a812-d9f53a174490" />
             <target id="2d5d1340-de59-412e-b34c-684a16cff385" name="Navigation Menu" type="element" specialization="Navigation Menu" specializationId="d7282bf2-1626-4b8b-9446-1d530527db06" />
-            <target id="f1b02d9b-5960-4fa7-9c62-b19b92bfeb4d" name="Invoices" type="element" specialization="Menu Item" specializationId="adbf2fa8-6833-4c24-960a-31d8a41fd1ed" />
+            <target id="f1b02d9b-5960-4fa7-9c62-b19b92bfeb4d" name="Manage Invoices" type="element" specialization="Menu Item" specializationId="adbf2fa8-6833-4c24-960a-31d8a41fd1ed" />
             <target id="a4073b81-6ddd-44cb-909f-f2c97d965112" name="Link To" type="static-mappable" specialization="Link To" specializationId="a4073b81-6ddd-44cb-909f-f2c97d965112" />
           </path>
           <sources>
@@ -179,8 +179,8 @@
           <metadata />
           <childElements>
             <childElement id="f1b02d9b-5960-4fa7-9c62-b19b92bfeb4d" type="Menu Item" typeId="adbf2fa8-6833-4c24-960a-31d8a41fd1ed">
-              <name>Invoices</name>
-              <display>Invoices</display>
+              <name>Manage Invoices</name>
+              <display>Manage Invoices</display>
               <isAbstract>false</isAbstract>
               <genericTypes />
               <isMapped>false</isMapped>

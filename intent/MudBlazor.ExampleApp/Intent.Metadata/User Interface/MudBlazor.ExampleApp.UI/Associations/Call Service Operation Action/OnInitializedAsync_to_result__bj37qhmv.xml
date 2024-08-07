@@ -36,7 +36,7 @@
     <stereotypes />
     <mappings>
       <mapping type="Call Service Mapping" typeId="e4a4111b-cf13-4efe-8a5d-fea9457ac8ad">
-        <source applicationId="00727c17-aeb5-470b-991f-68c0b481117e" designerId="f492faed-0665-4513-9853-5a230721786f" elementId="03d22c9a-2ea7-4c62-a54b-addae3c7f0b5" location="[MudBlazor.ExampleApp].[User Interface].[InvoiceAdd]" />
+        <source applicationId="00727c17-aeb5-470b-991f-68c0b481117e" designerId="f492faed-0665-4513-9853-5a230721786f" elementId="03d22c9a-2ea7-4c62-a54b-addae3c7f0b5" location="[MudBlazor.ExampleApp].[User Interface].[InvoiceForm]" />
         <target applicationId="00727c17-aeb5-470b-991f-68c0b481117e" designerId="f492faed-0665-4513-9853-5a230721786f" elementId="0ee67920-9b40-4b95-80ed-c0bac5918b2d" location="[MudBlazor.ExampleApp].[User Interface].[GetCustomersLookupQuery]" />
         <mappedEnds>
           <mappedEnd>
@@ -47,7 +47,7 @@
             <sources>
               <source identifier="OnInitializedAsync" mappingType="Invocation Mapping" mappingTypeId="ab447316-1252-49bc-a695-f34cb00a3cdc">
                 <path>
-                  <target id="03d22c9a-2ea7-4c62-a54b-addae3c7f0b5" name="InvoiceAdd" type="element" specialization="Component" specializationId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b" />
+                  <target id="03d22c9a-2ea7-4c62-a54b-addae3c7f0b5" name="InvoiceForm" type="element" specialization="Component" specializationId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b" />
                   <target id="fa990c77-7756-4e41-9009-e7f449e2dc95" name="OnInitializedAsync" type="element" specialization="Component Operation" specializationId="e030c97a-e066-40a7-8188-808c275df3cb" />
                 </path>
               </source>
@@ -57,20 +57,20 @@
       </mapping>
       <mapping type="Service Call Response Mapping" typeId="6f998e3e-6e1f-483f-b8fd-59c6632add77">
         <source applicationId="00727c17-aeb5-470b-991f-68c0b481117e" designerId="f492faed-0665-4513-9853-5a230721786f" elementId="37543598-2f81-4cb4-bb8b-474f5f4142c7" location="[MudBlazor.ExampleApp].[User Interface].[result]" />
-        <target applicationId="00727c17-aeb5-470b-991f-68c0b481117e" designerId="f492faed-0665-4513-9853-5a230721786f" elementId="03d22c9a-2ea7-4c62-a54b-addae3c7f0b5" location="[MudBlazor.ExampleApp].[User Interface].[InvoiceAdd]" />
+        <target applicationId="00727c17-aeb5-470b-991f-68c0b481117e" designerId="f492faed-0665-4513-9853-5a230721786f" elementId="03d22c9a-2ea7-4c62-a54b-addae3c7f0b5" location="[MudBlazor.ExampleApp].[User Interface].[InvoiceForm]" />
         <mappedEnds>
           <mappedEnd>
             <expression>{response}</expression>
             <path>
-              <target id="03d22c9a-2ea7-4c62-a54b-addae3c7f0b5" name="InvoiceAdd" type="element" specialization="Component" specializationId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b" />
-              <target id="cc128abf-0324-4a13-9fcf-dd4785d095e3" name="CustomerIdOptions" type="element" specialization="Property" specializationId="356fbe17-bc63-4e16-b915-feefbc063cbe" />
+              <target id="03d22c9a-2ea7-4c62-a54b-addae3c7f0b5" name="InvoiceForm" type="element" specialization="Component" specializationId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b" />
+              <target id="cc128abf-0324-4a13-9fcf-dd4785d095e3" name="CustomerOptions" type="element" specialization="Property" specializationId="356fbe17-bc63-4e16-b915-feefbc063cbe" />
             </path>
             <sources>
               <source identifier="response" mappingType="Data Mapping" mappingTypeId="bbac21bb-9fdf-489e-8473-84be9cacc64d">
                 <path>
                   <target id="37543598-2f81-4cb4-bb8b-474f5f4142c7" name="result" type="association" specialization="Call Service Operation Action Target End" specializationId="475f0810-2b4a-40da-8eb8-697cb62f7dbe" />
                   <target id="28165dfb-a6a6-4c2b-9d64-421f1da81bc9" name="response" type="static-mappable" specialization="response" specializationId="28165dfb-a6a6-4c2b-9d64-421f1da81bc9">
-                    <typeReference id="76200b68-63e5-4bbe-86d3-7bb61302c83a">
+                    <typeReference id="afecf465-d464-465a-ba97-f2583e638563">
                       <typeId>07092606-bc94-48c8-91a7-6ebcab047574</typeId>
                       <isNavigable>true</isNavigable>
                       <isNullable>false</isNullable>

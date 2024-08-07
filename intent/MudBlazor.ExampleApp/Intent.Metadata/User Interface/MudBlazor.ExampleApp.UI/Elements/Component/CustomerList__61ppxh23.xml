@@ -196,7 +196,7 @@
           <path>
             <target id="9a122e12-ac72-4954-8db2-bd2692fd117a" name="[view]" type="element" specialization="Component View" specializationId="624513a6-cba8-4dde-8ebe-6b19f00f0364" />
             <target id="e4daa93c-a4bd-4e47-9720-d0e8657b3af6" name="DataGrid" type="element" specialization="Data Grid" specializationId="4b33f894-ad6e-43e0-a238-4286375c9ab7" />
-            <target id="a9951dfa-fbaa-42af-807a-703343f6d8e6" name="AddressLine1" type="element" specialization="Data Grid Column" specializationId="7cea32c5-1218-4bf2-bbab-52ddb2cb1532" />
+            <target id="a9951dfa-fbaa-42af-807a-703343f6d8e6" name="Address Line1" type="element" specialization="Data Grid Column" specializationId="7cea32c5-1218-4bf2-bbab-52ddb2cb1532" />
           </path>
           <sources>
             <source identifier="Model.Data.AddressLine1" mappingType="Data Mapping" mappingTypeId="ee19a932-0cea-4b90-bd3c-857d7942d390">
@@ -214,7 +214,7 @@
           <path>
             <target id="9a122e12-ac72-4954-8db2-bd2692fd117a" name="[view]" type="element" specialization="Component View" specializationId="624513a6-cba8-4dde-8ebe-6b19f00f0364" />
             <target id="e4daa93c-a4bd-4e47-9720-d0e8657b3af6" name="DataGrid" type="element" specialization="Data Grid" specializationId="4b33f894-ad6e-43e0-a238-4286375c9ab7" />
-            <target id="7428abe1-aaa7-4893-bf60-c0ebd023a9fa" name="AddressLine2" type="element" specialization="Data Grid Column" specializationId="7cea32c5-1218-4bf2-bbab-52ddb2cb1532" />
+            <target id="7428abe1-aaa7-4893-bf60-c0ebd023a9fa" name="Address Line2" type="element" specialization="Data Grid Column" specializationId="7cea32c5-1218-4bf2-bbab-52ddb2cb1532" />
           </path>
           <sources>
             <source identifier="Model.Data.AddressLine2" mappingType="Data Mapping" mappingTypeId="ee19a932-0cea-4b90-bd3c-857d7942d390">
@@ -232,7 +232,7 @@
           <path>
             <target id="9a122e12-ac72-4954-8db2-bd2692fd117a" name="[view]" type="element" specialization="Component View" specializationId="624513a6-cba8-4dde-8ebe-6b19f00f0364" />
             <target id="e4daa93c-a4bd-4e47-9720-d0e8657b3af6" name="DataGrid" type="element" specialization="Data Grid" specializationId="4b33f894-ad6e-43e0-a238-4286375c9ab7" />
-            <target id="0130d243-1fec-4c98-a153-0b729129cf8a" name="AddressCity" type="element" specialization="Data Grid Column" specializationId="7cea32c5-1218-4bf2-bbab-52ddb2cb1532" />
+            <target id="0130d243-1fec-4c98-a153-0b729129cf8a" name="Address City" type="element" specialization="Data Grid Column" specializationId="7cea32c5-1218-4bf2-bbab-52ddb2cb1532" />
           </path>
           <sources>
             <source identifier="Model.Data.AddressCity" mappingType="Data Mapping" mappingTypeId="ee19a932-0cea-4b90-bd3c-857d7942d390">
@@ -250,7 +250,7 @@
           <path>
             <target id="9a122e12-ac72-4954-8db2-bd2692fd117a" name="[view]" type="element" specialization="Component View" specializationId="624513a6-cba8-4dde-8ebe-6b19f00f0364" />
             <target id="e4daa93c-a4bd-4e47-9720-d0e8657b3af6" name="DataGrid" type="element" specialization="Data Grid" specializationId="4b33f894-ad6e-43e0-a238-4286375c9ab7" />
-            <target id="1003dcac-e275-4b82-80ae-8bd98daacb6f" name="AddressCountry" type="element" specialization="Data Grid Column" specializationId="7cea32c5-1218-4bf2-bbab-52ddb2cb1532" />
+            <target id="1003dcac-e275-4b82-80ae-8bd98daacb6f" name="Address Country" type="element" specialization="Data Grid Column" specializationId="7cea32c5-1218-4bf2-bbab-52ddb2cb1532" />
           </path>
           <sources>
             <source identifier="Model.Data.AddressCountry" mappingType="Data Mapping" mappingTypeId="ee19a932-0cea-4b90-bd3c-857d7942d390">
@@ -268,7 +268,7 @@
           <path>
             <target id="9a122e12-ac72-4954-8db2-bd2692fd117a" name="[view]" type="element" specialization="Component View" specializationId="624513a6-cba8-4dde-8ebe-6b19f00f0364" />
             <target id="e4daa93c-a4bd-4e47-9720-d0e8657b3af6" name="DataGrid" type="element" specialization="Data Grid" specializationId="4b33f894-ad6e-43e0-a238-4286375c9ab7" />
-            <target id="467c6591-466d-44dd-9bd4-710112909d3b" name="AddressPostal" type="element" specialization="Data Grid Column" specializationId="7cea32c5-1218-4bf2-bbab-52ddb2cb1532" />
+            <target id="467c6591-466d-44dd-9bd4-710112909d3b" name="Address Postal" type="element" specialization="Data Grid Column" specializationId="7cea32c5-1218-4bf2-bbab-52ddb2cb1532" />
           </path>
           <sources>
             <source identifier="Model.Data.AddressPostal" mappingType="Data Mapping" mappingTypeId="ee19a932-0cea-4b90-bd3c-857d7942d390">

@@ -101,8 +101,8 @@
           <childElements />
         </childElement>
         <childElement id="a9951dfa-fbaa-42af-807a-703343f6d8e6" type="Data Grid Column" typeId="7cea32c5-1218-4bf2-bbab-52ddb2cb1532">
-          <name>AddressLine1</name>
-          <display>AddressLine1 = {Model.Data.AddressLine1}</display>
+          <name>Address Line1</name>
+          <display>Address Line1 = {Model.Data.AddressLine1}</display>
           <isAbstract>false</isAbstract>
           <value>{Model.Data.AddressLine1}</value>
           <genericTypes />
@@ -115,8 +115,8 @@
           <childElements />
         </childElement>
         <childElement id="7428abe1-aaa7-4893-bf60-c0ebd023a9fa" type="Data Grid Column" typeId="7cea32c5-1218-4bf2-bbab-52ddb2cb1532">
-          <name>AddressLine2</name>
-          <display>AddressLine2 = {Model.Data.AddressLine2}</display>
+          <name>Address Line2</name>
+          <display>Address Line2 = {Model.Data.AddressLine2}</display>
           <isAbstract>false</isAbstract>
           <value>{Model.Data.AddressLine2}</value>
           <genericTypes />
@@ -129,8 +129,8 @@
           <childElements />
         </childElement>
         <childElement id="0130d243-1fec-4c98-a153-0b729129cf8a" type="Data Grid Column" typeId="7cea32c5-1218-4bf2-bbab-52ddb2cb1532">
-          <name>AddressCity</name>
-          <display>AddressCity = {Model.Data.AddressCity}</display>
+          <name>Address City</name>
+          <display>Address City = {Model.Data.AddressCity}</display>
           <isAbstract>false</isAbstract>
           <value>{Model.Data.AddressCity}</value>
           <genericTypes />
@@ -143,8 +143,8 @@
           <childElements />
         </childElement>
         <childElement id="1003dcac-e275-4b82-80ae-8bd98daacb6f" type="Data Grid Column" typeId="7cea32c5-1218-4bf2-bbab-52ddb2cb1532">
-          <name>AddressCountry</name>
-          <display>AddressCountry = {Model.Data.AddressCountry}</display>
+          <name>Address Country</name>
+          <display>Address Country = {Model.Data.AddressCountry}</display>
           <isAbstract>false</isAbstract>
           <value>{Model.Data.AddressCountry}</value>
           <genericTypes />
@@ -157,8 +157,8 @@
           <childElements />
         </childElement>
         <childElement id="467c6591-466d-44dd-9bd4-710112909d3b" type="Data Grid Column" typeId="7cea32c5-1218-4bf2-bbab-52ddb2cb1532">
-          <name>AddressPostal</name>
-          <display>AddressPostal = {Model.Data.AddressPostal}</display>
+          <name>Address Postal</name>
+          <display>Address Postal = {Model.Data.AddressPostal}</display>
           <isAbstract>false</isAbstract>
           <value>{Model.Data.AddressPostal}</value>
           <genericTypes />

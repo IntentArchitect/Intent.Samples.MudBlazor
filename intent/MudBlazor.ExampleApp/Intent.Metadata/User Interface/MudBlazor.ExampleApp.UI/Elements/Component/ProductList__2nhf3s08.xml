@@ -214,7 +214,7 @@
           <path>
             <target id="634b8577-1ef0-418b-93f1-750ccf3ea3b9" name="[view]" type="element" specialization="Component View" specializationId="624513a6-cba8-4dde-8ebe-6b19f00f0364" />
             <target id="c6cd439c-26fc-4e96-89c6-6ba8825e064e" name="DataGrid" type="element" specialization="Data Grid" specializationId="4b33f894-ad6e-43e0-a238-4286375c9ab7" />
-            <target id="7134656e-0a86-4f1b-9855-caff98bb6b3b" name="ImageUrl" type="element" specialization="Data Grid Column" specializationId="7cea32c5-1218-4bf2-bbab-52ddb2cb1532" />
+            <target id="7134656e-0a86-4f1b-9855-caff98bb6b3b" name="Image Url" type="element" specialization="Data Grid Column" specializationId="7cea32c5-1218-4bf2-bbab-52ddb2cb1532" />
           </path>
           <sources>
             <source identifier="Model.Data.ImageUrl" mappingType="Data Mapping" mappingTypeId="ee19a932-0cea-4b90-bd3c-857d7942d390">

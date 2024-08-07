@@ -115,8 +115,8 @@
           <childElements />
         </childElement>
         <childElement id="7134656e-0a86-4f1b-9855-caff98bb6b3b" type="Data Grid Column" typeId="7cea32c5-1218-4bf2-bbab-52ddb2cb1532">
-          <name>ImageUrl</name>
-          <display>ImageUrl = {Model.Data.ImageUrl}</display>
+          <name>Image Url</name>
+          <display>Image Url = {Model.Data.ImageUrl}</display>
           <isAbstract>false</isAbstract>
           <value>{Model.Data.ImageUrl}</value>
           <genericTypes />

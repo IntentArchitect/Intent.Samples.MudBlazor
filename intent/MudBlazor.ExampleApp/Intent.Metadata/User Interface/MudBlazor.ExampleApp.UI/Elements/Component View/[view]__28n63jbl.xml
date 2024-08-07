@@ -112,177 +112,270 @@
                   <definitionPackageName>Intent.Modelers.UI.Core</definitionPackageName>
                   <definitionPackageId>a2a95421-3e55-43c7-96ad-355610b43c4d</definitionPackageId>
                   <properties>
-                    <property name="83c7d771-b51b-4ca8-9451-10d154c99b05" display="Options" value="{CustomerIdOptions}" isActive="true" />
-                    <property name="cdbb3669-f3b5-4d56-a274-4a1f92d4a451" display="Key" value="{CustomerIdOptions.Id}" isActive="true" />
-                    <property name="4d698735-be31-4e69-9fa0-27ddd077b465" display="Value" value="{CustomerIdOptions.Name}" isActive="true" />
+                    <property name="83c7d771-b51b-4ca8-9451-10d154c99b05" display="Options" value="{CustomerOptions}" isActive="true" />
+                    <property name="cdbb3669-f3b5-4d56-a274-4a1f92d4a451" display="Key" value="{CustomerOptions.Id}" isActive="true" />
+                    <property name="4d698735-be31-4e69-9fa0-27ddd077b465" display="Value" value="{CustomerOptions.Name}" isActive="true" />
                   </properties>
                 </stereotype>
               </stereotypes>
               <metadata />
               <childElements />
             </childElement>
-            <childElement id="81c027bd-4393-48c1-a4ab-750d644e4489" type="Text Input" typeId="4803bf60-c626-4cbe-94ed-0f1eafff9fe3">
-              <name>Customer Name</name>
-              <display>Customer Name = {Model.CustomerName}</display>
+            <childElement id="a8479781-aeb8-4957-8fc6-59568ceee876" type="Table" typeId="eee93c29-3d58-4e42-aea9-c00451d17469">
+              <name>OrderLinesTable</name>
+              <display>OrderLinesTable = {Model.OrderLines}</display>
               <isAbstract>false</isAbstract>
-              <value>{Model.CustomerName}</value>
+              <value>{Model.OrderLines}</value>
+              <sort-children>manually</sort-children>
               <genericTypes />
               <isMapped>false</isMapped>
               <parentFolderId>e8a46c95-0698-4aa3-9781-c8a27989a3f3</parentFolderId>
               <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
               <packageName>MudBlazor.ExampleApp.UI</packageName>
               <stereotypes>
-                <stereotype stereotypeDefinitionId="6e04ff81-f043-4ac6-8632-798aedbaaf20" name="Interaction">
+                <stereotype stereotypeDefinitionId="74533b82-2078-44e1-84bb-4cd34d00ef16" name="Interaction">
                   <addedByDefault>true</addedByDefault>
                   <definitionPackageName>Intent.Modelers.UI.Core</definitionPackageName>
                   <definitionPackageId>a2a95421-3e55-43c7-96ad-355610b43c4d</definitionPackageId>
                   <properties>
-                    <property name="a230fb6d-62fc-47c6-b09a-ff1b98359967" display="Is Required" value="false" isActive="true" />
-                    <property name="b9d6ff0c-3fe9-4faf-b966-20016a5989a3" display="Is Enabled" value="true" isActive="true" />
+                    <property name="fbb0d0b4-effb-4ab1-8ee2-df0d28b21163" display="On Row Click" isActive="true" />
                   </properties>
                 </stereotype>
               </stereotypes>
               <metadata />
-              <childElements />
+              <childElements>
+                <childElement id="29be2f59-7855-4456-ab87-af4f977bfbbe" type="Column" typeId="d372c640-e649-4e67-84a8-4446f45288db">
+                  <name>Product</name>
+                  <display>Product</display>
+                  <isAbstract>false</isAbstract>
+                  <value />
+                  <sort-children>manually</sort-children>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>a8479781-aeb8-4957-8fc6-59568ceee876</parentFolderId>
+                  <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
+                  <packageName>MudBlazor.ExampleApp.UI</packageName>
+                  <stereotypes />
+                  <metadata />
+                  <childElements>
+                    <childElement id="8dfa03fd-3ec1-4262-884c-6965bd6b635e" type="Select" typeId="78e0bdf7-424f-4820-95d5-b756b0ebc87a">
+                      <name>Select</name>
+                      <display>Select = {Model.OrderLines.ProductId}</display>
+                      <isAbstract>false</isAbstract>
+                      <value>{Model.OrderLines.ProductId}</value>
+                      <genericTypes />
+                      <isMapped>false</isMapped>
+                      <parentFolderId>29be2f59-7855-4456-ab87-af4f977bfbbe</parentFolderId>
+                      <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
+                      <packageName>MudBlazor.ExampleApp.UI</packageName>
+                      <stereotypes>
+                        <stereotype stereotypeDefinitionId="6a75e4ef-66bd-45b3-b74a-2d75b384c8cd" name="Interaction">
+                          <addedByDefault>true</addedByDefault>
+                          <definitionPackageName>Intent.Modelers.UI.Core</definitionPackageName>
+                          <definitionPackageId>a2a95421-3e55-43c7-96ad-355610b43c4d</definitionPackageId>
+                          <properties>
+                            <property name="83c7d771-b51b-4ca8-9451-10d154c99b05" display="Options" value="{ProductOptions}" isActive="true" />
+                            <property name="cdbb3669-f3b5-4d56-a274-4a1f92d4a451" display="Key" value="{ProductOptions.Id}" isActive="true" />
+                            <property name="4d698735-be31-4e69-9fa0-27ddd077b465" display="Value" value="{ProductOptions.Name}" isActive="true" />
+                          </properties>
+                        </stereotype>
+                      </stereotypes>
+                      <metadata />
+                      <childElements />
+                    </childElement>
+                  </childElements>
+                </childElement>
+                <childElement id="c9e38948-4971-44e8-b791-52d56578d885" type="Column" typeId="d372c640-e649-4e67-84a8-4446f45288db">
+                  <name>Units</name>
+                  <display>Units</display>
+                  <isAbstract>false</isAbstract>
+                  <value />
+                  <sort-children>manually</sort-children>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>a8479781-aeb8-4957-8fc6-59568ceee876</parentFolderId>
+                  <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
+                  <packageName>MudBlazor.ExampleApp.UI</packageName>
+                  <stereotypes />
+                  <metadata />
+                  <childElements>
+                    <childElement id="0027f9e2-1390-49df-baae-8c13806b7cb9" type="Text Input" typeId="4803bf60-c626-4cbe-94ed-0f1eafff9fe3">
+                      <name>Text Input</name>
+                      <display>Text Input = {Model.OrderLines.Units}</display>
+                      <isAbstract>false</isAbstract>
+                      <value>{Model.OrderLines.Units}</value>
+                      <genericTypes />
+                      <isMapped>false</isMapped>
+                      <parentFolderId>c9e38948-4971-44e8-b791-52d56578d885</parentFolderId>
+                      <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
+                      <packageName>MudBlazor.ExampleApp.UI</packageName>
+                      <stereotypes>
+                        <stereotype stereotypeDefinitionId="6e04ff81-f043-4ac6-8632-798aedbaaf20" name="Interaction">
+                          <addedByDefault>true</addedByDefault>
+                          <definitionPackageName>Intent.Modelers.UI.Core</definitionPackageName>
+                          <definitionPackageId>a2a95421-3e55-43c7-96ad-355610b43c4d</definitionPackageId>
+                          <properties>
+                            <property name="a230fb6d-62fc-47c6-b09a-ff1b98359967" display="Is Required" value="false" isActive="true" />
+                            <property name="b9d6ff0c-3fe9-4faf-b966-20016a5989a3" display="Is Enabled" value="true" isActive="true" />
+                          </properties>
+                        </stereotype>
+                      </stereotypes>
+                      <metadata />
+                      <childElements />
+                    </childElement>
+                  </childElements>
+                </childElement>
+                <childElement id="0955ff4f-c805-4f92-bcd2-0c48fcb76eb4" type="Column" typeId="d372c640-e649-4e67-84a8-4446f45288db">
+                  <name>Unit Price</name>
+                  <display>Unit Price</display>
+                  <isAbstract>false</isAbstract>
+                  <value />
+                  <sort-children>manually</sort-children>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>a8479781-aeb8-4957-8fc6-59568ceee876</parentFolderId>
+                  <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
+                  <packageName>MudBlazor.ExampleApp.UI</packageName>
+                  <stereotypes />
+                  <metadata />
+                  <childElements>
+                    <childElement id="744a06be-9a03-422e-95c4-376812c30c35" type="Text Input" typeId="4803bf60-c626-4cbe-94ed-0f1eafff9fe3">
+                      <name>Text Input</name>
+                      <display>Text Input = {Model.OrderLines.UnitPrice}</display>
+                      <isAbstract>false</isAbstract>
+                      <value>{Model.OrderLines.UnitPrice}</value>
+                      <genericTypes />
+                      <isMapped>false</isMapped>
+                      <parentFolderId>0955ff4f-c805-4f92-bcd2-0c48fcb76eb4</parentFolderId>
+                      <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
+                      <packageName>MudBlazor.ExampleApp.UI</packageName>
+                      <stereotypes>
+                        <stereotype stereotypeDefinitionId="6e04ff81-f043-4ac6-8632-798aedbaaf20" name="Interaction">
+                          <addedByDefault>true</addedByDefault>
+                          <definitionPackageName>Intent.Modelers.UI.Core</definitionPackageName>
+                          <definitionPackageId>a2a95421-3e55-43c7-96ad-355610b43c4d</definitionPackageId>
+                          <properties>
+                            <property name="a230fb6d-62fc-47c6-b09a-ff1b98359967" display="Is Required" value="false" isActive="true" />
+                            <property name="b9d6ff0c-3fe9-4faf-b966-20016a5989a3" display="Is Enabled" value="true" isActive="true" />
+                          </properties>
+                        </stereotype>
+                      </stereotypes>
+                      <metadata />
+                      <childElements />
+                    </childElement>
+                  </childElements>
+                </childElement>
+                <childElement id="4abe6751-3023-4c23-8048-42c63ca72d98" type="Column" typeId="d372c640-e649-4e67-84a8-4446f45288db">
+                  <name>Discount</name>
+                  <display>Discount</display>
+                  <isAbstract>false</isAbstract>
+                  <value />
+                  <sort-children>manually</sort-children>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>a8479781-aeb8-4957-8fc6-59568ceee876</parentFolderId>
+                  <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
+                  <packageName>MudBlazor.ExampleApp.UI</packageName>
+                  <stereotypes />
+                  <metadata />
+                  <childElements>
+                    <childElement id="03fe5ac2-408b-4e23-bcf7-046f22ef2264" type="Text Input" typeId="4803bf60-c626-4cbe-94ed-0f1eafff9fe3">
+                      <name>Text Input</name>
+                      <display>Text Input = {Model.OrderLines.Discount}</display>
+                      <isAbstract>false</isAbstract>
+                      <value>{Model.OrderLines.Discount}</value>
+                      <genericTypes />
+                      <isMapped>false</isMapped>
+                      <parentFolderId>4abe6751-3023-4c23-8048-42c63ca72d98</parentFolderId>
+                      <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
+                      <packageName>MudBlazor.ExampleApp.UI</packageName>
+                      <stereotypes>
+                        <stereotype stereotypeDefinitionId="6e04ff81-f043-4ac6-8632-798aedbaaf20" name="Interaction">
+                          <addedByDefault>true</addedByDefault>
+                          <definitionPackageName>Intent.Modelers.UI.Core</definitionPackageName>
+                          <definitionPackageId>a2a95421-3e55-43c7-96ad-355610b43c4d</definitionPackageId>
+                          <properties>
+                            <property name="a230fb6d-62fc-47c6-b09a-ff1b98359967" display="Is Required" value="false" isActive="true" />
+                            <property name="b9d6ff0c-3fe9-4faf-b966-20016a5989a3" display="Is Enabled" value="true" isActive="true" />
+                          </properties>
+                        </stereotype>
+                      </stereotypes>
+                      <metadata />
+                      <childElements />
+                    </childElement>
+                  </childElements>
+                </childElement>
+                <childElement id="61cfff1f-0a92-4536-b69c-17e53fd3d16b" type="Column" typeId="d372c640-e649-4e67-84a8-4446f45288db">
+                  <name>Total</name>
+                  <display>Total = {CalculateTotal}</display>
+                  <isAbstract>false</isAbstract>
+                  <value>{CalculateTotal}</value>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>a8479781-aeb8-4957-8fc6-59568ceee876</parentFolderId>
+                  <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
+                  <packageName>MudBlazor.ExampleApp.UI</packageName>
+                  <stereotypes />
+                  <metadata />
+                  <childElements />
+                </childElement>
+                <childElement id="e7d3e954-a4af-4d35-b3b2-8ad3d3564a8b" type="Column" typeId="d372c640-e649-4e67-84a8-4446f45288db">
+                  <name>Actions</name>
+                  <display>Actions</display>
+                  <isAbstract>false</isAbstract>
+                  <sort-children>manually</sort-children>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>a8479781-aeb8-4957-8fc6-59568ceee876</parentFolderId>
+                  <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
+                  <packageName>MudBlazor.ExampleApp.UI</packageName>
+                  <stereotypes />
+                  <metadata />
+                  <childElements>
+                    <childElement id="ed24c22e-8988-4972-b418-15abae858ae5" type="Button" typeId="4474d808-f6fd-405f-a9c7-6998cd000ede">
+                      <name>Delete</name>
+                      <display>Delete</display>
+                      <isAbstract>false</isAbstract>
+                      <genericTypes />
+                      <isMapped>false</isMapped>
+                      <parentFolderId>e7d3e954-a4af-4d35-b3b2-8ad3d3564a8b</parentFolderId>
+                      <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
+                      <packageName>MudBlazor.ExampleApp.UI</packageName>
+                      <stereotypes>
+                        <stereotype stereotypeDefinitionId="a7de29e5-4bee-4e5d-93f0-740569ac6130" name="Interaction">
+                          <addedByDefault>true</addedByDefault>
+                          <definitionPackageName>Intent.Modelers.UI.Core</definitionPackageName>
+                          <definitionPackageId>a2a95421-3e55-43c7-96ad-355610b43c4d</definitionPackageId>
+                          <properties>
+                            <property name="7cee794d-e1a7-4590-b65a-6e56914a2a97" display="Type" value="Default" isActive="true" />
+                            <property name="d05f7b5b-fe45-4cbb-b938-380a4b68c0df" display="On Click" value="{OnDeleteLineClick}" isActive="true" />
+                          </properties>
+                        </stereotype>
+                      </stereotypes>
+                      <metadata />
+                      <childElements />
+                    </childElement>
+                  </childElements>
+                </childElement>
+              </childElements>
             </childElement>
-            <childElement id="9708ee54-3906-4884-8e2f-9869cb2a7743" type="Text Input" typeId="4803bf60-c626-4cbe-94ed-0f1eafff9fe3">
-              <name>Customer Account No</name>
-              <display>Customer Account No = {Model.CustomerAccountNo}</display>
+            <childElement id="1bcf9116-9784-40a2-b1f9-0bf8e11769f0" type="Button" typeId="4474d808-f6fd-405f-a9c7-6998cd000ede">
+              <name>Add Line</name>
+              <display>Add Line</display>
               <isAbstract>false</isAbstract>
-              <value>{Model.CustomerAccountNo}</value>
               <genericTypes />
               <isMapped>false</isMapped>
               <parentFolderId>e8a46c95-0698-4aa3-9781-c8a27989a3f3</parentFolderId>
               <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
               <packageName>MudBlazor.ExampleApp.UI</packageName>
               <stereotypes>
-                <stereotype stereotypeDefinitionId="6e04ff81-f043-4ac6-8632-798aedbaaf20" name="Interaction">
+                <stereotype stereotypeDefinitionId="a7de29e5-4bee-4e5d-93f0-740569ac6130" name="Interaction">
                   <addedByDefault>true</addedByDefault>
                   <definitionPackageName>Intent.Modelers.UI.Core</definitionPackageName>
                   <definitionPackageId>a2a95421-3e55-43c7-96ad-355610b43c4d</definitionPackageId>
                   <properties>
-                    <property name="a230fb6d-62fc-47c6-b09a-ff1b98359967" display="Is Required" value="false" isActive="true" />
-                    <property name="b9d6ff0c-3fe9-4faf-b966-20016a5989a3" display="Is Enabled" value="true" isActive="true" />
-                  </properties>
-                </stereotype>
-              </stereotypes>
-              <metadata />
-              <childElements />
-            </childElement>
-            <childElement id="b89f915e-c339-4070-9175-825372275ab1" type="Text Input" typeId="4803bf60-c626-4cbe-94ed-0f1eafff9fe3">
-              <name>Address Line1</name>
-              <display>Address Line1 = {Model.AddressLine1}</display>
-              <isAbstract>false</isAbstract>
-              <value>{Model.AddressLine1}</value>
-              <genericTypes />
-              <isMapped>false</isMapped>
-              <parentFolderId>e8a46c95-0698-4aa3-9781-c8a27989a3f3</parentFolderId>
-              <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
-              <packageName>MudBlazor.ExampleApp.UI</packageName>
-              <stereotypes>
-                <stereotype stereotypeDefinitionId="6e04ff81-f043-4ac6-8632-798aedbaaf20" name="Interaction">
-                  <addedByDefault>true</addedByDefault>
-                  <definitionPackageName>Intent.Modelers.UI.Core</definitionPackageName>
-                  <definitionPackageId>a2a95421-3e55-43c7-96ad-355610b43c4d</definitionPackageId>
-                  <properties>
-                    <property name="a230fb6d-62fc-47c6-b09a-ff1b98359967" display="Is Required" value="false" isActive="true" />
-                    <property name="b9d6ff0c-3fe9-4faf-b966-20016a5989a3" display="Is Enabled" value="true" isActive="true" />
-                  </properties>
-                </stereotype>
-              </stereotypes>
-              <metadata />
-              <childElements />
-            </childElement>
-            <childElement id="e875ce99-e2c9-4686-ab30-33f32acdc8b0" type="Text Input" typeId="4803bf60-c626-4cbe-94ed-0f1eafff9fe3">
-              <name>Address Line2</name>
-              <display>Address Line2 = {Model.AddressLine2}</display>
-              <isAbstract>false</isAbstract>
-              <value>{Model.AddressLine2}</value>
-              <genericTypes />
-              <isMapped>false</isMapped>
-              <parentFolderId>e8a46c95-0698-4aa3-9781-c8a27989a3f3</parentFolderId>
-              <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
-              <packageName>MudBlazor.ExampleApp.UI</packageName>
-              <stereotypes>
-                <stereotype stereotypeDefinitionId="6e04ff81-f043-4ac6-8632-798aedbaaf20" name="Interaction">
-                  <addedByDefault>true</addedByDefault>
-                  <definitionPackageName>Intent.Modelers.UI.Core</definitionPackageName>
-                  <definitionPackageId>a2a95421-3e55-43c7-96ad-355610b43c4d</definitionPackageId>
-                  <properties>
-                    <property name="a230fb6d-62fc-47c6-b09a-ff1b98359967" display="Is Required" value="false" isActive="true" />
-                    <property name="b9d6ff0c-3fe9-4faf-b966-20016a5989a3" display="Is Enabled" value="true" isActive="true" />
-                  </properties>
-                </stereotype>
-              </stereotypes>
-              <metadata />
-              <childElements />
-            </childElement>
-            <childElement id="e6ac66bc-46c6-4ab0-8355-c9d119721576" type="Text Input" typeId="4803bf60-c626-4cbe-94ed-0f1eafff9fe3">
-              <name>Address City</name>
-              <display>Address City = {Model.AddressCity}</display>
-              <isAbstract>false</isAbstract>
-              <value>{Model.AddressCity}</value>
-              <genericTypes />
-              <isMapped>false</isMapped>
-              <parentFolderId>e8a46c95-0698-4aa3-9781-c8a27989a3f3</parentFolderId>
-              <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
-              <packageName>MudBlazor.ExampleApp.UI</packageName>
-              <stereotypes>
-                <stereotype stereotypeDefinitionId="6e04ff81-f043-4ac6-8632-798aedbaaf20" name="Interaction">
-                  <addedByDefault>true</addedByDefault>
-                  <definitionPackageName>Intent.Modelers.UI.Core</definitionPackageName>
-                  <definitionPackageId>a2a95421-3e55-43c7-96ad-355610b43c4d</definitionPackageId>
-                  <properties>
-                    <property name="a230fb6d-62fc-47c6-b09a-ff1b98359967" display="Is Required" value="false" isActive="true" />
-                    <property name="b9d6ff0c-3fe9-4faf-b966-20016a5989a3" display="Is Enabled" value="true" isActive="true" />
-                  </properties>
-                </stereotype>
-              </stereotypes>
-              <metadata />
-              <childElements />
-            </childElement>
-            <childElement id="d8b7ce42-0a44-44d2-aaf6-dc52feb6f157" type="Text Input" typeId="4803bf60-c626-4cbe-94ed-0f1eafff9fe3">
-              <name>Address Country</name>
-              <display>Address Country = {Model.AddressCountry}</display>
-              <isAbstract>false</isAbstract>
-              <value>{Model.AddressCountry}</value>
-              <genericTypes />
-              <isMapped>false</isMapped>
-              <parentFolderId>e8a46c95-0698-4aa3-9781-c8a27989a3f3</parentFolderId>
-              <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
-              <packageName>MudBlazor.ExampleApp.UI</packageName>
-              <stereotypes>
-                <stereotype stereotypeDefinitionId="6e04ff81-f043-4ac6-8632-798aedbaaf20" name="Interaction">
-                  <addedByDefault>true</addedByDefault>
-                  <definitionPackageName>Intent.Modelers.UI.Core</definitionPackageName>
-                  <definitionPackageId>a2a95421-3e55-43c7-96ad-355610b43c4d</definitionPackageId>
-                  <properties>
-                    <property name="a230fb6d-62fc-47c6-b09a-ff1b98359967" display="Is Required" value="false" isActive="true" />
-                    <property name="b9d6ff0c-3fe9-4faf-b966-20016a5989a3" display="Is Enabled" value="true" isActive="true" />
-                  </properties>
-                </stereotype>
-              </stereotypes>
-              <metadata />
-              <childElements />
-            </childElement>
-            <childElement id="0cf76ff7-3a28-4449-b05a-0c15a9c025db" type="Text Input" typeId="4803bf60-c626-4cbe-94ed-0f1eafff9fe3">
-              <name>Address Postal</name>
-              <display>Address Postal = {Model.AddressPostal}</display>
-              <isAbstract>false</isAbstract>
-              <value>{Model.AddressPostal}</value>
-              <genericTypes />
-              <isMapped>false</isMapped>
-              <parentFolderId>e8a46c95-0698-4aa3-9781-c8a27989a3f3</parentFolderId>
-              <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
-              <packageName>MudBlazor.ExampleApp.UI</packageName>
-              <stereotypes>
-                <stereotype stereotypeDefinitionId="6e04ff81-f043-4ac6-8632-798aedbaaf20" name="Interaction">
-                  <addedByDefault>true</addedByDefault>
-                  <definitionPackageName>Intent.Modelers.UI.Core</definitionPackageName>
-                  <definitionPackageId>a2a95421-3e55-43c7-96ad-355610b43c4d</definitionPackageId>
-                  <properties>
-                    <property name="a230fb6d-62fc-47c6-b09a-ff1b98359967" display="Is Required" value="false" isActive="true" />
-                    <property name="b9d6ff0c-3fe9-4faf-b966-20016a5989a3" display="Is Enabled" value="true" isActive="true" />
+                    <property name="7cee794d-e1a7-4590-b65a-6e56914a2a97" display="Type" value="Default" isActive="true" />
+                    <property name="d05f7b5b-fe45-4cbb-b938-380a4b68c0df" display="On Click" value="{AddLineClick}" isActive="true" />
                   </properties>
                 </stereotype>
               </stereotypes>

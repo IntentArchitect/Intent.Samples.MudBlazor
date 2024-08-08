@@ -485,8 +485,8 @@
       <childElements />
     </childElement>
     <childElement id="3342a9e2-397a-49e6-9091-a64d5be7f013" type="Event Emitter" typeId="d6739ffc-30e6-4170-a105-bf28e69aa578">
-      <name>SaveClick</name>
-      <display>SaveClick&lt;void&gt;</display>
+      <name>SaveClicked</name>
+      <display>SaveClicked&lt;void&gt;</display>
       <isAbstract>false</isAbstract>
       <genericTypes />
       <typeReference id="351d4bc5-5bab-4fb7-8b26-32b21c9e7176">
@@ -513,8 +513,8 @@
       <childElements />
     </childElement>
     <childElement id="ddd40871-192c-4fae-8630-665fa09bb5f9" type="Event Emitter" typeId="d6739ffc-30e6-4170-a105-bf28e69aa578">
-      <name>CancelClick</name>
-      <display>CancelClick&lt;void&gt;</display>
+      <name>CancelClicked</name>
+      <display>CancelClicked&lt;void&gt;</display>
       <isAbstract>false</isAbstract>
       <genericTypes />
       <typeReference id="9bfb2b1e-ca1a-4b31-83a2-6a89492d0352">

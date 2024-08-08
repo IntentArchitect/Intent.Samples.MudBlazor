@@ -24,7 +24,7 @@ Follow these steps to explore the sample:
 6. **Configure the Startup Project**  
    Set your startup project to `MudBlazor.ExampleApp.Api` and ensure the Launch Profile is set to `MudBlazor.ExampleApp.Client`.
 
-7. **Implemenet Code Implementations (optional)**
+7. **Implemenet Code Implementations (optional)**  
    Please see code implementation instructions below. These are areas that we aren't able to automate (yet) and so need to implement these by hand.
 
 8. **Run the Solution**  

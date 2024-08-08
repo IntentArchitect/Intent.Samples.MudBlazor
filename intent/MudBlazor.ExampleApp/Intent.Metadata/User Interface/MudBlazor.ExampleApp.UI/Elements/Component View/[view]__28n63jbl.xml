@@ -97,8 +97,8 @@
               <childElements />
             </childElement>
             <childElement id="d1b0a7da-3167-4e1d-a489-5385e07eaca5" type="Select" typeId="78e0bdf7-424f-4820-95d5-b756b0ebc87a">
-              <name>Customer Id</name>
-              <display>Customer Id = {Model.CustomerId}</display>
+              <name>Customer</name>
+              <display>Customer = {Model.CustomerId}</display>
               <isAbstract>false</isAbstract>
               <value>{Model.CustomerId}</value>
               <genericTypes />
@@ -307,9 +307,9 @@
                 </childElement>
                 <childElement id="61cfff1f-0a92-4536-b69c-17e53fd3d16b" type="Column" typeId="d372c640-e649-4e67-84a8-4446f45288db">
                   <name>Total</name>
-                  <display>Total = {CalculateTotal}</display>
+                  <display>Total</display>
                   <isAbstract>false</isAbstract>
-                  <value>{CalculateTotal}</value>
+                  <value />
                   <genericTypes />
                   <isMapped>false</isMapped>
                   <parentFolderId>a8479781-aeb8-4957-8fc6-59568ceee876</parentFolderId>

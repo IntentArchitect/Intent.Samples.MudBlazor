@@ -50,6 +50,7 @@
           <name>Header</name>
           <display>Header</display>
           <isAbstract>false</isAbstract>
+          <sort-children>manually</sort-children>
           <genericTypes />
           <isMapped>false</isMapped>
           <parentFolderId>cbfaa150-80ac-4f8c-bb31-caf33a9feaa9</parentFolderId>
@@ -57,7 +58,21 @@
           <packageName>MudBlazor.ExampleApp.UI</packageName>
           <stereotypes />
           <metadata />
-          <childElements />
+          <childElements>
+            <childElement id="ed4e6492-ff05-4cd8-a193-6ab76f4cb41d" type="Text" typeId="922150d2-42e6-4805-a002-f9580cdf7f6f">
+              <name>Add Customer</name>
+              <display>Add Customer</display>
+              <isAbstract>false</isAbstract>
+              <genericTypes />
+              <isMapped>false</isMapped>
+              <parentFolderId>b38b8d9d-fc3c-41e0-8007-7d231583fdcf</parentFolderId>
+              <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
+              <packageName>MudBlazor.ExampleApp.UI</packageName>
+              <stereotypes />
+              <metadata />
+              <childElements />
+            </childElement>
+          </childElements>
         </childElement>
         <childElement id="c1970410-5cfb-4ff0-9a3a-5e6f3599f35a" type="Container" typeId="b97ea181-2462-431f-8f62-f90f79509b9e">
           <name>Body</name>

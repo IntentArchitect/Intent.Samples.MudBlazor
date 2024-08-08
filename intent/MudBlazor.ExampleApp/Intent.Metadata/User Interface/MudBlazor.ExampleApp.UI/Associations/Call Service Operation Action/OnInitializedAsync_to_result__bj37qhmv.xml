@@ -70,7 +70,7 @@
                 <path>
                   <target id="37543598-2f81-4cb4-bb8b-474f5f4142c7" name="result" type="association" specialization="Call Service Operation Action Target End" specializationId="475f0810-2b4a-40da-8eb8-697cb62f7dbe" />
                   <target id="28165dfb-a6a6-4c2b-9d64-421f1da81bc9" name="response" type="static-mappable" specialization="response" specializationId="28165dfb-a6a6-4c2b-9d64-421f1da81bc9">
-                    <typeReference id="005fbe20-a2c9-44e1-9832-7678a96732a2">
+                    <typeReference id="e917f6ca-b62e-4a0e-88c3-254551f1f2b1">
                       <typeId>07092606-bc94-48c8-91a7-6ebcab047574</typeId>
                       <isNavigable>true</isNavigable>
                       <isNullable>false</isNullable>

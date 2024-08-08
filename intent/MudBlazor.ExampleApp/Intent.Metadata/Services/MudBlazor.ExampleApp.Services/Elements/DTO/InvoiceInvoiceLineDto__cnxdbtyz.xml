@@ -79,13 +79,13 @@
     </childElement>
     <childElement id="8b99b108-f7c1-4d1b-9a55-aca64728c4d1" type="DTO-Field" typeId="7baed1fd-469b-4980-8fd9-4cefb8331eb2">
       <name>ProductId</name>
-      <display>ProductId: guid</display>
+      <display>ProductId: guid?</display>
       <isAbstract>false</isAbstract>
       <genericTypes />
       <typeReference id="b51385c5-1d37-4254-b688-bdae3056922a">
         <typeId>6b649125-18ea-48fd-a6ba-0bfff0d8f488</typeId>
         <isNavigable>true</isNavigable>
-        <isNullable>false</isNullable>
+        <isNullable>true</isNullable>
         <isCollection>false</isCollection>
         <isRequired>true</isRequired>
         <typePackageName>Intent.Common.Types</typePackageName>
@@ -96,7 +96,7 @@
       <isMapped>true</isMapped>
       <mappedClass>
         <mappingSettingsId>1f747d14-681c-4a20-8c68-34223f41b825</mappingSettingsId>
-        <autoSyncTypeReference>true</autoSyncTypeReference>
+        <autoSyncTypeReference>false</autoSyncTypeReference>
         <mappedPath>
           <target id="7bb90f35-276e-4efa-af21-58a8e889719d" name="ProductId" type="element" specialization="Attribute" specializationId="0090fb93-483e-41af-a11d-5ad2dc796adf" />
         </mappedPath>

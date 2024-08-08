@@ -21,7 +21,7 @@
             <target id="a8f2f920-54cb-472b-8b77-b6d1a0dff5b9" name="[view]" type="element" specialization="Component View" specializationId="624513a6-cba8-4dde-8ebe-6b19f00f0364" />
             <target id="b2b816a4-c91b-4cc5-a947-49c62b68423b" name="Form" type="element" specialization="Form" specializationId="1cfd2d9d-1061-4c45-8b4e-074cfa8dacfd" />
             <target id="9d16e967-a2ab-45b4-ba69-b286daf4488c" name="Model" type="static-mappable" specialization="Model" specializationId="9d16e967-a2ab-45b4-ba69-b286daf4488c">
-              <typeReference id="c46e7e7e-0ed7-40f5-ad4a-002b55be0d6d">
+              <typeReference id="7331c75f-55e9-48b4-9775-f65076b101fc">
                 <isNavigable>true</isNavigable>
                 <isNullable>false</isNullable>
                 <isCollection>false</isCollection>
@@ -321,7 +321,7 @@
           </sources>
         </mappedEnd>
         <mappedEnd>
-          <expression>{Model.OrderLines.Id}</expression>
+          <expression>context</expression>
           <path>
             <target id="a8f2f920-54cb-472b-8b77-b6d1a0dff5b9" name="[view]" type="element" specialization="Component View" specializationId="624513a6-cba8-4dde-8ebe-6b19f00f0364" />
             <target id="b2b816a4-c91b-4cc5-a947-49c62b68423b" name="Form" type="element" specialization="Form" specializationId="1cfd2d9d-1061-4c45-8b4e-074cfa8dacfd" />
@@ -330,18 +330,9 @@
             <target id="e7d3e954-a4af-4d35-b3b2-8ad3d3564a8b" name="Actions" type="element" specialization="Column" specializationId="d372c640-e649-4e67-84a8-4446f45288db" />
             <target id="ed24c22e-8988-4972-b418-15abae858ae5" name="Delete" type="element" specialization="Button" specializationId="4474d808-f6fd-405f-a9c7-6998cd000ede" />
             <target id="b80f61a7-3b9e-4b75-806f-71d4f8b9900a" name="On Click" type="static-mappable" specialization="On Click" specializationId="b80f61a7-3b9e-4b75-806f-71d4f8b9900a" />
-            <target id="1a865bec-860f-4d2a-9ab8-b56054f1f1ce" name="orderLineId" type="element" specialization="Parameter" specializationId="00208d20-469d-41cb-8501-768fd5eb796b" />
+            <target id="1a865bec-860f-4d2a-9ab8-b56054f1f1ce" name="orderLine" type="element" specialization="Parameter" specializationId="00208d20-469d-41cb-8501-768fd5eb796b" />
           </path>
-          <sources>
-            <source identifier="Model.OrderLines.Id" mappingType="Data Mapping" mappingTypeId="ee19a932-0cea-4b90-bd3c-857d7942d390">
-              <path>
-                <target id="03d22c9a-2ea7-4c62-a54b-addae3c7f0b5" name="InvoiceForm" type="element" specialization="Component" specializationId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b" />
-                <target id="e8c1e20f-45f5-4a56-8c9d-22191c066a55" name="Model" type="element" specialization="Property" specializationId="356fbe17-bc63-4e16-b915-feefbc063cbe" />
-                <target id="a4995de4-ff6d-45c7-9bfd-64706d5257b9" name="OrderLines" type="element" specialization="DTO-Field" specializationId="7baed1fd-469b-4980-8fd9-4cefb8331eb2" />
-                <target id="0c81ce29-2de2-4f53-8d85-3e7f70c67413" name="Id" type="element" specialization="DTO-Field" specializationId="7baed1fd-469b-4980-8fd9-4cefb8331eb2" />
-              </path>
-            </source>
-          </sources>
+          <sources />
         </mappedEnd>
         <mappedEnd>
           <expression>{AddLineClick}</expression>
@@ -626,7 +617,7 @@
     </childElement>
     <childElement id="472c9a2e-84c5-4529-a222-4b82834c9476" type="Component Operation" typeId="e030c97a-e066-40a7-8188-808c275df3cb">
       <name>OnDeleteLineClick</name>
-      <display>OnDeleteLineClick(orderLineId: guid): void</display>
+      <display>OnDeleteLineClick(orderLine: InvoiceInvoiceLineDto): void</display>
       <isAbstract>false</isAbstract>
       <sort-children>by-type-then-manually</sort-children>
       <genericTypes />
@@ -646,18 +637,18 @@
       <metadata />
       <childElements>
         <childElement id="1a865bec-860f-4d2a-9ab8-b56054f1f1ce" type="Parameter" typeId="00208d20-469d-41cb-8501-768fd5eb796b">
-          <name>orderLineId</name>
-          <display>in : orderLineId: guid</display>
+          <name>orderLine</name>
+          <display>in : orderLine: InvoiceInvoiceLineDto</display>
           <isAbstract>false</isAbstract>
           <genericTypes />
           <typeReference id="ac668ec8-6102-47d1-842a-cc0b0803e483">
-            <typeId>6b649125-18ea-48fd-a6ba-0bfff0d8f488</typeId>
+            <typeId>6750eca8-7a3d-4bfb-b211-86190d006425</typeId>
             <isNavigable>true</isNavigable>
             <isNullable>false</isNullable>
             <isCollection>false</isCollection>
             <isRequired>true</isRequired>
-            <typePackageName>Intent.Common.Types</typePackageName>
-            <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+            <typePackageName>MudBlazor.ExampleApp.Services</typePackageName>
+            <typePackageId>2dac69cf-9281-42ae-b529-49eb2e7a6d3f</typePackageId>
             <stereotypes />
             <genericTypeParameters />
           </typeReference>

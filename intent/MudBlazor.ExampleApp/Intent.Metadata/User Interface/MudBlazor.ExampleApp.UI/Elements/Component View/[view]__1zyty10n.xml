@@ -16,10 +16,10 @@
   <childElements>
     <childElement id="3f36454e-e562-481a-afec-ec88b0352300" type="Text" typeId="922150d2-42e6-4805-a002-f9580cdf7f6f">
       <name>Head</name>
-      <display>Head = ###Hello, world!</display>
+      <display>Head = ###Welcome!</display>
       <externalReference>72a6938d-d404-493f-aadd-d2b231fabdb1</externalReference>
       <isAbstract>false</isAbstract>
-      <value>###Hello, world!</value>
+      <value>###Welcome!</value>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>dbb7eb1c-f5ef-484d-a1eb-a433f8ba0479</parentFolderId>
@@ -31,10 +31,24 @@
     </childElement>
     <childElement id="44e1e5a3-f4ac-4174-b4d0-6c2b9e81509a" type="Text" typeId="922150d2-42e6-4805-a002-f9580cdf7f6f">
       <name>Text</name>
-      <display>Text = Welcome to your new app, powered by .NET 8!</display>
+      <display>Text = This is a simple sample Blazor application, code-automated by Intent Architect.</display>
       <externalReference>c2ebf3f0-a5be-4e70-82d7-baffdd4abd1e</externalReference>
       <isAbstract>false</isAbstract>
-      <value>Welcome to your new app, powered by .NET 8!</value>
+      <value>This is a simple sample Blazor application, code-automated by Intent Architect.</value>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>dbb7eb1c-f5ef-484d-a1eb-a433f8ba0479</parentFolderId>
+      <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
+      <packageName>MudBlazor.ExampleApp.UI</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="0f641476-f6e6-4936-9cca-c49062c1aed4" type="Text" typeId="922150d2-42e6-4805-a002-f9580cdf7f6f">
+      <name>Text1</name>
+      <display>Text1 = We look forward to your feedback :)</display>
+      <isAbstract>false</isAbstract>
+      <value>We look forward to your feedback :)</value>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>dbb7eb1c-f5ef-484d-a1eb-a433f8ba0479</parentFolderId>

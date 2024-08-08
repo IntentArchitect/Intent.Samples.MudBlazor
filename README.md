@@ -30,3 +30,21 @@ Follow these steps to explore the sample:
 ## Learn More
 
 For a comprehensive overview of what's included in this release, take a look at the [4.3 release notes](https://docs.intentarchitect.com/articles/release-notes/intent-architect-v4.3.html).
+
+## Code Implementations
+
+To get the adding and removing of Invoice Lines on the Add Invoice form, you will need to implement the `AddLineClick()` and `OnDeleteLineClick(...)` methods as follows:
+```csharp
+private void AddLineClick()
+{
+   // [IntentIgnore]
+   Model.OrderLines.Add(new InvoiceInvoiceLineDto());
+}
+
+private void OnDeleteLineClick(InvoiceInvoiceLineDto orderLine)
+{
+   // [IntentIgnore]
+   Model.OrderLines.Remove(orderLine);
+}
+
+```

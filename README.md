@@ -24,7 +24,10 @@ Follow these steps to explore the sample:
 6. **Configure the Startup Project**  
    Set your startup project to `MudBlazor.ExampleApp.Api` and ensure the Launch Profile is set to `MudBlazor.ExampleApp.Client`.
 
-7. **Run the Solution**  
+7. **Implemenet Code Implementations (optional)**
+   Please see code implementation instructions below. These are areas that we aren't able to automate (yet) and so need to implement these by hand.
+
+8. **Run the Solution**  
    Now, you're ready to run the solution and see the new front-end design features in action!
 
 ## Learn More
@@ -33,7 +36,8 @@ For a comprehensive overview of what's included in this release, take a look at 
 
 ## Code Implementations
 
-To get the adding and removing of Invoice Lines on the Add Invoice form, you will need to implement the `AddLineClick()` and `OnDeleteLineClick(...)` methods as follows:
+To get the adding and removing of Invoice Lines on the Add Invoice form, you will need to implement the `AddLineClick()` and `OnDeleteLineClick(...)` methods in the `InvoiceForm.razor.cs` file (under `MudBlazor.ExampleApp.Client/Pages/Invoices/Components/InvoiceForm.razor`) as follows:
+
 ```csharp
 private void AddLineClick()
 {

@@ -29,4 +29,4 @@ Follow these steps to explore the sample:
 
 ## Learn More
 
-For a comprehensive overview of what's included in this release, take a look at the [4.3 release notes](xref:release-notes.intent-architect-v4.3).
+For a comprehensive overview of what's included in this release, take a look at the [4.3 release notes](https://docs.intentarchitect.com/articles/release-notes/intent-architect-v4.3.html).

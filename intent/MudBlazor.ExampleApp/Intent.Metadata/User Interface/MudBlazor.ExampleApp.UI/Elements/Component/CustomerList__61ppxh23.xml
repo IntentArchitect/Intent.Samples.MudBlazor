@@ -178,7 +178,7 @@
           <path>
             <target id="9a122e12-ac72-4954-8db2-bd2692fd117a" name="[view]" type="element" specialization="Component View" specializationId="624513a6-cba8-4dde-8ebe-6b19f00f0364" />
             <target id="e4daa93c-a4bd-4e47-9720-d0e8657b3af6" name="DataGrid" type="element" specialization="Data Grid" specializationId="4b33f894-ad6e-43e0-a238-4286375c9ab7" />
-            <target id="5775823f-536f-441d-b68e-b2ef9168a80b" name="AccountNo" type="element" specialization="Data Grid Column" specializationId="7cea32c5-1218-4bf2-bbab-52ddb2cb1532" />
+            <target id="5775823f-536f-441d-b68e-b2ef9168a80b" name="Account No" type="element" specialization="Data Grid Column" specializationId="7cea32c5-1218-4bf2-bbab-52ddb2cb1532" />
           </path>
           <sources>
             <source identifier="Model.Data.AccountNo" mappingType="Data Mapping" mappingTypeId="ee19a932-0cea-4b90-bd3c-857d7942d390">

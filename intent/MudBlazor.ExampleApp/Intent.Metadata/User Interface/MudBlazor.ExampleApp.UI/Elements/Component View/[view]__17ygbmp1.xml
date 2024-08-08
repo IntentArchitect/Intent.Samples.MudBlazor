@@ -87,8 +87,8 @@
           <childElements />
         </childElement>
         <childElement id="5775823f-536f-441d-b68e-b2ef9168a80b" type="Data Grid Column" typeId="7cea32c5-1218-4bf2-bbab-52ddb2cb1532">
-          <name>AccountNo</name>
-          <display>AccountNo = {Model.Data.AccountNo}</display>
+          <name>Account No</name>
+          <display>Account No = {Model.Data.AccountNo}</display>
           <isAbstract>false</isAbstract>
           <value>{Model.Data.AccountNo}</value>
           <genericTypes />

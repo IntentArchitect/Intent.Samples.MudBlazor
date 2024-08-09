@@ -21,7 +21,7 @@
             <target id="a8f2f920-54cb-472b-8b77-b6d1a0dff5b9" name="[view]" type="element" specialization="Component View" specializationId="624513a6-cba8-4dde-8ebe-6b19f00f0364" />
             <target id="b2b816a4-c91b-4cc5-a947-49c62b68423b" name="Form" type="element" specialization="Form" specializationId="1cfd2d9d-1061-4c45-8b4e-074cfa8dacfd" />
             <target id="9d16e967-a2ab-45b4-ba69-b286daf4488c" name="Model" type="static-mappable" specialization="Model" specializationId="9d16e967-a2ab-45b4-ba69-b286daf4488c">
-              <typeReference id="7331c75f-55e9-48b4-9775-f65076b101fc">
+              <typeReference id="f0703c56-198e-4727-8e4b-2568479c40d9">
                 <isNavigable>true</isNavigable>
                 <isNullable>false</isNullable>
                 <isCollection>false</isCollection>
@@ -130,6 +130,42 @@
                 <target id="03d22c9a-2ea7-4c62-a54b-addae3c7f0b5" name="InvoiceForm" type="element" specialization="Component" specializationId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b" />
                 <target id="cc128abf-0324-4a13-9fcf-dd4785d095e3" name="CustomerOptions" type="element" specialization="Property" specializationId="356fbe17-bc63-4e16-b915-feefbc063cbe" />
                 <target id="047d5852-bb22-4030-b066-d53823ac553e" name="Name" type="element" specialization="DTO-Field" specializationId="7baed1fd-469b-4980-8fd9-4cefb8331eb2" />
+              </path>
+            </source>
+          </sources>
+        </mappedEnd>
+        <mappedEnd>
+          <expression>{Model.InvoiceDate}</expression>
+          <path>
+            <target id="a8f2f920-54cb-472b-8b77-b6d1a0dff5b9" name="[view]" type="element" specialization="Component View" specializationId="624513a6-cba8-4dde-8ebe-6b19f00f0364" />
+            <target id="b2b816a4-c91b-4cc5-a947-49c62b68423b" name="Form" type="element" specialization="Form" specializationId="1cfd2d9d-1061-4c45-8b4e-074cfa8dacfd" />
+            <target id="e8a46c95-0698-4aa3-9781-c8a27989a3f3" name="Body" type="element" specialization="Container" specializationId="b97ea181-2462-431f-8f62-f90f79509b9e" />
+            <target id="80295db0-9917-4657-b61b-128a16c505a3" name="Invoice Date" type="element" specialization="Date Picker" specializationId="9451fcdc-9406-4323-b354-2eaaabbf9ac5" />
+          </path>
+          <sources>
+            <source identifier="Model.InvoiceDate" mappingType="Data Mapping" mappingTypeId="ee19a932-0cea-4b90-bd3c-857d7942d390">
+              <path>
+                <target id="03d22c9a-2ea7-4c62-a54b-addae3c7f0b5" name="InvoiceForm" type="element" specialization="Component" specializationId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b" />
+                <target id="e8c1e20f-45f5-4a56-8c9d-22191c066a55" name="Model" type="element" specialization="Property" specializationId="356fbe17-bc63-4e16-b915-feefbc063cbe" />
+                <target id="555598f7-fbf6-4276-bb16-a3c0e5e3b91e" name="InvoiceDate" type="element" specialization="DTO-Field" specializationId="7baed1fd-469b-4980-8fd9-4cefb8331eb2" />
+              </path>
+            </source>
+          </sources>
+        </mappedEnd>
+        <mappedEnd>
+          <expression>{Model.DueDate}</expression>
+          <path>
+            <target id="a8f2f920-54cb-472b-8b77-b6d1a0dff5b9" name="[view]" type="element" specialization="Component View" specializationId="624513a6-cba8-4dde-8ebe-6b19f00f0364" />
+            <target id="b2b816a4-c91b-4cc5-a947-49c62b68423b" name="Form" type="element" specialization="Form" specializationId="1cfd2d9d-1061-4c45-8b4e-074cfa8dacfd" />
+            <target id="e8a46c95-0698-4aa3-9781-c8a27989a3f3" name="Body" type="element" specialization="Container" specializationId="b97ea181-2462-431f-8f62-f90f79509b9e" />
+            <target id="05add3a3-735a-4524-aeff-01fefa23d44f" name="Due Date" type="element" specialization="Date Picker" specializationId="9451fcdc-9406-4323-b354-2eaaabbf9ac5" />
+          </path>
+          <sources>
+            <source identifier="Model.DueDate" mappingType="Data Mapping" mappingTypeId="ee19a932-0cea-4b90-bd3c-857d7942d390">
+              <path>
+                <target id="03d22c9a-2ea7-4c62-a54b-addae3c7f0b5" name="InvoiceForm" type="element" specialization="Component" specializationId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b" />
+                <target id="e8c1e20f-45f5-4a56-8c9d-22191c066a55" name="Model" type="element" specialization="Property" specializationId="356fbe17-bc63-4e16-b915-feefbc063cbe" />
+                <target id="2a225cad-e7e7-4470-8b29-9d233cd59dac" name="DueDate" type="element" specialization="DTO-Field" specializationId="7baed1fd-469b-4980-8fd9-4cefb8331eb2" />
               </path>
             </source>
           </sources>

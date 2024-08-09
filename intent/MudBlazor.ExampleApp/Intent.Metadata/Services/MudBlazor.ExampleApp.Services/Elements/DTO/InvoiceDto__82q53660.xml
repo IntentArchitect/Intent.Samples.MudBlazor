@@ -96,7 +96,7 @@
       <isMapped>true</isMapped>
       <mappedClass>
         <mappingSettingsId>1f747d14-681c-4a20-8c68-34223f41b825</mappingSettingsId>
-        <autoSyncTypeReference>true</autoSyncTypeReference>
+        <autoSyncTypeReference>false</autoSyncTypeReference>
         <mappedPath>
           <target id="072f79fa-cf71-49a8-9c70-6c44bd0a0a54" name="InvoiceNo" type="element" specialization="Attribute" specializationId="0090fb93-483e-41af-a11d-5ad2dc796adf" />
         </mappedPath>
@@ -133,13 +133,13 @@
     </childElement>
     <childElement id="555598f7-fbf6-4276-bb16-a3c0e5e3b91e" type="DTO-Field" typeId="7baed1fd-469b-4980-8fd9-4cefb8331eb2">
       <name>InvoiceDate</name>
-      <display>InvoiceDate: datetime</display>
+      <display>InvoiceDate: datetime?</display>
       <isAbstract>false</isAbstract>
       <genericTypes />
       <typeReference id="5d178289-3fa1-4ac2-b904-571361aaacb3">
         <typeId>a4107c29-7851-4121-9416-cf1236908f1e</typeId>
         <isNavigable>true</isNavigable>
-        <isNullable>false</isNullable>
+        <isNullable>true</isNullable>
         <isCollection>false</isCollection>
         <isRequired>true</isRequired>
         <typePackageName>Intent.Common.Types</typePackageName>
@@ -150,7 +150,7 @@
       <isMapped>true</isMapped>
       <mappedClass>
         <mappingSettingsId>1f747d14-681c-4a20-8c68-34223f41b825</mappingSettingsId>
-        <autoSyncTypeReference>true</autoSyncTypeReference>
+        <autoSyncTypeReference>false</autoSyncTypeReference>
         <mappedPath>
           <target id="07d72094-7682-42e1-af4d-872e9e0eb39e" name="IssuedDate" type="element" specialization="Attribute" specializationId="0090fb93-483e-41af-a11d-5ad2dc796adf" />
         </mappedPath>
@@ -164,7 +164,7 @@
           <definitionPackageName>Intent.Application.FluentValidation</definitionPackageName>
           <definitionPackageId>55856e5d-8217-4c17-8fbb-082ac75baaf5</definitionPackageId>
           <properties>
-            <property name="d144e1aa-b506-407a-b60b-716ce38b70bb" display="Not Empty" value="false" isActive="true" />
+            <property name="d144e1aa-b506-407a-b60b-716ce38b70bb" display="Not Empty" value="true" isActive="true" />
             <property name="8d844d65-bf88-4023-85e1-4d3d7f8784cd" display="Equal" isActive="true" />
             <property name="490e08cd-5fb4-4bfd-80cf-fda3b88f745e" display="Not Equal" isActive="true" />
             <property name="c94dc001-4ec7-42a0-a1e0-5b75502e7bec" display="Min Length" isActive="false" />
@@ -685,13 +685,13 @@
     </childElement>
     <childElement id="2a225cad-e7e7-4470-8b29-9d233cd59dac" type="DTO-Field" typeId="7baed1fd-469b-4980-8fd9-4cefb8331eb2">
       <name>DueDate</name>
-      <display>DueDate: datetime</display>
+      <display>DueDate: datetime?</display>
       <isAbstract>false</isAbstract>
       <genericTypes />
       <typeReference id="eba49fe7-136c-46d2-8b1b-0cf4d3feda4a">
         <typeId>a4107c29-7851-4121-9416-cf1236908f1e</typeId>
         <isNavigable>true</isNavigable>
-        <isNullable>false</isNullable>
+        <isNullable>true</isNullable>
         <isCollection>false</isCollection>
         <isRequired>true</isRequired>
         <typePackageName>Intent.Common.Types</typePackageName>
@@ -702,7 +702,7 @@
       <isMapped>true</isMapped>
       <mappedClass>
         <mappingSettingsId>1f747d14-681c-4a20-8c68-34223f41b825</mappingSettingsId>
-        <autoSyncTypeReference>true</autoSyncTypeReference>
+        <autoSyncTypeReference>false</autoSyncTypeReference>
         <mappedPath>
           <target id="b10c9583-8ada-4ab2-b652-a3b437cefab6" name="DueDate" type="element" specialization="Attribute" specializationId="0090fb93-483e-41af-a11d-5ad2dc796adf" />
         </mappedPath>
@@ -716,7 +716,7 @@
           <definitionPackageName>Intent.Application.FluentValidation</definitionPackageName>
           <definitionPackageId>55856e5d-8217-4c17-8fbb-082ac75baaf5</definitionPackageId>
           <properties>
-            <property name="d144e1aa-b506-407a-b60b-716ce38b70bb" display="Not Empty" value="false" isActive="true" />
+            <property name="d144e1aa-b506-407a-b60b-716ce38b70bb" display="Not Empty" value="true" isActive="true" />
             <property name="8d844d65-bf88-4023-85e1-4d3d7f8784cd" display="Equal" isActive="true" />
             <property name="490e08cd-5fb4-4bfd-80cf-fda3b88f745e" display="Not Equal" isActive="true" />
             <property name="c94dc001-4ec7-42a0-a1e0-5b75502e7bec" display="Min Length" isActive="false" />

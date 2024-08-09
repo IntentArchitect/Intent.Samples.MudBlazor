@@ -121,6 +121,34 @@
               <metadata />
               <childElements />
             </childElement>
+            <childElement id="80295db0-9917-4657-b61b-128a16c505a3" type="Date Picker" typeId="9451fcdc-9406-4323-b354-2eaaabbf9ac5">
+              <name>Invoice Date</name>
+              <display>Invoice Date = {Model.InvoiceDate}</display>
+              <isAbstract>false</isAbstract>
+              <value>{Model.InvoiceDate}</value>
+              <genericTypes />
+              <isMapped>false</isMapped>
+              <parentFolderId>e8a46c95-0698-4aa3-9781-c8a27989a3f3</parentFolderId>
+              <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
+              <packageName>MudBlazor.ExampleApp.UI</packageName>
+              <stereotypes />
+              <metadata />
+              <childElements />
+            </childElement>
+            <childElement id="05add3a3-735a-4524-aeff-01fefa23d44f" type="Date Picker" typeId="9451fcdc-9406-4323-b354-2eaaabbf9ac5">
+              <name>Due Date</name>
+              <display>Due Date = {Model.DueDate}</display>
+              <isAbstract>false</isAbstract>
+              <value>{Model.DueDate}</value>
+              <genericTypes />
+              <isMapped>false</isMapped>
+              <parentFolderId>e8a46c95-0698-4aa3-9781-c8a27989a3f3</parentFolderId>
+              <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
+              <packageName>MudBlazor.ExampleApp.UI</packageName>
+              <stereotypes />
+              <metadata />
+              <childElements />
+            </childElement>
             <childElement id="a8479781-aeb8-4957-8fc6-59568ceee876" type="Table" typeId="eee93c29-3d58-4e42-aea9-c00451d17469">
               <name>OrderLinesTable</name>
               <display>OrderLinesTable = {Model.OrderLines}</display>

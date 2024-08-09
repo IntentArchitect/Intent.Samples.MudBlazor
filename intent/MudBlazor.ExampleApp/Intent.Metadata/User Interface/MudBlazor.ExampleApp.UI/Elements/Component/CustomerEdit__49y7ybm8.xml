@@ -31,7 +31,7 @@
             <target id="a98e5fd3-a0ef-49e1-b3e8-4e05bc5210a7" name="[view]" type="element" specialization="Component View" specializationId="624513a6-cba8-4dde-8ebe-6b19f00f0364" />
             <target id="c666e058-edcb-4002-b877-9d090daf5245" name="Form" type="element" specialization="Form" specializationId="1cfd2d9d-1061-4c45-8b4e-074cfa8dacfd" />
             <target id="9d16e967-a2ab-45b4-ba69-b286daf4488c" name="Model" type="static-mappable" specialization="Model" specializationId="9d16e967-a2ab-45b4-ba69-b286daf4488c">
-              <typeReference id="3906d113-bb48-49a6-bdb5-a9ee054bcf44">
+              <typeReference id="6642b111-59ef-4e90-8c96-124f59b824ce">
                 <isNavigable>true</isNavigable>
                 <isNullable>false</isNullable>
                 <isCollection>false</isCollection>

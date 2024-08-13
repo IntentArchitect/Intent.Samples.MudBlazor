@@ -46,10 +46,10 @@
           <path>
             <target id="2899bfd6-2fbf-4f46-ad94-8d47fce443c3" name="[view]" type="element" specialization="Component View" specializationId="624513a6-cba8-4dde-8ebe-6b19f00f0364" />
             <target id="eb41ae64-c277-4328-b084-929fdb9499ac" name="InvoiceForm" type="element" specialization="Display Component" specializationId="866a90f7-4044-43b9-bb05-7270c7889796" />
-            <target id="3342a9e2-397a-49e6-9091-a64d5be7f013" name="SaveClick" type="element" specialization="Event Emitter" specializationId="d6739ffc-30e6-4170-a105-bf28e69aa578" />
+            <target id="3342a9e2-397a-49e6-9091-a64d5be7f013" name="SaveClicked" type="element" specialization="Event Emitter" specializationId="d6739ffc-30e6-4170-a105-bf28e69aa578" />
           </path>
           <sources>
-            <source identifier="OnSaveClicked" mappingType="Invokable Mapping" mappingTypeId="e4f0c63b-0f00-42bd-a703-00adf44f3364">
+            <source identifier="OnSaveClicked" mappingType="Event Mapping" mappingTypeId="95ce3c3e-ddf4-440b-a9b2-6b152a5fc1b8">
               <path>
                 <target id="93098c5f-5c93-48f9-afa4-130e0c8a8289" name="InvoiceEdit" type="element" specialization="Component" specializationId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b" />
                 <target id="7328cce5-de2b-4f34-88c5-47680a158590" name="OnSaveClicked" type="element" specialization="Component Operation" specializationId="e030c97a-e066-40a7-8188-808c275df3cb" />
@@ -62,10 +62,10 @@
           <path>
             <target id="2899bfd6-2fbf-4f46-ad94-8d47fce443c3" name="[view]" type="element" specialization="Component View" specializationId="624513a6-cba8-4dde-8ebe-6b19f00f0364" />
             <target id="eb41ae64-c277-4328-b084-929fdb9499ac" name="InvoiceForm" type="element" specialization="Display Component" specializationId="866a90f7-4044-43b9-bb05-7270c7889796" />
-            <target id="ddd40871-192c-4fae-8630-665fa09bb5f9" name="CancelClick" type="element" specialization="Event Emitter" specializationId="d6739ffc-30e6-4170-a105-bf28e69aa578" />
+            <target id="ddd40871-192c-4fae-8630-665fa09bb5f9" name="CancelClicked" type="element" specialization="Event Emitter" specializationId="d6739ffc-30e6-4170-a105-bf28e69aa578" />
           </path>
           <sources>
-            <source identifier="OnCancelClicked" mappingType="Invokable Mapping" mappingTypeId="e4f0c63b-0f00-42bd-a703-00adf44f3364">
+            <source identifier="OnCancelClicked" mappingType="Event Mapping" mappingTypeId="95ce3c3e-ddf4-440b-a9b2-6b152a5fc1b8">
               <path>
                 <target id="93098c5f-5c93-48f9-afa4-130e0c8a8289" name="InvoiceEdit" type="element" specialization="Component" specializationId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b" />
                 <target id="4ec1ac32-2376-4c3c-b301-826c908d7055" name="OnCancelClicked" type="element" specialization="Component Operation" specializationId="e030c97a-e066-40a7-8188-808c275df3cb" />

@@ -33,7 +33,7 @@
             <target id="b80f61a7-3b9e-4b75-806f-71d4f8b9900a" name="On Click" type="static-mappable" specialization="On Click" specializationId="b80f61a7-3b9e-4b75-806f-71d4f8b9900a" />
           </path>
           <sources>
-            <source identifier="AddInvoiceClick" mappingType="Invokable Mapping" mappingTypeId="e4f0c63b-0f00-42bd-a703-00adf44f3364">
+            <source identifier="AddInvoiceClick" mappingType="Event Mapping" mappingTypeId="95ce3c3e-ddf4-440b-a9b2-6b152a5fc1b8">
               <path>
                 <target id="a80d7708-e051-4927-b32e-c239affc1689" name="InvoiceList" type="element" specialization="Component" specializationId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b" />
                 <target id="be537628-573c-4260-a7e1-37c3283bc04f" name="AddInvoiceClick" type="element" specialization="Component Operation" specializationId="e030c97a-e066-40a7-8188-808c275df3cb" />
@@ -65,7 +65,7 @@
             <target id="5e17d25c-5d06-4db6-9961-51910f21b41f" name="On Row Click" type="static-mappable" specialization="On Row Click" specializationId="5e17d25c-5d06-4db6-9961-51910f21b41f" />
           </path>
           <sources>
-            <source identifier="OnRowClicked" mappingType="Invokable Mapping" mappingTypeId="e4f0c63b-0f00-42bd-a703-00adf44f3364">
+            <source identifier="OnRowClicked" mappingType="Event Mapping" mappingTypeId="95ce3c3e-ddf4-440b-a9b2-6b152a5fc1b8">
               <path>
                 <target id="a80d7708-e051-4927-b32e-c239affc1689" name="InvoiceList" type="element" specialization="Component" specializationId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b" />
                 <target id="fe54069b-ed6f-402b-a239-cb2d40f34b4c" name="OnRowClicked" type="element" specialization="Component Operation" specializationId="e030c97a-e066-40a7-8188-808c275df3cb" />
@@ -100,7 +100,7 @@
             <target id="53a618ca-e5aa-49ca-a993-8cd935683748" name="On Load Data" type="static-mappable" specialization="On Load Data" specializationId="53a618ca-e5aa-49ca-a993-8cd935683748" />
           </path>
           <sources>
-            <source identifier="FetchDataGridData" mappingType="Invokable Mapping" mappingTypeId="e4f0c63b-0f00-42bd-a703-00adf44f3364">
+            <source identifier="FetchDataGridData" mappingType="Event Mapping" mappingTypeId="95ce3c3e-ddf4-440b-a9b2-6b152a5fc1b8">
               <path>
                 <target id="a80d7708-e051-4927-b32e-c239affc1689" name="InvoiceList" type="element" specialization="Component" specializationId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b" />
                 <target id="639d239b-f36e-4224-b33c-8c0ff36eac72" name="FetchDataGridData" type="element" specialization="Component Operation" specializationId="e030c97a-e066-40a7-8188-808c275df3cb" />

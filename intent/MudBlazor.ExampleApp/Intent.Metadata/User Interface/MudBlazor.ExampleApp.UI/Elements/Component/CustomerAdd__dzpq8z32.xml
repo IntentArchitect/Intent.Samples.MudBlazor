@@ -31,7 +31,7 @@
             <target id="fbd71338-83e5-450a-b99b-67d7281b1da7" name="[view]" type="element" specialization="Component View" specializationId="624513a6-cba8-4dde-8ebe-6b19f00f0364" />
             <target id="cbfaa150-80ac-4f8c-bb31-caf33a9feaa9" name="Form" type="element" specialization="Form" specializationId="1cfd2d9d-1061-4c45-8b4e-074cfa8dacfd" />
             <target id="9d16e967-a2ab-45b4-ba69-b286daf4488c" name="Model" type="static-mappable" specialization="Model" specializationId="9d16e967-a2ab-45b4-ba69-b286daf4488c">
-              <typeReference id="589b71e0-cf98-4da0-ae60-3e032d1182e8">
+              <typeReference id="a68afc44-cb49-418e-801a-634897de926a">
                 <isNavigable>true</isNavigable>
                 <isNullable>false</isNullable>
                 <isCollection>false</isCollection>
@@ -186,7 +186,7 @@
             <target id="b80f61a7-3b9e-4b75-806f-71d4f8b9900a" name="On Click" type="static-mappable" specialization="On Click" specializationId="b80f61a7-3b9e-4b75-806f-71d4f8b9900a" />
           </path>
           <sources>
-            <source identifier="OnSaveClicked" mappingType="Invokable Mapping" mappingTypeId="e4f0c63b-0f00-42bd-a703-00adf44f3364">
+            <source identifier="OnSaveClicked" mappingType="Event Mapping" mappingTypeId="95ce3c3e-ddf4-440b-a9b2-6b152a5fc1b8">
               <path>
                 <target id="998af5bb-7074-409c-ba2c-91a5ded360ea" name="CustomerAdd" type="element" specialization="Component" specializationId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b" />
                 <target id="5f54b330-3e25-4efc-8948-814cbbe12481" name="OnSaveClicked" type="element" specialization="Component Operation" specializationId="e030c97a-e066-40a7-8188-808c275df3cb" />
@@ -204,7 +204,7 @@
             <target id="b80f61a7-3b9e-4b75-806f-71d4f8b9900a" name="On Click" type="static-mappable" specialization="On Click" specializationId="b80f61a7-3b9e-4b75-806f-71d4f8b9900a" />
           </path>
           <sources>
-            <source identifier="OnCancelClicked" mappingType="Invokable Mapping" mappingTypeId="e4f0c63b-0f00-42bd-a703-00adf44f3364">
+            <source identifier="OnCancelClicked" mappingType="Event Mapping" mappingTypeId="95ce3c3e-ddf4-440b-a9b2-6b152a5fc1b8">
               <path>
                 <target id="998af5bb-7074-409c-ba2c-91a5ded360ea" name="CustomerAdd" type="element" specialization="Component" specializationId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b" />
                 <target id="99639d9a-cae3-4c13-a5b1-5e98cc8ff403" name="OnCancelClicked" type="element" specialization="Component Operation" specializationId="e030c97a-e066-40a7-8188-808c275df3cb" />

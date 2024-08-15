@@ -37,7 +37,7 @@
             <target id="a4073b81-6ddd-44cb-909f-f2c97d965112" name="Link To" type="static-mappable" specialization="Link To" specializationId="a4073b81-6ddd-44cb-909f-f2c97d965112" />
           </path>
           <sources>
-            <source identifier="NavigateToInvoiceList" mappingType="Invokable Mapping" mappingTypeId="e4f0c63b-0f00-42bd-a703-00adf44f3364">
+            <source identifier="NavigateToInvoiceList" mappingType="Event Mapping" mappingTypeId="95ce3c3e-ddf4-440b-a9b2-6b152a5fc1b8">
               <path>
                 <target id="40385617-a034-4086-8398-a20bfb2f4a3a" name="MainLayout" type="element" specialization="Layout" specializationId="776a9393-6b23-4a8c-8937-fd7e833fa0ef" />
                 <target id="be3e22c0-d3e6-4a43-8305-946bcf7cf26f" name="NavigateToInvoiceList" type="association" specialization="Navigation Target End" specializationId="2b191288-ecae-4743-b069-cbdd927ef349" />
@@ -55,7 +55,7 @@
             <target id="a4073b81-6ddd-44cb-909f-f2c97d965112" name="Link To" type="static-mappable" specialization="Link To" specializationId="a4073b81-6ddd-44cb-909f-f2c97d965112" />
           </path>
           <sources>
-            <source identifier="NavigateToCustomerList" mappingType="Invokable Mapping" mappingTypeId="e4f0c63b-0f00-42bd-a703-00adf44f3364">
+            <source identifier="NavigateToCustomerList" mappingType="Event Mapping" mappingTypeId="95ce3c3e-ddf4-440b-a9b2-6b152a5fc1b8">
               <path>
                 <target id="40385617-a034-4086-8398-a20bfb2f4a3a" name="MainLayout" type="element" specialization="Layout" specializationId="776a9393-6b23-4a8c-8937-fd7e833fa0ef" />
                 <target id="bd81a0b8-bace-4994-b8a2-3d08e7ab8dee" name="NavigateToCustomerList" type="association" specialization="Navigation Target End" specializationId="2b191288-ecae-4743-b069-cbdd927ef349" />
@@ -73,7 +73,7 @@
             <target id="a4073b81-6ddd-44cb-909f-f2c97d965112" name="Link To" type="static-mappable" specialization="Link To" specializationId="a4073b81-6ddd-44cb-909f-f2c97d965112" />
           </path>
           <sources>
-            <source identifier="NavigateToProductList" mappingType="Invokable Mapping" mappingTypeId="e4f0c63b-0f00-42bd-a703-00adf44f3364">
+            <source identifier="NavigateToProductList" mappingType="Event Mapping" mappingTypeId="95ce3c3e-ddf4-440b-a9b2-6b152a5fc1b8">
               <path>
                 <target id="40385617-a034-4086-8398-a20bfb2f4a3a" name="MainLayout" type="element" specialization="Layout" specializationId="776a9393-6b23-4a8c-8937-fd7e833fa0ef" />
                 <target id="13c9f5cc-2b2b-48e6-9ce1-12be86c989af" name="NavigateToProductList" type="association" specialization="Navigation Target End" specializationId="2b191288-ecae-4743-b069-cbdd927ef349" />

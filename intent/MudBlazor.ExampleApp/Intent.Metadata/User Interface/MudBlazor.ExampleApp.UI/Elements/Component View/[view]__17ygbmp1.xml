@@ -13,29 +13,6 @@
   <stereotypes />
   <metadata />
   <childElements>
-    <childElement id="9ce8419f-3b08-4096-8d94-94d7c8ba60fd" type="Button" typeId="4474d808-f6fd-405f-a9c7-6998cd000ede">
-      <name>Add Customer</name>
-      <display>Add Customer</display>
-      <isAbstract>false</isAbstract>
-      <genericTypes />
-      <isMapped>false</isMapped>
-      <parentFolderId>9a122e12-ac72-4954-8db2-bd2692fd117a</parentFolderId>
-      <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
-      <packageName>MudBlazor.ExampleApp.UI</packageName>
-      <stereotypes>
-        <stereotype stereotypeDefinitionId="a7de29e5-4bee-4e5d-93f0-740569ac6130" name="Interaction">
-          <addedByDefault>true</addedByDefault>
-          <definitionPackageName>Intent.Modelers.UI.Core</definitionPackageName>
-          <definitionPackageId>a2a95421-3e55-43c7-96ad-355610b43c4d</definitionPackageId>
-          <properties>
-            <property name="7cee794d-e1a7-4590-b65a-6e56914a2a97" display="Type" value="Default" isActive="true" />
-            <property name="d05f7b5b-fe45-4cbb-b938-380a4b68c0df" display="On Click" value="{AddCustomerClick}" isActive="true" />
-          </properties>
-        </stereotype>
-      </stereotypes>
-      <metadata />
-      <childElements />
-    </childElement>
     <childElement id="e4daa93c-a4bd-4e47-9720-d0e8657b3af6" type="Data Grid" typeId="4b33f894-ad6e-43e0-a238-4286375c9ab7">
       <name>DataGrid</name>
       <display>DataGrid = {Model.Data}</display>
@@ -63,6 +40,7 @@
           <name>Toolbar</name>
           <display>Toolbar</display>
           <isAbstract>false</isAbstract>
+          <sort-children>by-type-then-by-name</sort-children>
           <genericTypes />
           <isMapped>false</isMapped>
           <parentFolderId>e4daa93c-a4bd-4e47-9720-d0e8657b3af6</parentFolderId>
@@ -70,7 +48,32 @@
           <packageName>MudBlazor.ExampleApp.UI</packageName>
           <stereotypes />
           <metadata />
-          <childElements />
+          <childElements>
+            <childElement id="9ce8419f-3b08-4096-8d94-94d7c8ba60fd" type="Button" typeId="4474d808-f6fd-405f-a9c7-6998cd000ede">
+              <name>Add Customer</name>
+              <display>Add Customer</display>
+              <isAbstract>false</isAbstract>
+              <genericTypes />
+              <isMapped>false</isMapped>
+              <parentFolderId>bbcda657-50d0-4fff-bdfb-db2df77173b7</parentFolderId>
+              <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
+              <packageName>MudBlazor.ExampleApp.UI</packageName>
+              <stereotypes>
+                <stereotype stereotypeDefinitionId="a7de29e5-4bee-4e5d-93f0-740569ac6130" name="Interaction">
+                  <addedByDefault>true</addedByDefault>
+                  <definitionPackageName>Intent.Modelers.UI.Core</definitionPackageName>
+                  <definitionPackageId>a2a95421-3e55-43c7-96ad-355610b43c4d</definitionPackageId>
+                  <properties>
+                    <property name="7cee794d-e1a7-4590-b65a-6e56914a2a97" display="Type" value="Default" isActive="true" />
+                    <property name="2265736b-4381-42dc-9dbf-b757188837bc" display="Form" isActive="false" />
+                    <property name="d05f7b5b-fe45-4cbb-b938-380a4b68c0df" display="On Click" value="{AddCustomerClick}" isActive="true" />
+                  </properties>
+                </stereotype>
+              </stereotypes>
+              <metadata />
+              <childElements />
+            </childElement>
+          </childElements>
         </childElement>
         <childElement id="7cdd9ffc-16da-4951-970c-1874352d4e42" type="Data Grid Column" typeId="7cea32c5-1218-4bf2-bbab-52ddb2cb1532">
           <name>Name</name>
@@ -169,6 +172,45 @@
           <stereotypes />
           <metadata />
           <childElements />
+        </childElement>
+        <childElement id="80a57ea6-d544-41e5-bcd4-26cc1a43b01b" type="Data Grid Column" typeId="7cea32c5-1218-4bf2-bbab-52ddb2cb1532">
+          <name>Actions</name>
+          <display>Actions</display>
+          <isAbstract>false</isAbstract>
+          <sort-children>manually</sort-children>
+          <genericTypes />
+          <isMapped>false</isMapped>
+          <parentFolderId>e4daa93c-a4bd-4e47-9720-d0e8657b3af6</parentFolderId>
+          <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
+          <packageName>MudBlazor.ExampleApp.UI</packageName>
+          <stereotypes />
+          <metadata />
+          <childElements>
+            <childElement id="23e19088-e2ee-43ab-b73e-ee6fb9490705" type="Button" typeId="4474d808-f6fd-405f-a9c7-6998cd000ede">
+              <name>Delete</name>
+              <display>Delete</display>
+              <isAbstract>false</isAbstract>
+              <genericTypes />
+              <isMapped>false</isMapped>
+              <parentFolderId>80a57ea6-d544-41e5-bcd4-26cc1a43b01b</parentFolderId>
+              <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
+              <packageName>MudBlazor.ExampleApp.UI</packageName>
+              <stereotypes>
+                <stereotype stereotypeDefinitionId="a7de29e5-4bee-4e5d-93f0-740569ac6130" name="Interaction">
+                  <addedByDefault>true</addedByDefault>
+                  <definitionPackageName>Intent.Modelers.UI.Core</definitionPackageName>
+                  <definitionPackageId>a2a95421-3e55-43c7-96ad-355610b43c4d</definitionPackageId>
+                  <properties>
+                    <property name="7cee794d-e1a7-4590-b65a-6e56914a2a97" display="Type" value="Default" isActive="true" />
+                    <property name="2265736b-4381-42dc-9dbf-b757188837bc" display="Form" isActive="false" />
+                    <property name="d05f7b5b-fe45-4cbb-b938-380a4b68c0df" display="On Click" value="{OnDeleteClick}" isActive="true" />
+                  </properties>
+                </stereotype>
+              </stereotypes>
+              <metadata />
+              <childElements />
+            </childElement>
+          </childElements>
         </childElement>
       </childElements>
     </childElement>

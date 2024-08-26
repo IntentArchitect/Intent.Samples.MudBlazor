@@ -20,7 +20,7 @@
   </sourceEnd>
   <targetEnd id="c6068d11-7a39-4704-be3b-bb8237125f65" type="Navigation Target End" typeId="2b191288-ecae-4743-b069-cbdd927ef349">
     <name>NavigateToHome</name>
-    <display>navigate: Home</display>
+    <display>[navigate] Home</display>
     <order>5</order>
     <typeReference id="f2ce2782-ba64-4164-82f3-0cdfea71d20b">
       <typeId>c39eb8c5-5b7a-4eec-a13f-e6c9b5a932a1</typeId>

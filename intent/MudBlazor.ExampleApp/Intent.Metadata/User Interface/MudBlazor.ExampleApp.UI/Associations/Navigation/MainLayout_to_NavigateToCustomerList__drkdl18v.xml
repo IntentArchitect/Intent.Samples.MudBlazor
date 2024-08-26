@@ -20,7 +20,7 @@
   </sourceEnd>
   <targetEnd id="bd81a0b8-bace-4994-b8a2-3d08e7ab8dee" type="Navigation Target End" typeId="2b191288-ecae-4743-b069-cbdd927ef349">
     <name>NavigateToCustomerList</name>
-    <display>navigate: CustomerList</display>
+    <display>[navigate] CustomerList</display>
     <order>4</order>
     <typeReference id="75a057fd-dbc9-47f9-91eb-af2efae5f6e6">
       <typeId>0dc39b57-b081-4dc6-a294-7e0628233b03</typeId>

@@ -13,29 +13,6 @@
   <stereotypes />
   <metadata />
   <childElements>
-    <childElement id="ba41d31e-33b9-4f59-abe1-db7905124f3d" type="Button" typeId="4474d808-f6fd-405f-a9c7-6998cd000ede">
-      <name>Add Invoice</name>
-      <display>Add Invoice</display>
-      <isAbstract>false</isAbstract>
-      <genericTypes />
-      <isMapped>false</isMapped>
-      <parentFolderId>dfce3f26-e87d-478d-a5ef-c3f357679761</parentFolderId>
-      <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
-      <packageName>MudBlazor.ExampleApp.UI</packageName>
-      <stereotypes>
-        <stereotype stereotypeDefinitionId="a7de29e5-4bee-4e5d-93f0-740569ac6130" name="Interaction">
-          <addedByDefault>true</addedByDefault>
-          <definitionPackageName>Intent.Modelers.UI.Core</definitionPackageName>
-          <definitionPackageId>a2a95421-3e55-43c7-96ad-355610b43c4d</definitionPackageId>
-          <properties>
-            <property name="7cee794d-e1a7-4590-b65a-6e56914a2a97" display="Type" value="Default" isActive="true" />
-            <property name="d05f7b5b-fe45-4cbb-b938-380a4b68c0df" display="On Click" value="{AddInvoiceClick}" isActive="true" />
-          </properties>
-        </stereotype>
-      </stereotypes>
-      <metadata />
-      <childElements />
-    </childElement>
     <childElement id="c99ce999-7575-42c3-9b58-1739ae7194ca" type="Data Grid" typeId="4b33f894-ad6e-43e0-a238-4286375c9ab7">
       <name>DataGrid</name>
       <display>DataGrid = {Model.Data}</display>
@@ -63,6 +40,7 @@
           <name>Toolbar</name>
           <display>Toolbar</display>
           <isAbstract>false</isAbstract>
+          <sort-children>by-type-then-by-name</sort-children>
           <genericTypes />
           <isMapped>false</isMapped>
           <parentFolderId>c99ce999-7575-42c3-9b58-1739ae7194ca</parentFolderId>
@@ -70,7 +48,32 @@
           <packageName>MudBlazor.ExampleApp.UI</packageName>
           <stereotypes />
           <metadata />
-          <childElements />
+          <childElements>
+            <childElement id="ba41d31e-33b9-4f59-abe1-db7905124f3d" type="Button" typeId="4474d808-f6fd-405f-a9c7-6998cd000ede">
+              <name>Add Invoice</name>
+              <display>Add Invoice</display>
+              <isAbstract>false</isAbstract>
+              <genericTypes />
+              <isMapped>false</isMapped>
+              <parentFolderId>b193adde-8086-43e7-8908-cba6419d62de</parentFolderId>
+              <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
+              <packageName>MudBlazor.ExampleApp.UI</packageName>
+              <stereotypes>
+                <stereotype stereotypeDefinitionId="a7de29e5-4bee-4e5d-93f0-740569ac6130" name="Interaction">
+                  <addedByDefault>true</addedByDefault>
+                  <definitionPackageName>Intent.Modelers.UI.Core</definitionPackageName>
+                  <definitionPackageId>a2a95421-3e55-43c7-96ad-355610b43c4d</definitionPackageId>
+                  <properties>
+                    <property name="7cee794d-e1a7-4590-b65a-6e56914a2a97" display="Type" value="Default" isActive="true" />
+                    <property name="2265736b-4381-42dc-9dbf-b757188837bc" display="Form" isActive="false" />
+                    <property name="d05f7b5b-fe45-4cbb-b938-380a4b68c0df" display="On Click" value="{AddInvoiceClick}" isActive="true" />
+                  </properties>
+                </stereotype>
+              </stereotypes>
+              <metadata />
+              <childElements />
+            </childElement>
+          </childElements>
         </childElement>
         <childElement id="37057574-ddc2-4291-9ef1-bc7ecdc6d98b" type="Data Grid Column" typeId="7cea32c5-1218-4bf2-bbab-52ddb2cb1532">
           <name>Invoice No</name>

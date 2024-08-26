@@ -42,6 +42,15 @@
           </sources>
         </mappedEnd>
         <mappedEnd>
+          <expression>Update Invoice</expression>
+          <path>
+            <target id="2899bfd6-2fbf-4f46-ad94-8d47fce443c3" name="[view]" type="element" specialization="Component View" specializationId="624513a6-cba8-4dde-8ebe-6b19f00f0364" />
+            <target id="eb41ae64-c277-4328-b084-929fdb9499ac" name="InvoiceForm" type="element" specialization="Display Component" specializationId="866a90f7-4044-43b9-bb05-7270c7889796" />
+            <target id="fa92d446-ac7f-4107-9af7-13190cfc4068" name="HeaderText" type="element" specialization="Property" specializationId="356fbe17-bc63-4e16-b915-feefbc063cbe" />
+          </path>
+          <sources />
+        </mappedEnd>
+        <mappedEnd>
           <expression>{OnSaveClicked}</expression>
           <path>
             <target id="2899bfd6-2fbf-4f46-ad94-8d47fce443c3" name="[view]" type="element" specialization="Component View" specializationId="624513a6-cba8-4dde-8ebe-6b19f00f0364" />

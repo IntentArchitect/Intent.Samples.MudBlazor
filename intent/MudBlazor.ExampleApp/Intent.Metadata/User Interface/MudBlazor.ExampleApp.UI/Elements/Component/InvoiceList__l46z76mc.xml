@@ -26,22 +26,6 @@
       <target applicationId="00727c17-aeb5-470b-991f-68c0b481117e" designerId="f492faed-0665-4513-9853-5a230721786f" elementId="dfce3f26-e87d-478d-a5ef-c3f357679761" location="[MudBlazor.ExampleApp].[User Interface].[[view]]" />
       <mappedEnds>
         <mappedEnd>
-          <expression>{AddInvoiceClick}</expression>
-          <path>
-            <target id="dfce3f26-e87d-478d-a5ef-c3f357679761" name="[view]" type="element" specialization="Component View" specializationId="624513a6-cba8-4dde-8ebe-6b19f00f0364" />
-            <target id="ba41d31e-33b9-4f59-abe1-db7905124f3d" name="Add Invoice" type="element" specialization="Button" specializationId="4474d808-f6fd-405f-a9c7-6998cd000ede" />
-            <target id="b80f61a7-3b9e-4b75-806f-71d4f8b9900a" name="On Click" type="static-mappable" specialization="On Click" specializationId="b80f61a7-3b9e-4b75-806f-71d4f8b9900a" />
-          </path>
-          <sources>
-            <source identifier="AddInvoiceClick" mappingType="Event Mapping" mappingTypeId="95ce3c3e-ddf4-440b-a9b2-6b152a5fc1b8">
-              <path>
-                <target id="a80d7708-e051-4927-b32e-c239affc1689" name="InvoiceList" type="element" specialization="Component" specializationId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b" />
-                <target id="be537628-573c-4260-a7e1-37c3283bc04f" name="AddInvoiceClick" type="element" specialization="Component Operation" specializationId="e030c97a-e066-40a7-8188-808c275df3cb" />
-              </path>
-            </source>
-          </sources>
-        </mappedEnd>
-        <mappedEnd>
           <expression>{Model.Data}</expression>
           <path>
             <target id="dfce3f26-e87d-478d-a5ef-c3f357679761" name="[view]" type="element" specialization="Component View" specializationId="624513a6-cba8-4dde-8ebe-6b19f00f0364" />
@@ -53,41 +37,6 @@
                 <target id="a80d7708-e051-4927-b32e-c239affc1689" name="InvoiceList" type="element" specialization="Component" specializationId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b" />
                 <target id="3dfa6669-4af5-43df-b0c5-f26f301deed5" name="Model" type="element" specialization="Property" specializationId="356fbe17-bc63-4e16-b915-feefbc063cbe" />
                 <target id="85da666a-2f42-4c36-8189-62fb1ac27209" name="Data" type="element" specialization="DTO-Field" specializationId="7baed1fd-469b-4980-8fd9-4cefb8331eb2" />
-              </path>
-            </source>
-          </sources>
-        </mappedEnd>
-        <mappedEnd>
-          <expression>{OnRowClicked}</expression>
-          <path>
-            <target id="dfce3f26-e87d-478d-a5ef-c3f357679761" name="[view]" type="element" specialization="Component View" specializationId="624513a6-cba8-4dde-8ebe-6b19f00f0364" />
-            <target id="c99ce999-7575-42c3-9b58-1739ae7194ca" name="DataGrid" type="element" specialization="Data Grid" specializationId="4b33f894-ad6e-43e0-a238-4286375c9ab7" />
-            <target id="5e17d25c-5d06-4db6-9961-51910f21b41f" name="On Row Click" type="static-mappable" specialization="On Row Click" specializationId="5e17d25c-5d06-4db6-9961-51910f21b41f" />
-          </path>
-          <sources>
-            <source identifier="OnRowClicked" mappingType="Event Mapping" mappingTypeId="95ce3c3e-ddf4-440b-a9b2-6b152a5fc1b8">
-              <path>
-                <target id="a80d7708-e051-4927-b32e-c239affc1689" name="InvoiceList" type="element" specialization="Component" specializationId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b" />
-                <target id="fe54069b-ed6f-402b-a239-cb2d40f34b4c" name="OnRowClicked" type="element" specialization="Component Operation" specializationId="e030c97a-e066-40a7-8188-808c275df3cb" />
-              </path>
-            </source>
-          </sources>
-        </mappedEnd>
-        <mappedEnd>
-          <expression>{Model.Data.Id}</expression>
-          <path>
-            <target id="dfce3f26-e87d-478d-a5ef-c3f357679761" name="[view]" type="element" specialization="Component View" specializationId="624513a6-cba8-4dde-8ebe-6b19f00f0364" />
-            <target id="c99ce999-7575-42c3-9b58-1739ae7194ca" name="DataGrid" type="element" specialization="Data Grid" specializationId="4b33f894-ad6e-43e0-a238-4286375c9ab7" />
-            <target id="5e17d25c-5d06-4db6-9961-51910f21b41f" name="On Row Click" type="static-mappable" specialization="On Row Click" specializationId="5e17d25c-5d06-4db6-9961-51910f21b41f" />
-            <target id="bcb82e3f-0cb1-4800-aee3-2097169a565f" name="invoiceId" type="element" specialization="Parameter" specializationId="00208d20-469d-41cb-8501-768fd5eb796b" />
-          </path>
-          <sources>
-            <source identifier="Model.Data.Id" mappingType="Data Mapping" mappingTypeId="ee19a932-0cea-4b90-bd3c-857d7942d390">
-              <path>
-                <target id="a80d7708-e051-4927-b32e-c239affc1689" name="InvoiceList" type="element" specialization="Component" specializationId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b" />
-                <target id="3dfa6669-4af5-43df-b0c5-f26f301deed5" name="Model" type="element" specialization="Property" specializationId="356fbe17-bc63-4e16-b915-feefbc063cbe" />
-                <target id="85da666a-2f42-4c36-8189-62fb1ac27209" name="Data" type="element" specialization="DTO-Field" specializationId="7baed1fd-469b-4980-8fd9-4cefb8331eb2" />
-                <target id="ef4c1fad-602c-4a15-9699-9a72adc29566" name="Id" type="element" specialization="DTO-Field" specializationId="7baed1fd-469b-4980-8fd9-4cefb8331eb2" />
               </path>
             </source>
           </sources>
@@ -151,6 +100,59 @@
                 <target id="a80d7708-e051-4927-b32e-c239affc1689" name="InvoiceList" type="element" specialization="Component" specializationId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b" />
                 <target id="3dfa6669-4af5-43df-b0c5-f26f301deed5" name="Model" type="element" specialization="Property" specializationId="356fbe17-bc63-4e16-b915-feefbc063cbe" />
                 <target id="a98da735-b791-444a-b621-6c6bc9ce7b7d" name="TotalCount" type="element" specialization="DTO-Field" specializationId="7baed1fd-469b-4980-8fd9-4cefb8331eb2" />
+              </path>
+            </source>
+          </sources>
+        </mappedEnd>
+        <mappedEnd>
+          <expression>{OnRowClicked}</expression>
+          <path>
+            <target id="dfce3f26-e87d-478d-a5ef-c3f357679761" name="[view]" type="element" specialization="Component View" specializationId="624513a6-cba8-4dde-8ebe-6b19f00f0364" />
+            <target id="c99ce999-7575-42c3-9b58-1739ae7194ca" name="DataGrid" type="element" specialization="Data Grid" specializationId="4b33f894-ad6e-43e0-a238-4286375c9ab7" />
+            <target id="5e17d25c-5d06-4db6-9961-51910f21b41f" name="On Row Click" type="static-mappable" specialization="On Row Click" specializationId="5e17d25c-5d06-4db6-9961-51910f21b41f" />
+          </path>
+          <sources>
+            <source identifier="OnRowClicked" mappingType="Event Mapping" mappingTypeId="95ce3c3e-ddf4-440b-a9b2-6b152a5fc1b8">
+              <path>
+                <target id="a80d7708-e051-4927-b32e-c239affc1689" name="InvoiceList" type="element" specialization="Component" specializationId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b" />
+                <target id="fe54069b-ed6f-402b-a239-cb2d40f34b4c" name="OnRowClicked" type="element" specialization="Component Operation" specializationId="e030c97a-e066-40a7-8188-808c275df3cb" />
+              </path>
+            </source>
+          </sources>
+        </mappedEnd>
+        <mappedEnd>
+          <expression>{Model.Data.Id}</expression>
+          <path>
+            <target id="dfce3f26-e87d-478d-a5ef-c3f357679761" name="[view]" type="element" specialization="Component View" specializationId="624513a6-cba8-4dde-8ebe-6b19f00f0364" />
+            <target id="c99ce999-7575-42c3-9b58-1739ae7194ca" name="DataGrid" type="element" specialization="Data Grid" specializationId="4b33f894-ad6e-43e0-a238-4286375c9ab7" />
+            <target id="5e17d25c-5d06-4db6-9961-51910f21b41f" name="On Row Click" type="static-mappable" specialization="On Row Click" specializationId="5e17d25c-5d06-4db6-9961-51910f21b41f" />
+            <target id="bcb82e3f-0cb1-4800-aee3-2097169a565f" name="invoiceId" type="element" specialization="Parameter" specializationId="00208d20-469d-41cb-8501-768fd5eb796b" />
+          </path>
+          <sources>
+            <source identifier="Model.Data.Id" mappingType="Data Mapping" mappingTypeId="ee19a932-0cea-4b90-bd3c-857d7942d390">
+              <path>
+                <target id="a80d7708-e051-4927-b32e-c239affc1689" name="InvoiceList" type="element" specialization="Component" specializationId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b" />
+                <target id="3dfa6669-4af5-43df-b0c5-f26f301deed5" name="Model" type="element" specialization="Property" specializationId="356fbe17-bc63-4e16-b915-feefbc063cbe" />
+                <target id="85da666a-2f42-4c36-8189-62fb1ac27209" name="Data" type="element" specialization="DTO-Field" specializationId="7baed1fd-469b-4980-8fd9-4cefb8331eb2" />
+                <target id="ef4c1fad-602c-4a15-9699-9a72adc29566" name="Id" type="element" specialization="DTO-Field" specializationId="7baed1fd-469b-4980-8fd9-4cefb8331eb2" />
+              </path>
+            </source>
+          </sources>
+        </mappedEnd>
+        <mappedEnd>
+          <expression>{AddInvoiceClick}</expression>
+          <path>
+            <target id="dfce3f26-e87d-478d-a5ef-c3f357679761" name="[view]" type="element" specialization="Component View" specializationId="624513a6-cba8-4dde-8ebe-6b19f00f0364" />
+            <target id="c99ce999-7575-42c3-9b58-1739ae7194ca" name="DataGrid" type="element" specialization="Data Grid" specializationId="4b33f894-ad6e-43e0-a238-4286375c9ab7" />
+            <target id="b193adde-8086-43e7-8908-cba6419d62de" name="Toolbar" type="element" specialization="Data Grid Toolbar" specializationId="9af26915-0394-4cda-864d-0e7f9f9943dc" />
+            <target id="ba41d31e-33b9-4f59-abe1-db7905124f3d" name="Add Invoice" type="element" specialization="Button" specializationId="4474d808-f6fd-405f-a9c7-6998cd000ede" />
+            <target id="b80f61a7-3b9e-4b75-806f-71d4f8b9900a" name="On Click" type="static-mappable" specialization="On Click" specializationId="b80f61a7-3b9e-4b75-806f-71d4f8b9900a" />
+          </path>
+          <sources>
+            <source identifier="AddInvoiceClick" mappingType="Event Mapping" mappingTypeId="95ce3c3e-ddf4-440b-a9b2-6b152a5fc1b8">
+              <path>
+                <target id="a80d7708-e051-4927-b32e-c239affc1689" name="InvoiceList" type="element" specialization="Component" specializationId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b" />
+                <target id="be537628-573c-4260-a7e1-37c3283bc04f" name="AddInvoiceClick" type="element" specialization="Component Operation" specializationId="e030c97a-e066-40a7-8188-808c275df3cb" />
               </path>
             </source>
           </sources>

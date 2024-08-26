@@ -20,7 +20,7 @@
   </sourceEnd>
   <targetEnd id="4fec0734-3865-40fe-92ee-8b1f99d4009d" type="Navigation Target End" typeId="2b191288-ecae-4743-b069-cbdd927ef349">
     <name>NavigateToInvoiceList</name>
-    <display>navigate: InvoiceList</display>
+    <display>[navigate] InvoiceList</display>
     <order>0</order>
     <typeReference id="5426e20f-690e-43b0-9d67-e4e77cbfef60">
       <typeId>a80d7708-e051-4927-b32e-c239affc1689</typeId>

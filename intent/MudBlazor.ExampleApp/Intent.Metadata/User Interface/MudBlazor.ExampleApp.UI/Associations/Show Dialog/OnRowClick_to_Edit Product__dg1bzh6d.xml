@@ -50,7 +50,7 @@
                 <path>
                   <target id="88648126-3b19-4608-8c41-6c230a2b2ecd" name="ProductList" type="element" specialization="Component" specializationId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b" />
                   <target id="b90eab49-2cf3-42bc-b618-09d0cfb518bb" name="OnRowClick" type="element" specialization="Component Operation" specializationId="e030c97a-e066-40a7-8188-808c275df3cb" />
-                  <target id="2113e97c-03fe-49ed-b278-ce0e296b70c6" name="rowId" type="element" specialization="Parameter" specializationId="00208d20-469d-41cb-8501-768fd5eb796b" />
+                  <target id="2113e97c-03fe-49ed-b278-ce0e296b70c6" name="rowId" type="element" specialization="Parameter" specializationId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b" />
                 </path>
               </source>
             </sources>

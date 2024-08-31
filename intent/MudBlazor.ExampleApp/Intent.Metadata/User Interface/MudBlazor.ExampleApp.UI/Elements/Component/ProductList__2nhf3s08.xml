@@ -79,7 +79,7 @@
             <target id="634b8577-1ef0-418b-93f1-750ccf3ea3b9" name="[view]" type="element" specialization="Component View" specializationId="624513a6-cba8-4dde-8ebe-6b19f00f0364" />
             <target id="c6cd439c-26fc-4e96-89c6-6ba8825e064e" name="DataGrid" type="element" specialization="Data Grid" specializationId="4b33f894-ad6e-43e0-a238-4286375c9ab7" />
             <target id="53a618ca-e5aa-49ca-a993-8cd935683748" name="On Load Data" type="static-mappable" specialization="On Load Data" specializationId="53a618ca-e5aa-49ca-a993-8cd935683748" />
-            <target id="7d2b259a-44cd-4016-b7fd-8e8b37b5bbf1" name="pageNo" type="element" specialization="Parameter" specializationId="00208d20-469d-41cb-8501-768fd5eb796b" />
+            <target id="7d2b259a-44cd-4016-b7fd-8e8b37b5bbf1" name="pageNo" type="element" specialization="Parameter" specializationId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b" />
           </path>
           <sources />
         </mappedEnd>
@@ -89,7 +89,7 @@
             <target id="634b8577-1ef0-418b-93f1-750ccf3ea3b9" name="[view]" type="element" specialization="Component View" specializationId="624513a6-cba8-4dde-8ebe-6b19f00f0364" />
             <target id="c6cd439c-26fc-4e96-89c6-6ba8825e064e" name="DataGrid" type="element" specialization="Data Grid" specializationId="4b33f894-ad6e-43e0-a238-4286375c9ab7" />
             <target id="53a618ca-e5aa-49ca-a993-8cd935683748" name="On Load Data" type="static-mappable" specialization="On Load Data" specializationId="53a618ca-e5aa-49ca-a993-8cd935683748" />
-            <target id="ad37296e-2911-433b-a7c4-dc6d98dd42f8" name="pageSize" type="element" specialization="Parameter" specializationId="00208d20-469d-41cb-8501-768fd5eb796b" />
+            <target id="ad37296e-2911-433b-a7c4-dc6d98dd42f8" name="pageSize" type="element" specialization="Parameter" specializationId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b" />
           </path>
           <sources />
         </mappedEnd>
@@ -99,7 +99,7 @@
             <target id="634b8577-1ef0-418b-93f1-750ccf3ea3b9" name="[view]" type="element" specialization="Component View" specializationId="624513a6-cba8-4dde-8ebe-6b19f00f0364" />
             <target id="c6cd439c-26fc-4e96-89c6-6ba8825e064e" name="DataGrid" type="element" specialization="Data Grid" specializationId="4b33f894-ad6e-43e0-a238-4286375c9ab7" />
             <target id="53a618ca-e5aa-49ca-a993-8cd935683748" name="On Load Data" type="static-mappable" specialization="On Load Data" specializationId="53a618ca-e5aa-49ca-a993-8cd935683748" />
-            <target id="01c29769-e1e3-41c1-92d9-703fdb5cfb16" name="sorting" type="element" specialization="Parameter" specializationId="00208d20-469d-41cb-8501-768fd5eb796b" />
+            <target id="01c29769-e1e3-41c1-92d9-703fdb5cfb16" name="sorting" type="element" specialization="Parameter" specializationId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b" />
           </path>
           <sources />
         </mappedEnd>
@@ -142,7 +142,7 @@
             <target id="634b8577-1ef0-418b-93f1-750ccf3ea3b9" name="[view]" type="element" specialization="Component View" specializationId="624513a6-cba8-4dde-8ebe-6b19f00f0364" />
             <target id="c6cd439c-26fc-4e96-89c6-6ba8825e064e" name="DataGrid" type="element" specialization="Data Grid" specializationId="4b33f894-ad6e-43e0-a238-4286375c9ab7" />
             <target id="5e17d25c-5d06-4db6-9961-51910f21b41f" name="On Row Click" type="static-mappable" specialization="On Row Click" specializationId="5e17d25c-5d06-4db6-9961-51910f21b41f" />
-            <target id="2113e97c-03fe-49ed-b278-ce0e296b70c6" name="rowId" type="element" specialization="Parameter" specializationId="00208d20-469d-41cb-8501-768fd5eb796b" />
+            <target id="2113e97c-03fe-49ed-b278-ce0e296b70c6" name="rowId" type="element" specialization="Parameter" specializationId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b" />
           </path>
           <sources>
             <source identifier="Model.Data.Id" mappingType="Data Mapping" mappingTypeId="ee19a932-0cea-4b90-bd3c-857d7942d390">
@@ -345,7 +345,7 @@
       <stereotypes />
       <metadata />
       <childElements>
-        <childElement id="7d2b259a-44cd-4016-b7fd-8e8b37b5bbf1" type="Parameter" typeId="00208d20-469d-41cb-8501-768fd5eb796b">
+        <childElement id="7d2b259a-44cd-4016-b7fd-8e8b37b5bbf1" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
           <name>pageNo</name>
           <display>in : pageNo: int</display>
           <isAbstract>false</isAbstract>
@@ -369,7 +369,7 @@
           <metadata />
           <childElements />
         </childElement>
-        <childElement id="ad37296e-2911-433b-a7c4-dc6d98dd42f8" type="Parameter" typeId="00208d20-469d-41cb-8501-768fd5eb796b">
+        <childElement id="ad37296e-2911-433b-a7c4-dc6d98dd42f8" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
           <name>pageSize</name>
           <display>in : pageSize: int</display>
           <isAbstract>false</isAbstract>
@@ -393,7 +393,7 @@
           <metadata />
           <childElements />
         </childElement>
-        <childElement id="01c29769-e1e3-41c1-92d9-703fdb5cfb16" type="Parameter" typeId="00208d20-469d-41cb-8501-768fd5eb796b">
+        <childElement id="01c29769-e1e3-41c1-92d9-703fdb5cfb16" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
           <name>sorting</name>
           <display>in : sorting: string</display>
           <isAbstract>false</isAbstract>
@@ -414,91 +414,6 @@
           <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
           <packageName>MudBlazor.ExampleApp.UI</packageName>
           <stereotypes />
-          <metadata />
-          <childElements />
-        </childElement>
-      </childElements>
-    </childElement>
-    <childElement id="b90eab49-2cf3-42bc-b618-09d0cfb518bb" type="Component Operation" typeId="e030c97a-e066-40a7-8188-808c275df3cb">
-      <name>OnRowClick</name>
-      <display>OnRowClick(rowId: string): void</display>
-      <isAbstract>false</isAbstract>
-      <sort-children>by-type-then-manually</sort-children>
-      <genericTypes />
-      <typeReference id="fcd45be8-dcb9-4161-9765-48329a47a089">
-        <isNavigable>true</isNavigable>
-        <isNullable>false</isNullable>
-        <isCollection>false</isCollection>
-        <isRequired>true</isRequired>
-        <stereotypes />
-        <genericTypeParameters />
-      </typeReference>
-      <isMapped>false</isMapped>
-      <parentFolderId>88648126-3b19-4608-8c41-6c230a2b2ecd</parentFolderId>
-      <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
-      <packageName>MudBlazor.ExampleApp.UI</packageName>
-      <stereotypes />
-      <metadata />
-      <childElements>
-        <childElement id="2113e97c-03fe-49ed-b278-ce0e296b70c6" type="Parameter" typeId="00208d20-469d-41cb-8501-768fd5eb796b">
-          <name>rowId</name>
-          <display>in : rowId: string</display>
-          <isAbstract>false</isAbstract>
-          <genericTypes />
-          <typeReference id="de507367-7712-4a66-82bb-8c3334e6e5d1">
-            <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
-            <isNavigable>true</isNavigable>
-            <isNullable>false</isNullable>
-            <isCollection>false</isCollection>
-            <isRequired>true</isRequired>
-            <typePackageName>Intent.Common.Types</typePackageName>
-            <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
-            <stereotypes />
-            <genericTypeParameters />
-          </typeReference>
-          <isMapped>false</isMapped>
-          <parentFolderId>b90eab49-2cf3-42bc-b618-09d0cfb518bb</parentFolderId>
-          <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
-          <packageName>MudBlazor.ExampleApp.UI</packageName>
-          <stereotypes />
-          <metadata />
-          <childElements />
-        </childElement>
-        <childElement id="005a4c8f-0629-41c3-b850-76a0c7b49478" type="Invocation" typeId="18f87cd6-d8d8-4518-8931-58653d537467">
-          <name>DataGrid.ReloadServerData</name>
-          <display>[call] DataGrid.ReloadServerData</display>
-          <isAbstract>false</isAbstract>
-          <genericTypes />
-          <isMapped>false</isMapped>
-          <parentFolderId>b90eab49-2cf3-42bc-b618-09d0cfb518bb</parentFolderId>
-          <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
-          <packageName>MudBlazor.ExampleApp.UI</packageName>
-          <stereotypes />
-          <mappings>
-            <mapping type="Operation Execution Mapping" typeId="d5d1dd6a-15f4-4332-b531-3b74e1d97fab">
-              <source applicationId="00727c17-aeb5-470b-991f-68c0b481117e" designerId="f492faed-0665-4513-9853-5a230721786f" elementId="88648126-3b19-4608-8c41-6c230a2b2ecd" location="[MudBlazor.ExampleApp].[User Interface].[ProductList]" />
-              <target applicationId="00727c17-aeb5-470b-991f-68c0b481117e" designerId="f492faed-0665-4513-9853-5a230721786f" elementId="88648126-3b19-4608-8c41-6c230a2b2ecd" location="[MudBlazor.ExampleApp].[User Interface].[ProductList]" />
-              <mappedEnds>
-                <mappedEnd>
-                  <expression>{OnRowClick.DataGrid_ReloadServerData}</expression>
-                  <path>
-                    <target id="88648126-3b19-4608-8c41-6c230a2b2ecd" name="ProductList" type="element" specialization="Component" specializationId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b" />
-                    <target id="bd94efeb-3552-4de8-8c99-48817b1fa2bb" name="DataGrid" type="element" specialization="Property" specializationId="356fbe17-bc63-4e16-b915-feefbc063cbe" />
-                    <target id="e3d73296-8577-4047-ba64-f19c8546e693" name="ReloadServerData" type="element" specialization="Operation" specializationId="e042bb67-a1df-480c-9935-b26210f78591" />
-                  </path>
-                  <sources>
-                    <source identifier="OnRowClick.DataGrid_ReloadServerData" mappingType="Invokable Mapping" mappingTypeId="720f119b-39b3-4f11-8d96-27fa82d1f4e2">
-                      <path>
-                        <target id="88648126-3b19-4608-8c41-6c230a2b2ecd" name="ProductList" type="element" specialization="Component" specializationId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b" />
-                        <target id="b90eab49-2cf3-42bc-b618-09d0cfb518bb" name="OnRowClick" type="element" specialization="Component Operation" specializationId="e030c97a-e066-40a7-8188-808c275df3cb" />
-                        <target id="005a4c8f-0629-41c3-b850-76a0c7b49478" name="DataGrid.ReloadServerData" type="element" specialization="Invocation" specializationId="18f87cd6-d8d8-4518-8931-58653d537467" />
-                      </path>
-                    </source>
-                  </sources>
-                </mappedEnd>
-              </mappedEnds>
-            </mapping>
-          </mappings>
           <metadata />
           <childElements />
         </childElement>
@@ -553,6 +468,91 @@
                         <target id="88648126-3b19-4608-8c41-6c230a2b2ecd" name="ProductList" type="element" specialization="Component" specializationId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b" />
                         <target id="5afa0b33-4e4d-432c-95b2-96584e57a280" name="AddProductClick" type="element" specialization="Component Operation" specializationId="e030c97a-e066-40a7-8188-808c275df3cb" />
                         <target id="a3f2325c-0c12-4dda-a7ae-488d59ca9c9a" name="DataGrid.ReloadServerData" type="element" specialization="Invocation" specializationId="18f87cd6-d8d8-4518-8931-58653d537467" />
+                      </path>
+                    </source>
+                  </sources>
+                </mappedEnd>
+              </mappedEnds>
+            </mapping>
+          </mappings>
+          <metadata />
+          <childElements />
+        </childElement>
+      </childElements>
+    </childElement>
+    <childElement id="b90eab49-2cf3-42bc-b618-09d0cfb518bb" type="Component Operation" typeId="e030c97a-e066-40a7-8188-808c275df3cb">
+      <name>OnRowClick</name>
+      <display>OnRowClick(rowId: string): void</display>
+      <isAbstract>false</isAbstract>
+      <sort-children>by-type-then-manually</sort-children>
+      <genericTypes />
+      <typeReference id="fcd45be8-dcb9-4161-9765-48329a47a089">
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>88648126-3b19-4608-8c41-6c230a2b2ecd</parentFolderId>
+      <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
+      <packageName>MudBlazor.ExampleApp.UI</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements>
+        <childElement id="2113e97c-03fe-49ed-b278-ce0e296b70c6" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
+          <name>rowId</name>
+          <display>in : rowId: string</display>
+          <isAbstract>false</isAbstract>
+          <genericTypes />
+          <typeReference id="de507367-7712-4a66-82bb-8c3334e6e5d1">
+            <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>Intent.Common.Types</typePackageName>
+            <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>false</isMapped>
+          <parentFolderId>b90eab49-2cf3-42bc-b618-09d0cfb518bb</parentFolderId>
+          <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
+          <packageName>MudBlazor.ExampleApp.UI</packageName>
+          <stereotypes />
+          <metadata />
+          <childElements />
+        </childElement>
+        <childElement id="005a4c8f-0629-41c3-b850-76a0c7b49478" type="Invocation" typeId="18f87cd6-d8d8-4518-8931-58653d537467">
+          <name>DataGrid.ReloadServerData</name>
+          <display>[call] DataGrid.ReloadServerData</display>
+          <isAbstract>false</isAbstract>
+          <genericTypes />
+          <isMapped>false</isMapped>
+          <parentFolderId>b90eab49-2cf3-42bc-b618-09d0cfb518bb</parentFolderId>
+          <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
+          <packageName>MudBlazor.ExampleApp.UI</packageName>
+          <stereotypes />
+          <mappings>
+            <mapping type="Operation Execution Mapping" typeId="d5d1dd6a-15f4-4332-b531-3b74e1d97fab">
+              <source applicationId="00727c17-aeb5-470b-991f-68c0b481117e" designerId="f492faed-0665-4513-9853-5a230721786f" elementId="88648126-3b19-4608-8c41-6c230a2b2ecd" location="[MudBlazor.ExampleApp].[User Interface].[ProductList]" />
+              <target applicationId="00727c17-aeb5-470b-991f-68c0b481117e" designerId="f492faed-0665-4513-9853-5a230721786f" elementId="88648126-3b19-4608-8c41-6c230a2b2ecd" location="[MudBlazor.ExampleApp].[User Interface].[ProductList]" />
+              <mappedEnds>
+                <mappedEnd>
+                  <expression>{OnRowClick.DataGrid_ReloadServerData}</expression>
+                  <path>
+                    <target id="88648126-3b19-4608-8c41-6c230a2b2ecd" name="ProductList" type="element" specialization="Component" specializationId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b" />
+                    <target id="bd94efeb-3552-4de8-8c99-48817b1fa2bb" name="DataGrid" type="element" specialization="Property" specializationId="356fbe17-bc63-4e16-b915-feefbc063cbe" />
+                    <target id="e3d73296-8577-4047-ba64-f19c8546e693" name="ReloadServerData" type="element" specialization="Operation" specializationId="e042bb67-a1df-480c-9935-b26210f78591" />
+                  </path>
+                  <sources>
+                    <source identifier="OnRowClick.DataGrid_ReloadServerData" mappingType="Invokable Mapping" mappingTypeId="720f119b-39b3-4f11-8d96-27fa82d1f4e2">
+                      <path>
+                        <target id="88648126-3b19-4608-8c41-6c230a2b2ecd" name="ProductList" type="element" specialization="Component" specializationId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b" />
+                        <target id="b90eab49-2cf3-42bc-b618-09d0cfb518bb" name="OnRowClick" type="element" specialization="Component Operation" specializationId="e030c97a-e066-40a7-8188-808c275df3cb" />
+                        <target id="005a4c8f-0629-41c3-b850-76a0c7b49478" name="DataGrid.ReloadServerData" type="element" specialization="Invocation" specializationId="18f87cd6-d8d8-4518-8931-58653d537467" />
                       </path>
                     </source>
                   </sources>

@@ -73,7 +73,7 @@
                   <target id="fa990c77-7756-4e41-9009-e7f449e2dc95" name="OnInitializedAsync" type="element" specialization="Component Operation" specializationId="e030c97a-e066-40a7-8188-808c275df3cb" />
                   <target id="d6e53df3-b864-42e9-8fd8-076674a04164" name="GetProductsLookupQuery" type="association" specialization="Call Service Operation Action Target End" specializationId="475f0810-2b4a-40da-8eb8-697cb62f7dbe" />
                   <target id="adb0ba54-aceb-4168-aaf7-d20d2f6af74c" name="response" type="static-mappable" specialization="response" specializationId="adb0ba54-aceb-4168-aaf7-d20d2f6af74c">
-                    <typeReference id="ff47719d-50b8-4cbe-8562-cbf18febe299">
+                    <typeReference id="33dd4870-54a4-4256-a5bc-caee15f01e3f">
                       <typeId>35f97230-e866-41c4-8d9b-62c70a613c79</typeId>
                       <isNavigable>true</isNavigable>
                       <isNullable>false</isNullable>

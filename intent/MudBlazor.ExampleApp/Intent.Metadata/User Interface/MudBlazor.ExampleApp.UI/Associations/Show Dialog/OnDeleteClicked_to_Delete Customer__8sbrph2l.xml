@@ -55,6 +55,14 @@
             </path>
             <sources />
           </mappedEnd>
+          <mappedEnd>
+            <expression>Color.Error</expression>
+            <path>
+              <target id="4255cff1-e16b-4c21-b4f4-8646011c7339" name="ConfirmationDialog" type="element" specialization="Component" specializationId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b" />
+              <target id="3868dd3d-88e9-4a9c-a21a-f564204c5e8c" name="Color" type="element" specialization="Property" specializationId="356fbe17-bc63-4e16-b915-feefbc063cbe" />
+            </path>
+            <sources />
+          </mappedEnd>
         </mappedEnds>
       </mapping>
     </mappings>

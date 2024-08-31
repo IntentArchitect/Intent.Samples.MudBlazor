@@ -206,6 +206,14 @@
                     <property name="d05f7b5b-fe45-4cbb-b938-380a4b68c0df" display="On Click" value="{OnDeleteClick}" isActive="true" />
                   </properties>
                 </stereotype>
+                <stereotype stereotypeDefinitionId="b218f7cb-d150-401d-a17a-9e22fadf863f" name="Appearance">
+                  <addedByDefault>false</addedByDefault>
+                  <definitionPackageName>Intent.Blazor.Components.MudBlazor</definitionPackageName>
+                  <definitionPackageId>47e5f8d0-3892-4408-b6f9-88bf8591af2d</definitionPackageId>
+                  <properties>
+                    <property name="d527d5a7-fd00-4486-a204-5c6fc93099a5" display="Color" value="cf8eeb22-fcc7-4059-9d2c-d13a830ec9d0" isActive="true" />
+                  </properties>
+                </stereotype>
               </stereotypes>
               <metadata />
               <childElements />

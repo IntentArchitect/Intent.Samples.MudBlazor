@@ -180,8 +180,8 @@
           <childElements />
         </childElement>
         <childElement id="80a57ea6-d544-41e5-bcd4-26cc1a43b01b" type="Data Grid Column" typeId="7cea32c5-1218-4bf2-bbab-52ddb2cb1532">
-          <name>Actions</name>
-          <display>Actions</display>
+          <name />
+          <display />
           <isAbstract>false</isAbstract>
           <sort-children>manually</sort-children>
           <genericTypes />

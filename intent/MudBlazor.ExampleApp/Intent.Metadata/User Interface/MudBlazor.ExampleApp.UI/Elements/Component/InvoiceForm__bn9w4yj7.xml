@@ -725,6 +725,14 @@
           <display>[call] Model.OrderLines.Add()</display>
           <isAbstract>false</isAbstract>
           <genericTypes />
+          <typeReference id="a31b71ac-1214-4c04-9806-006caa4b13e6">
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
           <isMapped>false</isMapped>
           <parentFolderId>bc07adb6-20ab-47d4-a63c-f729d53f3da4</parentFolderId>
           <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
@@ -837,6 +845,14 @@
           <display>[call] Model.OrderLines.Remove()</display>
           <isAbstract>false</isAbstract>
           <genericTypes />
+          <typeReference id="2576276b-9915-4421-a22e-7e0f1bb4ce84">
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
           <isMapped>false</isMapped>
           <parentFolderId>472c9a2e-84c5-4529-a222-4b82834c9476</parentFolderId>
           <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>

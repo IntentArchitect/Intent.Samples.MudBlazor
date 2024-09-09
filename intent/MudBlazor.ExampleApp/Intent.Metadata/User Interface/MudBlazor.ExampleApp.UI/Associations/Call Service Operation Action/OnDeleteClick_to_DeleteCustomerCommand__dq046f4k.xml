@@ -68,7 +68,7 @@
                 <path>
                   <target id="0dc39b57-b081-4dc6-a294-7e0628233b03" name="CustomerList" type="element" specialization="Component" specializationId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b" />
                   <target id="ca52fc55-0f25-40af-af41-7fc57bffaaa5" name="OnDeleteClick" type="element" specialization="Component Operation" specializationId="e030c97a-e066-40a7-8188-808c275df3cb" />
-                  <target id="5f06e1bc-8c64-46ee-ab3a-a1ffa484446f" name="rowId" type="element" specialization="Parameter" specializationId="00208d20-469d-41cb-8501-768fd5eb796b" />
+                  <target id="5f06e1bc-8c64-46ee-ab3a-a1ffa484446f" name="rowId" type="element" specialization="Parameter" specializationId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b" />
                 </path>
               </source>
             </sources>

@@ -445,6 +445,14 @@
           <display>[call] DataGrid.ReloadServerData</display>
           <isAbstract>false</isAbstract>
           <genericTypes />
+          <typeReference id="b52e05f8-a991-423a-b163-91597fb01941">
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
           <isMapped>false</isMapped>
           <parentFolderId>5afa0b33-4e4d-432c-95b2-96584e57a280</parentFolderId>
           <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
@@ -533,6 +541,14 @@
           <display>[call] DataGrid.ReloadServerData</display>
           <isAbstract>false</isAbstract>
           <genericTypes />
+          <typeReference id="6de789e1-0f1a-4f58-b29c-dc7c470c4bc3">
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
           <isMapped>false</isMapped>
           <parentFolderId>b90eab49-2cf3-42bc-b618-09d0cfb518bb</parentFolderId>
           <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>

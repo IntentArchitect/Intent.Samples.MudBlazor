@@ -222,6 +222,14 @@
           <display>[call] Dialog.Cancel</display>
           <isAbstract>false</isAbstract>
           <genericTypes />
+          <typeReference id="f7fd5e1d-e3ec-49c7-b733-c3c1d380aef0">
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
           <isMapped>false</isMapped>
           <parentFolderId>ed081ff7-af55-4cb0-9486-08d7de136c96</parentFolderId>
           <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
@@ -326,6 +334,14 @@
           <display>[call] Dialog.Close</display>
           <isAbstract>false</isAbstract>
           <genericTypes />
+          <typeReference id="63c4c4c3-940b-413c-b30d-22dda50bdf70">
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
           <isMapped>false</isMapped>
           <parentFolderId>1169f2aa-e882-464b-8816-99270e5a2042</parentFolderId>
           <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>

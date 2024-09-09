@@ -279,6 +279,14 @@
           <display>[call] Dialog.Close</display>
           <isAbstract>false</isAbstract>
           <genericTypes />
+          <typeReference id="3b74abef-490b-43d9-8d16-78c46f7832dc">
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
           <isMapped>false</isMapped>
           <parentFolderId>e4eb785d-f133-4f3f-a0f3-e69090301ffa</parentFolderId>
           <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
@@ -355,6 +363,14 @@
           <display>[call] Dialog.Cancel</display>
           <isAbstract>false</isAbstract>
           <genericTypes />
+          <typeReference id="b13430db-1e5f-4443-8ce2-1dcf60469924">
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
           <isMapped>false</isMapped>
           <parentFolderId>8389d1da-5be1-45b0-a37c-5be9286a46f6</parentFolderId>
           <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
@@ -431,6 +447,14 @@
           <display>[call] Dialog.Close</display>
           <isAbstract>false</isAbstract>
           <genericTypes />
+          <typeReference id="ebbeaebd-cd69-403e-bccd-e9c26750c5cc">
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
           <isMapped>false</isMapped>
           <parentFolderId>31ae8ef7-df2c-4af1-9b81-c6aad7199348</parentFolderId>
           <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>

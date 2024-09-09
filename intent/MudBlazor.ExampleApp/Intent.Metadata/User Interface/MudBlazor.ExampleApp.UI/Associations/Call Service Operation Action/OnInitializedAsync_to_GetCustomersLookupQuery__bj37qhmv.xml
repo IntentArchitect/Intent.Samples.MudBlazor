@@ -22,6 +22,9 @@
     <name>GetCustomersLookupQuery</name>
     <display>[call] CustomersService.GetCustomersLookupQuery(): CustomerLookupDto[*]</display>
     <order>0</order>
+    <traits>
+      <trait id="dc813928-0ce1-4f66-ae31-b5e5d506b4a3" name="[Invokable]" />
+    </traits>
     <typeReference id="dffff8ef-a9a6-4b5d-a016-5d035490189a">
       <typeId>0ee67920-9b40-4b95-80ed-c0bac5918b2d</typeId>
       <isNavigable>true</isNavigable>

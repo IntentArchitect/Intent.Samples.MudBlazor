@@ -271,6 +271,9 @@
           <parentFolderId>c0acc140-6438-41a3-bd29-7efffd983818</parentFolderId>
           <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
           <packageName>MudBlazor.ExampleApp.UI</packageName>
+          <traits>
+            <trait id="dc813928-0ce1-4f66-ae31-b5e5d506b4a3" name="[Invokable]" />
+          </traits>
           <stereotypes />
           <mappings>
             <mapping type="Operation Execution Mapping" typeId="d5d1dd6a-15f4-4332-b531-3b74e1d97fab">
@@ -396,6 +399,9 @@
           <parentFolderId>af70f150-41d6-408e-bc1c-719162d1c28f</parentFolderId>
           <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
           <packageName>MudBlazor.ExampleApp.UI</packageName>
+          <traits>
+            <trait id="dc813928-0ce1-4f66-ae31-b5e5d506b4a3" name="[Invokable]" />
+          </traits>
           <stereotypes />
           <mappings>
             <mapping type="Operation Execution Mapping" typeId="d5d1dd6a-15f4-4332-b531-3b74e1d97fab">

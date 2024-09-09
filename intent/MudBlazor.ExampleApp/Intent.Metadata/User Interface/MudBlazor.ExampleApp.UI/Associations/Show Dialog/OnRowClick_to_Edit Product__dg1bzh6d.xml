@@ -22,6 +22,9 @@
     <name>Edit Product</name>
     <display>[show] ProductEditDialog("Edit Product")</display>
     <order>1</order>
+    <traits>
+      <trait id="dc813928-0ce1-4f66-ae31-b5e5d506b4a3" name="[Invokable]" />
+    </traits>
     <typeReference id="71433ab6-9649-417f-9783-8ca76200e811">
       <typeId>80e3e769-da1c-40b1-9fd9-e9183240fd6f</typeId>
       <isNavigable>true</isNavigable>

@@ -22,6 +22,9 @@
     <name>GetCustomerByIdQuery</name>
     <display>[call] CustomersService.GetCustomerByIdQuery(id: guid): CustomerDto</display>
     <order>0</order>
+    <traits>
+      <trait id="dc813928-0ce1-4f66-ae31-b5e5d506b4a3" name="[Invokable]" />
+    </traits>
     <typeReference id="ba6633d7-3497-4bbc-be6b-e87b9cbe5424">
       <typeId>8581a604-a338-4fa3-b40c-e6198519911a</typeId>
       <isNavigable>true</isNavigable>

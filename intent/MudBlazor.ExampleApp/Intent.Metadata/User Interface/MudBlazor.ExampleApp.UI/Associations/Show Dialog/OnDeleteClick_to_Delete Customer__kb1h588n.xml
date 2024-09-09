@@ -22,6 +22,9 @@
     <name>Delete Customer</name>
     <display>[show] ConfirmationDialog("Delete Customer")</display>
     <order>1</order>
+    <traits>
+      <trait id="dc813928-0ce1-4f66-ae31-b5e5d506b4a3" name="[Invokable]" />
+    </traits>
     <typeReference id="4bd64223-bcb2-48f0-935f-15bbb0ad4838">
       <typeId>4255cff1-e16b-4c21-b4f4-8646011c7339</typeId>
       <isNavigable>true</isNavigable>

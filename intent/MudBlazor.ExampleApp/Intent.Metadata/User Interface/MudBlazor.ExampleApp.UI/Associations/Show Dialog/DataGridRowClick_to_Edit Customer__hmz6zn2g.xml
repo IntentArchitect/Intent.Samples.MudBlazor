@@ -22,6 +22,9 @@
     <name>Edit Customer</name>
     <display>[show] CustomerEditDialog("Edit Customer")</display>
     <order>1</order>
+    <traits>
+      <trait id="dc813928-0ce1-4f66-ae31-b5e5d506b4a3" name="[Invokable]" />
+    </traits>
     <typeReference id="2e0453aa-9b17-413c-b335-e9a15d03d744">
       <typeId>0e8e843e-4544-4839-8a71-2d3dd21dc1d9</typeId>
       <isNavigable>true</isNavigable>

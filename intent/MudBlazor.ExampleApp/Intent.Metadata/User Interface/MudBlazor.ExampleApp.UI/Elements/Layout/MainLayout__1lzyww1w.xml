@@ -111,6 +111,9 @@
           <parentFolderId>efd1336f-6052-4309-b62f-fbb101610cb1</parentFolderId>
           <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
           <packageName>MudBlazor.ExampleApp.UI</packageName>
+          <traits>
+            <trait id="b407aace-ad14-484e-ac93-4762a3d182d8" name="[Component]" />
+          </traits>
           <stereotypes />
           <metadata />
           <childElements>
@@ -140,6 +143,9 @@
                   <parentFolderId>64da0909-9264-4692-9563-3d100be4c285</parentFolderId>
                   <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
                   <packageName>MudBlazor.ExampleApp.UI</packageName>
+                  <traits>
+                    <trait id="b407aace-ad14-484e-ac93-4762a3d182d8" name="[Component]" />
+                  </traits>
                   <stereotypes />
                   <metadata />
                   <childElements />
@@ -175,6 +181,9 @@
           <parentFolderId>fd0a5035-a146-4ac3-ab01-e2f110107efa</parentFolderId>
           <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
           <packageName>MudBlazor.ExampleApp.UI</packageName>
+          <traits>
+            <trait id="b407aace-ad14-484e-ac93-4762a3d182d8" name="[Component]" />
+          </traits>
           <stereotypes />
           <metadata />
           <childElements>

@@ -22,6 +22,9 @@
     <name>DeleteCustomerCommand</name>
     <display>[call] CustomersService.DeleteCustomerCommand(id: guid): void</display>
     <order>2</order>
+    <traits>
+      <trait id="dc813928-0ce1-4f66-ae31-b5e5d506b4a3" name="[Invokable]" />
+    </traits>
     <typeReference id="abc666a6-956a-4416-ac8f-c747f236d7b8">
       <typeId>4cb44a09-a555-4939-b826-c89537da148f</typeId>
       <isNavigable>true</isNavigable>

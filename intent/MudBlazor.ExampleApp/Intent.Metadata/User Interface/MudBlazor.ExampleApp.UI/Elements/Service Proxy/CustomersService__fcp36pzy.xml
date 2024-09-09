@@ -50,6 +50,9 @@
       <parentFolderId>f9038dc1-c2df-447b-872f-cec8ef6a5fc9</parentFolderId>
       <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
       <packageName>MudBlazor.ExampleApp.UI</packageName>
+      <traits>
+        <trait id="12bec4f8-487a-40f8-a6d2-c519d995eb38" name="[Invokable Service Operation]" />
+      </traits>
       <stereotypes />
       <metadata />
       <childElements>
@@ -106,6 +109,9 @@
       <parentFolderId>f9038dc1-c2df-447b-872f-cec8ef6a5fc9</parentFolderId>
       <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
       <packageName>MudBlazor.ExampleApp.UI</packageName>
+      <traits>
+        <trait id="12bec4f8-487a-40f8-a6d2-c519d995eb38" name="[Invokable Service Operation]" />
+      </traits>
       <stereotypes />
       <metadata />
       <childElements>
@@ -162,6 +168,9 @@
       <parentFolderId>f9038dc1-c2df-447b-872f-cec8ef6a5fc9</parentFolderId>
       <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
       <packageName>MudBlazor.ExampleApp.UI</packageName>
+      <traits>
+        <trait id="12bec4f8-487a-40f8-a6d2-c519d995eb38" name="[Invokable Service Operation]" />
+      </traits>
       <stereotypes />
       <metadata />
       <childElements>
@@ -247,6 +256,9 @@
       <parentFolderId>f9038dc1-c2df-447b-872f-cec8ef6a5fc9</parentFolderId>
       <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
       <packageName>MudBlazor.ExampleApp.UI</packageName>
+      <traits>
+        <trait id="12bec4f8-487a-40f8-a6d2-c519d995eb38" name="[Invokable Service Operation]" />
+      </traits>
       <stereotypes />
       <metadata />
       <childElements>
@@ -319,6 +331,9 @@
       <parentFolderId>f9038dc1-c2df-447b-872f-cec8ef6a5fc9</parentFolderId>
       <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
       <packageName>MudBlazor.ExampleApp.UI</packageName>
+      <traits>
+        <trait id="12bec4f8-487a-40f8-a6d2-c519d995eb38" name="[Invokable Service Operation]" />
+      </traits>
       <stereotypes />
       <metadata />
       <childElements>
@@ -429,6 +444,9 @@
       <parentFolderId>f9038dc1-c2df-447b-872f-cec8ef6a5fc9</parentFolderId>
       <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
       <packageName>MudBlazor.ExampleApp.UI</packageName>
+      <traits>
+        <trait id="12bec4f8-487a-40f8-a6d2-c519d995eb38" name="[Invokable Service Operation]" />
+      </traits>
       <stereotypes />
       <metadata />
       <childElements />

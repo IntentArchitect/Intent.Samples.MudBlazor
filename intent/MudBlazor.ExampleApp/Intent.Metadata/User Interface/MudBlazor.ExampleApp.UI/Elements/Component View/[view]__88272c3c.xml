@@ -24,6 +24,9 @@
       <parentFolderId>634b8577-1ef0-418b-93f1-750ccf3ea3b9</parentFolderId>
       <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
       <packageName>MudBlazor.ExampleApp.UI</packageName>
+      <traits>
+        <trait id="b407aace-ad14-484e-ac93-4762a3d182d8" name="[Component]" />
+      </traits>
       <stereotypes>
         <stereotype stereotypeDefinitionId="0f3fc9f6-d11b-4e78-b28d-3c818e32d510" name="Interaction">
           <addedByDefault>true</addedByDefault>
@@ -58,6 +61,9 @@
               <parentFolderId>a6ff533d-295a-4021-ab7a-5a69f7792362</parentFolderId>
               <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
               <packageName>MudBlazor.ExampleApp.UI</packageName>
+              <traits>
+                <trait id="b407aace-ad14-484e-ac93-4762a3d182d8" name="[Component]" />
+              </traits>
               <stereotypes>
                 <stereotype stereotypeDefinitionId="a7de29e5-4bee-4e5d-93f0-740569ac6130" name="Interaction">
                   <addedByDefault>true</addedByDefault>

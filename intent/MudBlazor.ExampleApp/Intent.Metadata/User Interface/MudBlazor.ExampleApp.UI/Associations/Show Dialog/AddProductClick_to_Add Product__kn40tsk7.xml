@@ -22,6 +22,9 @@
     <name>Add Product</name>
     <display>[show] ProductAddDialog("Add Product")</display>
     <order>0</order>
+    <traits>
+      <trait id="dc813928-0ce1-4f66-ae31-b5e5d506b4a3" name="[Invokable]" />
+    </traits>
     <typeReference id="a36d2ee1-fa5b-4cd9-a52a-7cc57f9535fb">
       <typeId>82e2c720-26f3-48c1-81ef-aabb13850056</typeId>
       <isNavigable>true</isNavigable>

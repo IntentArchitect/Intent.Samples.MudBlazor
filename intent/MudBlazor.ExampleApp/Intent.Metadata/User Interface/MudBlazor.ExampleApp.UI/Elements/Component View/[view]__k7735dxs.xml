@@ -23,6 +23,9 @@
       <parentFolderId>188159f9-393d-4bf4-8714-8afb4253df27</parentFolderId>
       <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
       <packageName>MudBlazor.ExampleApp.UI</packageName>
+      <traits>
+        <trait id="b407aace-ad14-484e-ac93-4762a3d182d8" name="[Component]" />
+      </traits>
       <stereotypes />
       <metadata />
       <childElements>
@@ -49,6 +52,9 @@
               <parentFolderId>65752249-c273-46c0-9f0f-d2134f021dcc</parentFolderId>
               <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
               <packageName>MudBlazor.ExampleApp.UI</packageName>
+              <traits>
+                <trait id="b407aace-ad14-484e-ac93-4762a3d182d8" name="[Component]" />
+              </traits>
               <stereotypes>
                 <stereotype stereotypeDefinitionId="e242cccf-5826-478f-9e7a-c1fd9df4e5c8" name="Interaction">
                   <addedByDefault>true</addedByDefault>
@@ -71,6 +77,9 @@
                   <parentFolderId>660ec46c-9050-4a81-a0f5-5d16ebde353c</parentFolderId>
                   <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
                   <packageName>MudBlazor.ExampleApp.UI</packageName>
+                  <traits>
+                    <trait id="b407aace-ad14-484e-ac93-4762a3d182d8" name="[Component]" />
+                  </traits>
                   <stereotypes>
                     <stereotype stereotypeDefinitionId="6e04ff81-f043-4ac6-8632-798aedbaaf20" name="Interaction">
                       <addedByDefault>true</addedByDefault>
@@ -108,6 +117,9 @@
                   <parentFolderId>660ec46c-9050-4a81-a0f5-5d16ebde353c</parentFolderId>
                   <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
                   <packageName>MudBlazor.ExampleApp.UI</packageName>
+                  <traits>
+                    <trait id="b407aace-ad14-484e-ac93-4762a3d182d8" name="[Component]" />
+                  </traits>
                   <stereotypes>
                     <stereotype stereotypeDefinitionId="6e04ff81-f043-4ac6-8632-798aedbaaf20" name="Interaction">
                       <addedByDefault>true</addedByDefault>
@@ -145,6 +157,9 @@
                   <parentFolderId>660ec46c-9050-4a81-a0f5-5d16ebde353c</parentFolderId>
                   <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
                   <packageName>MudBlazor.ExampleApp.UI</packageName>
+                  <traits>
+                    <trait id="b407aace-ad14-484e-ac93-4762a3d182d8" name="[Component]" />
+                  </traits>
                   <stereotypes>
                     <stereotype stereotypeDefinitionId="6e04ff81-f043-4ac6-8632-798aedbaaf20" name="Interaction">
                       <addedByDefault>true</addedByDefault>
@@ -182,6 +197,9 @@
                   <parentFolderId>660ec46c-9050-4a81-a0f5-5d16ebde353c</parentFolderId>
                   <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
                   <packageName>MudBlazor.ExampleApp.UI</packageName>
+                  <traits>
+                    <trait id="b407aace-ad14-484e-ac93-4762a3d182d8" name="[Component]" />
+                  </traits>
                   <stereotypes>
                     <stereotype stereotypeDefinitionId="6e04ff81-f043-4ac6-8632-798aedbaaf20" name="Interaction">
                       <addedByDefault>true</addedByDefault>
@@ -235,6 +253,9 @@
               <parentFolderId>16ac7c19-0e73-458e-8b7d-54952dc8b2aa</parentFolderId>
               <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
               <packageName>MudBlazor.ExampleApp.UI</packageName>
+              <traits>
+                <trait id="b407aace-ad14-484e-ac93-4762a3d182d8" name="[Component]" />
+              </traits>
               <stereotypes>
                 <stereotype stereotypeDefinitionId="a7de29e5-4bee-4e5d-93f0-740569ac6130" name="Interaction">
                   <addedByDefault>true</addedByDefault>
@@ -259,6 +280,9 @@
               <parentFolderId>16ac7c19-0e73-458e-8b7d-54952dc8b2aa</parentFolderId>
               <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
               <packageName>MudBlazor.ExampleApp.UI</packageName>
+              <traits>
+                <trait id="b407aace-ad14-484e-ac93-4762a3d182d8" name="[Component]" />
+              </traits>
               <stereotypes>
                 <stereotype stereotypeDefinitionId="a7de29e5-4bee-4e5d-93f0-740569ac6130" name="Interaction">
                   <addedByDefault>true</addedByDefault>

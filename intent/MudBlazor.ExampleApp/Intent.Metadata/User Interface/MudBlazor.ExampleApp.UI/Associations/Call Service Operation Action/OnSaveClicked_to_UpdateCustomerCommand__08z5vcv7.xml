@@ -22,6 +22,9 @@
     <name>UpdateCustomerCommand</name>
     <display>[call] CustomersService.UpdateCustomerCommand(id: guid, command: UpdateCustomerCommand): void</display>
     <order>0</order>
+    <traits>
+      <trait id="dc813928-0ce1-4f66-ae31-b5e5d506b4a3" name="[Invokable]" />
+    </traits>
     <typeReference id="bbb3fc6b-5ed4-41af-95d6-0b003cd4f5fb">
       <typeId>3524570a-6044-4532-a531-8f0d4b6d52ba</typeId>
       <isNavigable>true</isNavigable>

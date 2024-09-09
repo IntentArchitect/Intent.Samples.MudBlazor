@@ -22,6 +22,9 @@
     <name>GetCustomersQuery</name>
     <display>[call] CustomersService.GetCustomersQuery(pageNo: int, pageSize: int, orderBy: string?): PagedResult&lt;CustomerDto&gt;</display>
     <order>3</order>
+    <traits>
+      <trait id="dc813928-0ce1-4f66-ae31-b5e5d506b4a3" name="[Invokable]" />
+    </traits>
     <typeReference id="622136f1-3328-4ca0-98e7-d56bddf2acbb">
       <typeId>ed358e25-9856-4c07-977a-51c1ee233a72</typeId>
       <isNavigable>true</isNavigable>

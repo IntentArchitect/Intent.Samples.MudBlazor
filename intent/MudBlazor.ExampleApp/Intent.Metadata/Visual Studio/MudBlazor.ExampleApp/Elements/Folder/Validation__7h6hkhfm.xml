@@ -37,10 +37,10 @@
       </metadata>
       <childElements />
     </childElement>
-    <childElement id="9cc5f98b-0e77-4ad1-9cd2-26f4cd4f96b0" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
-      <name>Intent.Blazor.HttpClients.Dtos.FluentValidation.ValidatorProvider</name>
-      <display>Intent.Blazor.HttpClients.Dtos.FluentValidation.ValidatorProvider</display>
-      <externalReference>Intent.Blazor.HttpClients.Dtos.FluentValidation</externalReference>
+    <childElement id="f4f6daa0-d3f1-4412-b75f-4e9b9152e8c9" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Intent.Blazor.FluentValidation.ValidatorProvider</name>
+      <display>Intent.Blazor.FluentValidation.ValidatorProvider</display>
+      <externalReference>Intent.Blazor.FluentValidation</externalReference>
       <isAbstract>false</isAbstract>
       <genericTypes />
       <isMapped>false</isMapped>
@@ -53,10 +53,10 @@
       </metadata>
       <childElements />
     </childElement>
-    <childElement id="f02bdcba-38ab-4f53-b0c8-4720f2b44bd9" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
-      <name>Intent.Blazor.HttpClients.Dtos.FluentValidation.ValidatorProviderInterface</name>
-      <display>Intent.Blazor.HttpClients.Dtos.FluentValidation.ValidatorProviderInterface</display>
-      <externalReference>Intent.Blazor.HttpClients.Dtos.FluentValidation</externalReference>
+    <childElement id="deba6dca-0ac5-454b-a4e3-e46183e3b429" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Intent.Blazor.FluentValidation.ValidatorProviderInterface</name>
+      <display>Intent.Blazor.FluentValidation.ValidatorProviderInterface</display>
+      <externalReference>Intent.Blazor.FluentValidation</externalReference>
       <isAbstract>false</isAbstract>
       <genericTypes />
       <isMapped>false</isMapped>

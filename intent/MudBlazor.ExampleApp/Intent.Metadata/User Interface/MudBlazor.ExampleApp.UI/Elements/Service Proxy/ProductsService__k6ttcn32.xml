@@ -19,6 +19,9 @@
   <parentFolderId>11cdc31a-966a-4a9c-8796-a321cda740a4</parentFolderId>
   <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
   <packageName>MudBlazor.ExampleApp.UI</packageName>
+  <traits>
+    <trait id="20ce5b45-803a-4e2d-9f62-53b90f856529" name="[Injectable Service]" />
+  </traits>
   <stereotypes />
   <metadata />
   <childElements>
@@ -51,6 +54,7 @@
       <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
       <packageName>MudBlazor.ExampleApp.UI</packageName>
       <traits>
+        <trait id="2b6729eb-e2ae-4b5f-86fe-4f611d1f912e" name="[Processing Handler]" />
         <trait id="12bec4f8-487a-40f8-a6d2-c519d995eb38" name="[Invokable Service Operation]" />
       </traits>
       <stereotypes />
@@ -110,6 +114,7 @@
       <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
       <packageName>MudBlazor.ExampleApp.UI</packageName>
       <traits>
+        <trait id="2b6729eb-e2ae-4b5f-86fe-4f611d1f912e" name="[Processing Handler]" />
         <trait id="12bec4f8-487a-40f8-a6d2-c519d995eb38" name="[Invokable Service Operation]" />
       </traits>
       <stereotypes />
@@ -169,6 +174,7 @@
       <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
       <packageName>MudBlazor.ExampleApp.UI</packageName>
       <traits>
+        <trait id="2b6729eb-e2ae-4b5f-86fe-4f611d1f912e" name="[Processing Handler]" />
         <trait id="12bec4f8-487a-40f8-a6d2-c519d995eb38" name="[Invokable Service Operation]" />
       </traits>
       <stereotypes />
@@ -257,6 +263,7 @@
       <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
       <packageName>MudBlazor.ExampleApp.UI</packageName>
       <traits>
+        <trait id="2b6729eb-e2ae-4b5f-86fe-4f611d1f912e" name="[Processing Handler]" />
         <trait id="12bec4f8-487a-40f8-a6d2-c519d995eb38" name="[Invokable Service Operation]" />
       </traits>
       <stereotypes />
@@ -292,7 +299,7 @@
     </childElement>
     <childElement id="20855426-4972-4feb-9238-8b75015a242b" type="Operation" typeId="aee6811e-b2f6-4562-a8eb-502029f63bc8">
       <name>GetProductsQuery</name>
-      <display>GetProductsQuery(pageNo: int, pageSize: int, orderBy: string?): PagedResult&lt;ProductDto&gt;</display>
+      <display>GetProductsQuery(pageNo: int, pageSize: int, orderBy: string?, searchText: string?): PagedResult&lt;ProductDto&gt;</display>
       <isAbstract>false</isAbstract>
       <sort-children>by-type-then-manually</sort-children>
       <genericTypes />
@@ -332,6 +339,7 @@
       <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
       <packageName>MudBlazor.ExampleApp.UI</packageName>
       <traits>
+        <trait id="2b6729eb-e2ae-4b5f-86fe-4f611d1f912e" name="[Processing Handler]" />
         <trait id="12bec4f8-487a-40f8-a6d2-c519d995eb38" name="[Invokable Service Operation]" />
       </traits>
       <stereotypes />
@@ -415,6 +423,32 @@
           </metadata>
           <childElements />
         </childElement>
+        <childElement id="bff532f2-5d97-462e-b522-61944db6a182" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
+          <name>searchText</name>
+          <display>searchText: string?</display>
+          <isAbstract>false</isAbstract>
+          <genericTypes />
+          <typeReference id="6ec97ec4-ed80-4a2e-b6d7-a8c62d572cde">
+            <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>true</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>Intent.Common.Types</typePackageName>
+            <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>false</isMapped>
+          <parentFolderId>20855426-4972-4feb-9238-8b75015a242b</parentFolderId>
+          <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
+          <packageName>MudBlazor.ExampleApp.UI</packageName>
+          <stereotypes />
+          <metadata>
+            <entry key="endpoint-input-id" value="158d84be-0142-484a-a330-3b9de1e2a341" />
+          </metadata>
+          <childElements />
+        </childElement>
       </childElements>
     </childElement>
     <childElement id="a366ba35-aa3a-4754-804a-bd6f2768f561" type="Operation" typeId="aee6811e-b2f6-4562-a8eb-502029f63bc8">
@@ -445,6 +479,7 @@
       <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
       <packageName>MudBlazor.ExampleApp.UI</packageName>
       <traits>
+        <trait id="2b6729eb-e2ae-4b5f-86fe-4f611d1f912e" name="[Processing Handler]" />
         <trait id="12bec4f8-487a-40f8-a6d2-c519d995eb38" name="[Invokable Service Operation]" />
       </traits>
       <stereotypes />

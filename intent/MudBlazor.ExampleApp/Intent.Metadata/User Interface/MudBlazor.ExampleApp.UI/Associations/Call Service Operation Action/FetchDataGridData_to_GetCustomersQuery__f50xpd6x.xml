@@ -20,7 +20,7 @@
   </sourceEnd>
   <targetEnd id="305172be-d984-4413-80d9-ddfd19bc1b3f" type="Call Service Operation Action Target End" typeId="475f0810-2b4a-40da-8eb8-697cb62f7dbe">
     <name>GetCustomersQuery</name>
-    <display>[call] CustomersService.GetCustomersQuery(pageNo: int, pageSize: int, orderBy: string?): PagedResult&lt;CustomerDto&gt;</display>
+    <display>[call] CustomersService.GetCustomersQuery(pageNo: int, pageSize: int, orderBy: string?, searchText: string?): PagedResult&lt;CustomerDto&gt;</display>
     <order>3</order>
     <traits>
       <trait id="dc813928-0ce1-4f66-ae31-b5e5d506b4a3" name="[Invokable]" />
@@ -105,6 +105,21 @@
               </source>
             </sources>
           </mappedEnd>
+          <mappedEnd>
+            <expression>{SearchText}</expression>
+            <path>
+              <target id="ed358e25-9856-4c07-977a-51c1ee233a72" name="GetCustomersQuery" type="element" specialization="Operation" specializationId="aee6811e-b2f6-4562-a8eb-502029f63bc8" />
+              <target id="63a8c678-02c0-4390-b328-30f7b389f5da" name="searchText" type="element" specialization="Parameter" specializationId="f11273c1-217f-4f42-b690-3d8b488f95a8" />
+            </path>
+            <sources>
+              <source identifier="SearchText" mappingType="Data Mapping" mappingTypeId="ce70308a-e29d-4644-8410-f9e6bbd214fc">
+                <path>
+                  <target id="0dc39b57-b081-4dc6-a294-7e0628233b03" name="CustomerList" type="element" specialization="Component" specializationId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b" />
+                  <target id="ea2020f5-1be1-457a-8225-caae7cac2807" name="SearchText" type="element" specialization="Property" specializationId="356fbe17-bc63-4e16-b915-feefbc063cbe" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
         </mappedEnds>
       </mapping>
       <mapping type="Call Service Response Mapping" typeId="e60890c6-7ce7-47be-a0da-dff82b8adc02">
@@ -124,7 +139,7 @@
                   <target id="cb2a3513-8f54-4773-b608-d7a24d56bda9" name="FetchDataGridData" type="element" specialization="Component Operation" specializationId="e030c97a-e066-40a7-8188-808c275df3cb" />
                   <target id="305172be-d984-4413-80d9-ddfd19bc1b3f" name="GetCustomersQuery" type="association" specialization="Call Service Operation Action Target End" specializationId="475f0810-2b4a-40da-8eb8-697cb62f7dbe" />
                   <target id="2f68b1a4-a523-4987-b3da-f35e6e8e146b" name="response" type="static-mappable" specialization="response" specializationId="2f68b1a4-a523-4987-b3da-f35e6e8e146b">
-                    <typeReference id="b78e6f14-ae5a-46cc-9a3e-1baacefb7b19">
+                    <typeReference id="8e9ab1c0-6e08-4707-be81-f0f90adb3946">
                       <typeId>9204e067-bdc8-45e7-8970-8a833fdc5253</typeId>
                       <isNavigable>true</isNavigable>
                       <isNullable>false</isNullable>

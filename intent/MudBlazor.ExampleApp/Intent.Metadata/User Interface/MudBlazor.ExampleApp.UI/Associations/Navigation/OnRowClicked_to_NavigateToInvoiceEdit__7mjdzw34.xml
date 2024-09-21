@@ -53,7 +53,7 @@
                 <path>
                   <target id="a80d7708-e051-4927-b32e-c239affc1689" name="InvoiceList" type="element" specialization="Component" specializationId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b" />
                   <target id="fe54069b-ed6f-402b-a239-cb2d40f34b4c" name="OnRowClicked" type="element" specialization="Component Operation" specializationId="e030c97a-e066-40a7-8188-808c275df3cb" />
-                  <target id="bcb82e3f-0cb1-4800-aee3-2097169a565f" name="invoiceId" type="element" specialization="Parameter" specializationId="00208d20-469d-41cb-8501-768fd5eb796b" />
+                  <target id="bcb82e3f-0cb1-4800-aee3-2097169a565f" name="invoiceId" type="element" specialization="Parameter" specializationId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b" />
                 </path>
               </source>
             </sources>

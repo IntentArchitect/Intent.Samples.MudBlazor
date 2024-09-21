@@ -17,12 +17,28 @@
       <target applicationId="00727c17-aeb5-470b-991f-68c0b481117e" designerId="f492faed-0665-4513-9853-5a230721786f" elementId="40385617-a034-4086-8398-a20bfb2f4a3a" location="[MudBlazor.ExampleApp].[User Interface].[MainLayout]" />
       <mappedEnds>
         <mappedEnd>
+          <expression>{NavigateToHome}</expression>
+          <path>
+            <target id="40385617-a034-4086-8398-a20bfb2f4a3a" name="MainLayout" type="element" specialization="Layout" specializationId="776a9393-6b23-4a8c-8937-fd7e833fa0ef" />
+            <target id="efd1336f-6052-4309-b62f-fbb101610cb1" name="Header" type="element" specialization="Layout Header" specializationId="a6c3a89e-5932-4ab6-a406-75444f05beee" />
+            <target id="92caffe9-26e3-4552-badd-b0235f7b8ab6" name="Home" type="element" specialization="Button" specializationId="4474d808-f6fd-405f-a9c7-6998cd000ede" />
+            <target id="ddfa6961-1042-4bea-84c7-4b2e9853c80a" name="Link To" type="static-mappable" specialization="Link To" specializationId="ddfa6961-1042-4bea-84c7-4b2e9853c80a" />
+          </path>
+          <sources>
+            <source identifier="NavigateToHome" mappingType="Event Mapping" mappingTypeId="95ce3c3e-ddf4-440b-a9b2-6b152a5fc1b8">
+              <path>
+                <target id="40385617-a034-4086-8398-a20bfb2f4a3a" name="MainLayout" type="element" specialization="Layout" specializationId="776a9393-6b23-4a8c-8937-fd7e833fa0ef" />
+                <target id="c6068d11-7a39-4704-be3b-bb8237125f65" name="NavigateToHome" type="association" specialization="Navigation Target End" specializationId="2b191288-ecae-4743-b069-cbdd927ef349" />
+              </path>
+            </source>
+          </sources>
+        </mappedEnd>
+        <mappedEnd>
           <expression>#####Application</expression>
           <path>
             <target id="40385617-a034-4086-8398-a20bfb2f4a3a" name="MainLayout" type="element" specialization="Layout" specializationId="776a9393-6b23-4a8c-8937-fd7e833fa0ef" />
             <target id="efd1336f-6052-4309-b62f-fbb101610cb1" name="Header" type="element" specialization="Layout Header" specializationId="a6c3a89e-5932-4ab6-a406-75444f05beee" />
-            <target id="e42960cc-9596-45f1-801e-d7d8194c7e15" name="Navigation Bar" type="element" specialization="Navigation Menu" specializationId="d7282bf2-1626-4b8b-9446-1d530527db06" />
-            <target id="64da0909-9264-4692-9563-3d100be4c285" name="Logo" type="element" specialization="Menu Item" specializationId="adbf2fa8-6833-4c24-960a-31d8a41fd1ed" />
+            <target id="92caffe9-26e3-4552-badd-b0235f7b8ab6" name="Home" type="element" specialization="Button" specializationId="4474d808-f6fd-405f-a9c7-6998cd000ede" />
             <target id="27854f1b-eed2-4349-9d66-eb997d1b89bc" name="Text" type="element" specialization="Text" specializationId="922150d2-42e6-4805-a002-f9580cdf7f6f" />
           </path>
           <sources />
@@ -100,9 +116,83 @@
       <stereotypes />
       <metadata />
       <childElements>
+        <childElement id="92caffe9-26e3-4552-badd-b0235f7b8ab6" type="Button" typeId="4474d808-f6fd-405f-a9c7-6998cd000ede">
+          <name>Home</name>
+          <display>Home</display>
+          <isAbstract>false</isAbstract>
+          <sort-children>by-type-then-by-name</sort-children>
+          <genericTypes />
+          <isMapped>false</isMapped>
+          <parentFolderId>efd1336f-6052-4309-b62f-fbb101610cb1</parentFolderId>
+          <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
+          <packageName>MudBlazor.ExampleApp.UI</packageName>
+          <traits>
+            <trait id="b407aace-ad14-484e-ac93-4762a3d182d8" name="[Component]" />
+          </traits>
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="a7de29e5-4bee-4e5d-93f0-740569ac6130" name="Interaction">
+              <addedByDefault>true</addedByDefault>
+              <definitionPackageName>Intent.Modelers.UI.Core</definitionPackageName>
+              <definitionPackageId>a2a95421-3e55-43c7-96ad-355610b43c4d</definitionPackageId>
+              <properties>
+                <property name="7cee794d-e1a7-4590-b65a-6e56914a2a97" display="Type" value="Default" isActive="true" />
+                <property name="2265736b-4381-42dc-9dbf-b757188837bc" display="Form" isActive="false" />
+                <property name="d05f7b5b-fe45-4cbb-b938-380a4b68c0df" display="On Click" isActive="true" />
+              </properties>
+            </stereotype>
+            <stereotype stereotypeDefinitionId="b218f7cb-d150-401d-a17a-9e22fadf863f" name="Appearance">
+              <addedByDefault>true</addedByDefault>
+              <definitionPackageName>Intent.Blazor.Components.MudBlazor</definitionPackageName>
+              <definitionPackageId>47e5f8d0-3892-4408-b6f9-88bf8591af2d</definitionPackageId>
+              <properties>
+                <property name="eecbc26c-443b-4d97-a706-a4e21fc13552" display="Icon Only" value="false" isActive="false" />
+                <property name="de8a25d2-a144-4806-b5ad-e6c195abfa43" display="Variant" isActive="true" />
+                <property name="d527d5a7-fd00-4486-a204-5c6fc93099a5" display="Color" value="7d3b2bd9-931f-444b-a478-ad39a98d5d4b" isActive="true" />
+                <property name="9243cf9b-c6de-47d4-a914-382ab7ddf920" display="Class" isActive="true" />
+              </properties>
+            </stereotype>
+          </stereotypes>
+          <metadata />
+          <childElements>
+            <childElement id="27854f1b-eed2-4349-9d66-eb997d1b89bc" type="Text" typeId="922150d2-42e6-4805-a002-f9580cdf7f6f">
+              <name>Text</name>
+              <display>Text = #####Application</display>
+              <externalReference>985fd193-f79b-4c61-b91e-847471629772</externalReference>
+              <isAbstract>false</isAbstract>
+              <value>#####Application</value>
+              <genericTypes />
+              <isMapped>false</isMapped>
+              <parentFolderId>92caffe9-26e3-4552-badd-b0235f7b8ab6</parentFolderId>
+              <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
+              <packageName>MudBlazor.ExampleApp.UI</packageName>
+              <traits>
+                <trait id="b407aace-ad14-484e-ac93-4762a3d182d8" name="[Component]" />
+              </traits>
+              <stereotypes />
+              <metadata />
+              <childElements />
+            </childElement>
+          </childElements>
+        </childElement>
+        <childElement id="54b5cbdf-6675-440f-a5c4-fcdcd77a8318" type="Spacer" typeId="cfc58280-fe7e-466d-9c00-ddb41b5462e7">
+          <name>Spacer</name>
+          <display>Spacer</display>
+          <isAbstract>false</isAbstract>
+          <genericTypes />
+          <isMapped>false</isMapped>
+          <parentFolderId>efd1336f-6052-4309-b62f-fbb101610cb1</parentFolderId>
+          <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
+          <packageName>MudBlazor.ExampleApp.UI</packageName>
+          <traits>
+            <trait id="b407aace-ad14-484e-ac93-4762a3d182d8" name="[Component]" />
+          </traits>
+          <stereotypes />
+          <metadata />
+          <childElements />
+        </childElement>
         <childElement id="e42960cc-9596-45f1-801e-d7d8194c7e15" type="Navigation Menu" typeId="d7282bf2-1626-4b8b-9446-1d530527db06">
-          <name>Navigation Bar</name>
-          <display>Navigation Bar</display>
+          <name>Menu</name>
+          <display>Menu</display>
           <externalReference>bbb814d0-6892-40a2-8539-d0de0adb98d0</externalReference>
           <isAbstract>false</isAbstract>
           <sort-children>by-type-then-manually</sort-children>
@@ -114,43 +204,91 @@
           <traits>
             <trait id="b407aace-ad14-484e-ac93-4762a3d182d8" name="[Component]" />
           </traits>
-          <stereotypes />
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="8e1b7033-fd27-495a-a2a7-36b5168f04f5" name="Icon">
+              <addedByDefault>false</addedByDefault>
+              <definitionPackageName>Intent.Blazor.Components.MudBlazor</definitionPackageName>
+              <definitionPackageId>47e5f8d0-3892-4408-b6f9-88bf8591af2d</definitionPackageId>
+              <properties>
+                <property name="7bda044e-8be7-4ac4-98cd-41e97132942f" display="Icon Value" value="e973627f-6106-4763-9459-998016c8c2b3" isActive="true" />
+                <property name="6a70b142-c60d-4015-97aa-be0bcab7d128" display="Icon Color" isActive="true" />
+                <property name="13f1151e-7611-4bde-8374-1598b5d3335c" display="Variant" value="41f2ef78-a358-43bd-9b84-926dc185c8d1" isActive="true" />
+              </properties>
+            </stereotype>
+          </stereotypes>
           <metadata />
           <childElements>
-            <childElement id="64da0909-9264-4692-9563-3d100be4c285" type="Menu Item" typeId="adbf2fa8-6833-4c24-960a-31d8a41fd1ed">
-              <name>Logo</name>
-              <display>Logo</display>
-              <externalReference>39b249f7-ae57-433e-9db2-08b1f5197213</externalReference>
+            <childElement id="cc120d03-63be-4fe0-885c-2841d9ef04c4" type="Menu Item" typeId="adbf2fa8-6833-4c24-960a-31d8a41fd1ed">
+              <name>Profile</name>
+              <display>Profile</display>
               <isAbstract>false</isAbstract>
-              <value />
-              <sort-children>manually</sort-children>
               <genericTypes />
               <isMapped>false</isMapped>
               <parentFolderId>e42960cc-9596-45f1-801e-d7d8194c7e15</parentFolderId>
               <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
               <packageName>MudBlazor.ExampleApp.UI</packageName>
-              <stereotypes />
+              <stereotypes>
+                <stereotype stereotypeDefinitionId="8e1b7033-fd27-495a-a2a7-36b5168f04f5" name="Icon">
+                  <addedByDefault>false</addedByDefault>
+                  <definitionPackageName>Intent.Blazor.Components.MudBlazor</definitionPackageName>
+                  <definitionPackageId>47e5f8d0-3892-4408-b6f9-88bf8591af2d</definitionPackageId>
+                  <properties>
+                    <property name="7bda044e-8be7-4ac4-98cd-41e97132942f" display="Icon Value" value="9257f134-f2a4-446e-aa94-a37565b130c6" isActive="true" />
+                    <property name="6a70b142-c60d-4015-97aa-be0bcab7d128" display="Icon Color" isActive="true" />
+                    <property name="13f1151e-7611-4bde-8374-1598b5d3335c" display="Variant" value="41f2ef78-a358-43bd-9b84-926dc185c8d1" isActive="true" />
+                  </properties>
+                </stereotype>
+              </stereotypes>
               <metadata />
-              <childElements>
-                <childElement id="27854f1b-eed2-4349-9d66-eb997d1b89bc" type="Text" typeId="922150d2-42e6-4805-a002-f9580cdf7f6f">
-                  <name>Text</name>
-                  <display>Text = #####Application</display>
-                  <externalReference>985fd193-f79b-4c61-b91e-847471629772</externalReference>
-                  <isAbstract>false</isAbstract>
-                  <value>#####Application</value>
-                  <genericTypes />
-                  <isMapped>false</isMapped>
-                  <parentFolderId>64da0909-9264-4692-9563-3d100be4c285</parentFolderId>
-                  <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
-                  <packageName>MudBlazor.ExampleApp.UI</packageName>
-                  <traits>
-                    <trait id="b407aace-ad14-484e-ac93-4762a3d182d8" name="[Component]" />
-                  </traits>
-                  <stereotypes />
-                  <metadata />
-                  <childElements />
-                </childElement>
-              </childElements>
+              <childElements />
+            </childElement>
+            <childElement id="bc2b236e-7f04-4677-9ba7-c4ae6ee0cd98" type="Menu Item" typeId="adbf2fa8-6833-4c24-960a-31d8a41fd1ed">
+              <name>My Account</name>
+              <display>My Account</display>
+              <isAbstract>false</isAbstract>
+              <genericTypes />
+              <isMapped>false</isMapped>
+              <parentFolderId>e42960cc-9596-45f1-801e-d7d8194c7e15</parentFolderId>
+              <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
+              <packageName>MudBlazor.ExampleApp.UI</packageName>
+              <stereotypes>
+                <stereotype stereotypeDefinitionId="8e1b7033-fd27-495a-a2a7-36b5168f04f5" name="Icon">
+                  <addedByDefault>false</addedByDefault>
+                  <definitionPackageName>Intent.Blazor.Components.MudBlazor</definitionPackageName>
+                  <definitionPackageId>47e5f8d0-3892-4408-b6f9-88bf8591af2d</definitionPackageId>
+                  <properties>
+                    <property name="7bda044e-8be7-4ac4-98cd-41e97132942f" display="Icon Value" value="4f0b64a4-01a2-4ea8-9ee5-5785449f159d" isActive="true" />
+                    <property name="6a70b142-c60d-4015-97aa-be0bcab7d128" display="Icon Color" isActive="true" />
+                    <property name="13f1151e-7611-4bde-8374-1598b5d3335c" display="Variant" value="41f2ef78-a358-43bd-9b84-926dc185c8d1" isActive="true" />
+                  </properties>
+                </stereotype>
+              </stereotypes>
+              <metadata />
+              <childElements />
+            </childElement>
+            <childElement id="c007bd2b-37d0-4e01-a290-5f78ad4633b9" type="Menu Item" typeId="adbf2fa8-6833-4c24-960a-31d8a41fd1ed">
+              <name>Logout</name>
+              <display>Logout</display>
+              <isAbstract>false</isAbstract>
+              <genericTypes />
+              <isMapped>false</isMapped>
+              <parentFolderId>e42960cc-9596-45f1-801e-d7d8194c7e15</parentFolderId>
+              <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
+              <packageName>MudBlazor.ExampleApp.UI</packageName>
+              <stereotypes>
+                <stereotype stereotypeDefinitionId="8e1b7033-fd27-495a-a2a7-36b5168f04f5" name="Icon">
+                  <addedByDefault>false</addedByDefault>
+                  <definitionPackageName>Intent.Blazor.Components.MudBlazor</definitionPackageName>
+                  <definitionPackageId>47e5f8d0-3892-4408-b6f9-88bf8591af2d</definitionPackageId>
+                  <properties>
+                    <property name="7bda044e-8be7-4ac4-98cd-41e97132942f" display="Icon Value" value="caf1cca8-fa22-4dbe-97e0-8ed3e6c51c38" isActive="true" />
+                    <property name="6a70b142-c60d-4015-97aa-be0bcab7d128" display="Icon Color" isActive="true" />
+                    <property name="13f1151e-7611-4bde-8374-1598b5d3335c" display="Variant" value="41f2ef78-a358-43bd-9b84-926dc185c8d1" isActive="true" />
+                  </properties>
+                </stereotype>
+              </stereotypes>
+              <metadata />
+              <childElements />
             </childElement>
           </childElements>
         </childElement>
@@ -196,7 +334,18 @@
               <parentFolderId>2d5d1340-de59-412e-b34c-684a16cff385</parentFolderId>
               <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
               <packageName>MudBlazor.ExampleApp.UI</packageName>
-              <stereotypes />
+              <stereotypes>
+                <stereotype stereotypeDefinitionId="8e1b7033-fd27-495a-a2a7-36b5168f04f5" name="Icon">
+                  <addedByDefault>false</addedByDefault>
+                  <definitionPackageName>Intent.Blazor.Components.MudBlazor</definitionPackageName>
+                  <definitionPackageId>47e5f8d0-3892-4408-b6f9-88bf8591af2d</definitionPackageId>
+                  <properties>
+                    <property name="7bda044e-8be7-4ac4-98cd-41e97132942f" display="Icon Value" value="f6575b79-a490-42bc-aa0b-c76bf8a981d6" isActive="true" />
+                    <property name="6a70b142-c60d-4015-97aa-be0bcab7d128" display="Icon Color" value="5049e0a2-b3c6-4f54-b2ee-c901912b4f36" isActive="true" />
+                    <property name="13f1151e-7611-4bde-8374-1598b5d3335c" display="Variant" value="41f2ef78-a358-43bd-9b84-926dc185c8d1" isActive="true" />
+                  </properties>
+                </stereotype>
+              </stereotypes>
               <metadata />
               <childElements />
             </childElement>
@@ -209,7 +358,18 @@
               <parentFolderId>2d5d1340-de59-412e-b34c-684a16cff385</parentFolderId>
               <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
               <packageName>MudBlazor.ExampleApp.UI</packageName>
-              <stereotypes />
+              <stereotypes>
+                <stereotype stereotypeDefinitionId="8e1b7033-fd27-495a-a2a7-36b5168f04f5" name="Icon">
+                  <addedByDefault>false</addedByDefault>
+                  <definitionPackageName>Intent.Blazor.Components.MudBlazor</definitionPackageName>
+                  <definitionPackageId>47e5f8d0-3892-4408-b6f9-88bf8591af2d</definitionPackageId>
+                  <properties>
+                    <property name="7bda044e-8be7-4ac4-98cd-41e97132942f" display="Icon Value" value="9257f134-f2a4-446e-aa94-a37565b130c6" isActive="true" />
+                    <property name="6a70b142-c60d-4015-97aa-be0bcab7d128" display="Icon Color" value="f1eb8fd0-7cb4-44b4-a755-fac12a49a21d" isActive="true" />
+                    <property name="13f1151e-7611-4bde-8374-1598b5d3335c" display="Variant" value="41f2ef78-a358-43bd-9b84-926dc185c8d1" isActive="true" />
+                  </properties>
+                </stereotype>
+              </stereotypes>
               <metadata />
               <childElements />
             </childElement>
@@ -223,7 +383,18 @@
               <parentFolderId>2d5d1340-de59-412e-b34c-684a16cff385</parentFolderId>
               <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
               <packageName>MudBlazor.ExampleApp.UI</packageName>
-              <stereotypes />
+              <stereotypes>
+                <stereotype stereotypeDefinitionId="8e1b7033-fd27-495a-a2a7-36b5168f04f5" name="Icon">
+                  <addedByDefault>false</addedByDefault>
+                  <definitionPackageName>Intent.Blazor.Components.MudBlazor</definitionPackageName>
+                  <definitionPackageId>47e5f8d0-3892-4408-b6f9-88bf8591af2d</definitionPackageId>
+                  <properties>
+                    <property name="7bda044e-8be7-4ac4-98cd-41e97132942f" display="Icon Value" value="30ceb16e-07c0-4901-ac73-8a91f57be3c6" isActive="true" />
+                    <property name="6a70b142-c60d-4015-97aa-be0bcab7d128" display="Icon Color" value="e8b57d00-fe09-4d21-bc2c-f73eaec19f84" isActive="true" />
+                    <property name="13f1151e-7611-4bde-8374-1598b5d3335c" display="Variant" value="41f2ef78-a358-43bd-9b84-926dc185c8d1" isActive="true" />
+                  </properties>
+                </stereotype>
+              </stereotypes>
               <metadata />
               <childElements />
             </childElement>

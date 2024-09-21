@@ -21,7 +21,7 @@
             <target id="a8f2f920-54cb-472b-8b77-b6d1a0dff5b9" name="[view]" type="element" specialization="Component View" specializationId="624513a6-cba8-4dde-8ebe-6b19f00f0364" />
             <target id="b2b816a4-c91b-4cc5-a947-49c62b68423b" name="Form" type="element" specialization="Form" specializationId="1cfd2d9d-1061-4c45-8b4e-074cfa8dacfd" />
             <target id="9d16e967-a2ab-45b4-ba69-b286daf4488c" name="Model" type="static-mappable" specialization="Model" specializationId="9d16e967-a2ab-45b4-ba69-b286daf4488c">
-              <typeReference id="3a44f7f0-c360-4c49-8dcf-549867f2969e">
+              <typeReference id="6b994ac7-e6c5-461c-b8d5-6a41de0b3052">
                 <isNavigable>true</isNavigable>
                 <isNullable>false</isNullable>
                 <isCollection>false</isCollection>
@@ -312,7 +312,7 @@
             <target id="c201116c-c305-415e-9043-f2178e67fe63" name="Content" type="element" specialization="Card Content" specializationId="57319385-c7e0-43eb-a2d8-b7cb1ddce2e2" />
             <target id="a8479781-aeb8-4957-8fc6-59568ceee876" name="OrderLinesTable" type="element" specialization="Table" specializationId="eee93c29-3d58-4e42-aea9-c00451d17469" />
             <target id="c9e38948-4971-44e8-b791-52d56578d885" name="Units" type="element" specialization="Column" specializationId="d372c640-e649-4e67-84a8-4446f45288db" />
-            <target id="0027f9e2-1390-49df-baae-8c13806b7cb9" name="Text Input" type="element" specialization="Text Input" specializationId="4803bf60-c626-4cbe-94ed-0f1eafff9fe3" />
+            <target id="0027f9e2-1390-49df-baae-8c13806b7cb9" name="Units" type="element" specialization="Text Input" specializationId="4803bf60-c626-4cbe-94ed-0f1eafff9fe3" />
           </path>
           <sources>
             <source identifier="Model.OrderLines.Units" mappingType="Data Mapping" mappingTypeId="ee19a932-0cea-4b90-bd3c-857d7942d390">
@@ -334,7 +334,7 @@
             <target id="c201116c-c305-415e-9043-f2178e67fe63" name="Content" type="element" specialization="Card Content" specializationId="57319385-c7e0-43eb-a2d8-b7cb1ddce2e2" />
             <target id="a8479781-aeb8-4957-8fc6-59568ceee876" name="OrderLinesTable" type="element" specialization="Table" specializationId="eee93c29-3d58-4e42-aea9-c00451d17469" />
             <target id="0955ff4f-c805-4f92-bcd2-0c48fcb76eb4" name="Unit Price" type="element" specialization="Column" specializationId="d372c640-e649-4e67-84a8-4446f45288db" />
-            <target id="744a06be-9a03-422e-95c4-376812c30c35" name="Text Input" type="element" specialization="Text Input" specializationId="4803bf60-c626-4cbe-94ed-0f1eafff9fe3" />
+            <target id="744a06be-9a03-422e-95c4-376812c30c35" name="Price" type="element" specialization="Text Input" specializationId="4803bf60-c626-4cbe-94ed-0f1eafff9fe3" />
           </path>
           <sources>
             <source identifier="Model.OrderLines.UnitPrice" mappingType="Data Mapping" mappingTypeId="ee19a932-0cea-4b90-bd3c-857d7942d390">
@@ -356,7 +356,7 @@
             <target id="c201116c-c305-415e-9043-f2178e67fe63" name="Content" type="element" specialization="Card Content" specializationId="57319385-c7e0-43eb-a2d8-b7cb1ddce2e2" />
             <target id="a8479781-aeb8-4957-8fc6-59568ceee876" name="OrderLinesTable" type="element" specialization="Table" specializationId="eee93c29-3d58-4e42-aea9-c00451d17469" />
             <target id="4abe6751-3023-4c23-8048-42c63ca72d98" name="Discount" type="element" specialization="Column" specializationId="d372c640-e649-4e67-84a8-4446f45288db" />
-            <target id="03fe5ac2-408b-4e23-bcf7-046f22ef2264" name="Text Input" type="element" specialization="Text Input" specializationId="4803bf60-c626-4cbe-94ed-0f1eafff9fe3" />
+            <target id="03fe5ac2-408b-4e23-bcf7-046f22ef2264" name="Discount" type="element" specialization="Text Input" specializationId="4803bf60-c626-4cbe-94ed-0f1eafff9fe3" />
           </path>
           <sources>
             <source identifier="Model.OrderLines.Discount" mappingType="Data Mapping" mappingTypeId="ee19a932-0cea-4b90-bd3c-857d7942d390">
@@ -377,7 +377,7 @@
             <target id="a74bcfc0-ecaf-4fe9-9171-e4c9ba88f979" name="Card" type="element" specialization="Card" specializationId="dfe420aa-426a-4517-bcd1-83cf5ec074fe" />
             <target id="c201116c-c305-415e-9043-f2178e67fe63" name="Content" type="element" specialization="Card Content" specializationId="57319385-c7e0-43eb-a2d8-b7cb1ddce2e2" />
             <target id="a8479781-aeb8-4957-8fc6-59568ceee876" name="OrderLinesTable" type="element" specialization="Table" specializationId="eee93c29-3d58-4e42-aea9-c00451d17469" />
-            <target id="e7d3e954-a4af-4d35-b3b2-8ad3d3564a8b" name="Actions" type="element" specialization="Column" specializationId="d372c640-e649-4e67-84a8-4446f45288db" />
+            <target id="e7d3e954-a4af-4d35-b3b2-8ad3d3564a8b" name="" type="element" specialization="Column" specializationId="d372c640-e649-4e67-84a8-4446f45288db" />
             <target id="ed24c22e-8988-4972-b418-15abae858ae5" name="Delete" type="element" specialization="Button" specializationId="4474d808-f6fd-405f-a9c7-6998cd000ede" />
             <target id="b80f61a7-3b9e-4b75-806f-71d4f8b9900a" name="On Click" type="static-mappable" specialization="On Click" specializationId="b80f61a7-3b9e-4b75-806f-71d4f8b9900a" />
           </path>
@@ -398,7 +398,7 @@
             <target id="a74bcfc0-ecaf-4fe9-9171-e4c9ba88f979" name="Card" type="element" specialization="Card" specializationId="dfe420aa-426a-4517-bcd1-83cf5ec074fe" />
             <target id="c201116c-c305-415e-9043-f2178e67fe63" name="Content" type="element" specialization="Card Content" specializationId="57319385-c7e0-43eb-a2d8-b7cb1ddce2e2" />
             <target id="a8479781-aeb8-4957-8fc6-59568ceee876" name="OrderLinesTable" type="element" specialization="Table" specializationId="eee93c29-3d58-4e42-aea9-c00451d17469" />
-            <target id="e7d3e954-a4af-4d35-b3b2-8ad3d3564a8b" name="Actions" type="element" specialization="Column" specializationId="d372c640-e649-4e67-84a8-4446f45288db" />
+            <target id="e7d3e954-a4af-4d35-b3b2-8ad3d3564a8b" name="" type="element" specialization="Column" specializationId="d372c640-e649-4e67-84a8-4446f45288db" />
             <target id="ed24c22e-8988-4972-b418-15abae858ae5" name="Delete" type="element" specialization="Button" specializationId="4474d808-f6fd-405f-a9c7-6998cd000ede" />
             <target id="b80f61a7-3b9e-4b75-806f-71d4f8b9900a" name="On Click" type="static-mappable" specialization="On Click" specializationId="b80f61a7-3b9e-4b75-806f-71d4f8b9900a" />
             <target id="1a865bec-860f-4d2a-9ab8-b56054f1f1ce" name="orderLine" type="element" specialization="Parameter" specializationId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b" />
@@ -742,7 +742,7 @@
           </traits>
           <stereotypes />
           <mappings>
-            <mapping type="Operation Execution Mapping" typeId="d5d1dd6a-15f4-4332-b531-3b74e1d97fab">
+            <mapping type="Invocation Mapping" typeId="d5d1dd6a-15f4-4332-b531-3b74e1d97fab">
               <source applicationId="00727c17-aeb5-470b-991f-68c0b481117e" designerId="f492faed-0665-4513-9853-5a230721786f" elementId="03d22c9a-2ea7-4c62-a54b-addae3c7f0b5" location="[MudBlazor.ExampleApp].[User Interface].[InvoiceForm]" />
               <target applicationId="00727c17-aeb5-470b-991f-68c0b481117e" designerId="f492faed-0665-4513-9853-5a230721786f" elementId="03d22c9a-2ea7-4c62-a54b-addae3c7f0b5" location="[MudBlazor.ExampleApp].[User Interface].[InvoiceForm]" />
               <mappedEnds>
@@ -772,7 +772,7 @@
                     <target id="a4995de4-ff6d-45c7-9bfd-64706d5257b9" name="OrderLines" type="element" specialization="DTO-Field" specializationId="7baed1fd-469b-4980-8fd9-4cefb8331eb2" />
                     <target id="36d22f9e-3984-477b-af04-b33b94401f72" name="Add()" type="static-mappable" specialization="Add()" specializationId="36d22f9e-3984-477b-af04-b33b94401f72" />
                     <target id="0c83ed35-7e3d-457a-9d17-83ae69aba702" name="item" type="static-mappable" specialization="item" specializationId="0c83ed35-7e3d-457a-9d17-83ae69aba702">
-                      <typeReference id="15c094c0-47c9-4c39-ae43-91808a15cfc4">
+                      <typeReference id="baee4423-0a7c-4ed8-84b1-cc57d5b2ff03">
                         <typeId>6750eca8-7a3d-4bfb-b211-86190d006425</typeId>
                         <isNavigable>true</isNavigable>
                         <isNullable>false</isNullable>
@@ -862,7 +862,7 @@
           </traits>
           <stereotypes />
           <mappings>
-            <mapping type="Operation Execution Mapping" typeId="d5d1dd6a-15f4-4332-b531-3b74e1d97fab">
+            <mapping type="Invocation Mapping" typeId="d5d1dd6a-15f4-4332-b531-3b74e1d97fab">
               <source applicationId="00727c17-aeb5-470b-991f-68c0b481117e" designerId="f492faed-0665-4513-9853-5a230721786f" elementId="03d22c9a-2ea7-4c62-a54b-addae3c7f0b5" location="[MudBlazor.ExampleApp].[User Interface].[InvoiceForm]" />
               <target applicationId="00727c17-aeb5-470b-991f-68c0b481117e" designerId="f492faed-0665-4513-9853-5a230721786f" elementId="03d22c9a-2ea7-4c62-a54b-addae3c7f0b5" location="[MudBlazor.ExampleApp].[User Interface].[InvoiceForm]" />
               <mappedEnds>
@@ -892,7 +892,7 @@
                     <target id="a4995de4-ff6d-45c7-9bfd-64706d5257b9" name="OrderLines" type="element" specialization="DTO-Field" specializationId="7baed1fd-469b-4980-8fd9-4cefb8331eb2" />
                     <target id="ff4ca36e-bb24-4f42-afac-c676d586c812" name="Remove()" type="static-mappable" specialization="Remove()" specializationId="ff4ca36e-bb24-4f42-afac-c676d586c812" />
                     <target id="a8d41024-e64b-4887-9d62-fb6315c10273" name="item" type="static-mappable" specialization="item" specializationId="a8d41024-e64b-4887-9d62-fb6315c10273">
-                      <typeReference id="59006c7f-2b5a-47a7-b568-1cb5df11d308">
+                      <typeReference id="03279324-e1ee-4b61-b23a-d9ad8e7670a5">
                         <typeId>6750eca8-7a3d-4bfb-b211-86190d006425</typeId>
                         <isNavigable>true</isNavigable>
                         <isNullable>false</isNullable>

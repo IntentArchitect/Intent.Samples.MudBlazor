@@ -120,18 +120,18 @@
     </childElement>
     <childElement id="1bea4930-027c-4679-8f26-1d2d80c53da6" type="Property" typeId="356fbe17-bc63-4e16-b915-feefbc063cbe">
       <name>Model</name>
-      <display>Model: InvoiceDto? = new()</display>
+      <display>Model: InvoiceModel? = new()</display>
       <isAbstract>false</isAbstract>
       <value>new()</value>
       <genericTypes />
       <typeReference id="d5b1f019-5e59-4915-b88b-630592b32f84">
-        <typeId>02370575-6315-4bc1-9753-616891d39255</typeId>
+        <typeId>656d8ef2-df8e-4bca-9980-83363f8808a9</typeId>
         <isNavigable>true</isNavigable>
         <isNullable>true</isNullable>
         <isCollection>false</isCollection>
         <isRequired>true</isRequired>
-        <typePackageName>MudBlazor.ExampleApp.Services</typePackageName>
-        <typePackageId>2dac69cf-9281-42ae-b529-49eb2e7a6d3f</typePackageId>
+        <typePackageName>MudBlazor.ExampleApp.UI</typePackageName>
+        <typePackageId>11cdc31a-966a-4a9c-8796-a321cda740a4</typePackageId>
         <stereotypes />
         <genericTypeParameters />
       </typeReference>

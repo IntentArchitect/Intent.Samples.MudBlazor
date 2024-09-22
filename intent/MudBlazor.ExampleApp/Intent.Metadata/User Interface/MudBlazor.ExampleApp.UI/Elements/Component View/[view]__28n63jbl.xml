@@ -532,9 +532,9 @@
                     </childElement>
                     <childElement id="61cfff1f-0a92-4536-b69c-17e53fd3d16b" type="Column" typeId="d372c640-e649-4e67-84a8-4446f45288db">
                       <name>Total</name>
-                      <display>Total</display>
+                      <display>Total = 0</display>
                       <isAbstract>false</isAbstract>
-                      <value />
+                      <value>0</value>
                       <genericTypes />
                       <isMapped>false</isMapped>
                       <parentFolderId>a8479781-aeb8-4957-8fc6-59568ceee876</parentFolderId>

@@ -23,7 +23,7 @@
             <target id="9f5b89c3-bf94-43bc-86a6-78fc255d5a08" name="Content" type="element" specialization="Dialog Content" specializationId="69495016-6e72-4c18-bae5-2391e45cd234" />
             <target id="bc9b5fa4-1dbe-4762-92e8-c8c8df1cb4cf" name="Form" type="element" specialization="Form" specializationId="1cfd2d9d-1061-4c45-8b4e-074cfa8dacfd" />
             <target id="9d16e967-a2ab-45b4-ba69-b286daf4488c" name="Model" type="static-mappable" specialization="Model" specializationId="9d16e967-a2ab-45b4-ba69-b286daf4488c">
-              <typeReference id="634ecab1-6c81-485a-8fd1-1e1d6f815403">
+              <typeReference id="e32525fc-fe6a-4b35-9e58-d1eccd4bb56a">
                 <isNavigable>true</isNavigable>
                 <isNullable>false</isNullable>
                 <isCollection>false</isCollection>

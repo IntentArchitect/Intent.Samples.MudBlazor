@@ -139,7 +139,7 @@
                   <target id="cb2a3513-8f54-4773-b608-d7a24d56bda9" name="FetchDataGridData" type="element" specialization="Component Operation" specializationId="e030c97a-e066-40a7-8188-808c275df3cb" />
                   <target id="305172be-d984-4413-80d9-ddfd19bc1b3f" name="GetCustomersQuery" type="association" specialization="Call Service Operation Action Target End" specializationId="475f0810-2b4a-40da-8eb8-697cb62f7dbe" />
                   <target id="2f68b1a4-a523-4987-b3da-f35e6e8e146b" name="response" type="static-mappable" specialization="response" specializationId="2f68b1a4-a523-4987-b3da-f35e6e8e146b">
-                    <typeReference id="8e9ab1c0-6e08-4707-be81-f0f90adb3946">
+                    <typeReference id="4848d06a-5e96-42ae-ae2f-e160d511a2ad">
                       <typeId>9204e067-bdc8-45e7-8970-8a833fdc5253</typeId>
                       <isNavigable>true</isNavigable>
                       <isNullable>false</isNullable>

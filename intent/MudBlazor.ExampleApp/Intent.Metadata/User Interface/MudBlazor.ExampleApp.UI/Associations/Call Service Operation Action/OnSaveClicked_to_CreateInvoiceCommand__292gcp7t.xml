@@ -69,7 +69,7 @@
                 <path>
                   <target id="fd65838a-6502-4d5f-9282-b6faa6a381fc" name="InvoiceAdd" type="element" specialization="Component" specializationId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b" />
                   <target id="26bc33ed-71de-48c4-9021-be2f25aa3993" name="Model" type="element" specialization="Property" specializationId="356fbe17-bc63-4e16-b915-feefbc063cbe" />
-                  <target id="1c038e03-f28e-4cf0-bff4-10e46abb28cf" name="InvoiceNo" type="element" specialization="DTO-Field" specializationId="7baed1fd-469b-4980-8fd9-4cefb8331eb2" />
+                  <target id="42d74e05-3a36-4f2d-b871-d43801f522d1" name="InvoiceNo" type="element" specialization="Property" specializationId="356fbe17-bc63-4e16-b915-feefbc063cbe" />
                 </path>
               </source>
             </sources>
@@ -86,7 +86,7 @@
                 <path>
                   <target id="fd65838a-6502-4d5f-9282-b6faa6a381fc" name="InvoiceAdd" type="element" specialization="Component" specializationId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b" />
                   <target id="26bc33ed-71de-48c4-9021-be2f25aa3993" name="Model" type="element" specialization="Property" specializationId="356fbe17-bc63-4e16-b915-feefbc063cbe" />
-                  <target id="555598f7-fbf6-4276-bb16-a3c0e5e3b91e" name="InvoiceDate" type="element" specialization="DTO-Field" specializationId="7baed1fd-469b-4980-8fd9-4cefb8331eb2" />
+                  <target id="05ea29f1-8013-48c6-a2db-1df1eeeffee5" name="InvoiceDate" type="element" specialization="Property" specializationId="356fbe17-bc63-4e16-b915-feefbc063cbe" />
                 </path>
               </source>
             </sources>
@@ -103,7 +103,7 @@
                 <path>
                   <target id="fd65838a-6502-4d5f-9282-b6faa6a381fc" name="InvoiceAdd" type="element" specialization="Component" specializationId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b" />
                   <target id="26bc33ed-71de-48c4-9021-be2f25aa3993" name="Model" type="element" specialization="Property" specializationId="356fbe17-bc63-4e16-b915-feefbc063cbe" />
-                  <target id="2a225cad-e7e7-4470-8b29-9d233cd59dac" name="DueDate" type="element" specialization="DTO-Field" specializationId="7baed1fd-469b-4980-8fd9-4cefb8331eb2" />
+                  <target id="b7a98483-e1c7-4e56-a876-d36297e84801" name="DueDate" type="element" specialization="Property" specializationId="356fbe17-bc63-4e16-b915-feefbc063cbe" />
                 </path>
               </source>
             </sources>
@@ -120,7 +120,7 @@
                 <path>
                   <target id="fd65838a-6502-4d5f-9282-b6faa6a381fc" name="InvoiceAdd" type="element" specialization="Component" specializationId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b" />
                   <target id="26bc33ed-71de-48c4-9021-be2f25aa3993" name="Model" type="element" specialization="Property" specializationId="356fbe17-bc63-4e16-b915-feefbc063cbe" />
-                  <target id="4972964b-995a-45ea-b6c0-514f511b4517" name="Reference" type="element" specialization="DTO-Field" specializationId="7baed1fd-469b-4980-8fd9-4cefb8331eb2" />
+                  <target id="f99e0c9b-0638-4bc9-8f0a-2c27ec1c8f50" name="Reference" type="element" specialization="Property" specializationId="356fbe17-bc63-4e16-b915-feefbc063cbe" />
                 </path>
               </source>
             </sources>
@@ -137,7 +137,7 @@
                 <path>
                   <target id="fd65838a-6502-4d5f-9282-b6faa6a381fc" name="InvoiceAdd" type="element" specialization="Component" specializationId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b" />
                   <target id="26bc33ed-71de-48c4-9021-be2f25aa3993" name="Model" type="element" specialization="Property" specializationId="356fbe17-bc63-4e16-b915-feefbc063cbe" />
-                  <target id="b563dccf-3c10-4aad-a305-4156c7e67dee" name="CustomerId" type="element" specialization="DTO-Field" specializationId="7baed1fd-469b-4980-8fd9-4cefb8331eb2" />
+                  <target id="f015cff2-24f0-4261-9815-5449eff25c9b" name="CustomerId" type="element" specialization="Property" specializationId="356fbe17-bc63-4e16-b915-feefbc063cbe" />
                 </path>
               </source>
             </sources>
@@ -154,7 +154,7 @@
                 <path>
                   <target id="fd65838a-6502-4d5f-9282-b6faa6a381fc" name="InvoiceAdd" type="element" specialization="Component" specializationId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b" />
                   <target id="26bc33ed-71de-48c4-9021-be2f25aa3993" name="Model" type="element" specialization="Property" specializationId="356fbe17-bc63-4e16-b915-feefbc063cbe" />
-                  <target id="a4995de4-ff6d-45c7-9bfd-64706d5257b9" name="OrderLines" type="element" specialization="DTO-Field" specializationId="7baed1fd-469b-4980-8fd9-4cefb8331eb2" />
+                  <target id="7ada006b-2886-4204-85de-c846a4656253" name="OrderLines" type="element" specialization="Property" specializationId="356fbe17-bc63-4e16-b915-feefbc063cbe" />
                 </path>
               </source>
             </sources>
@@ -172,8 +172,8 @@
                 <path>
                   <target id="fd65838a-6502-4d5f-9282-b6faa6a381fc" name="InvoiceAdd" type="element" specialization="Component" specializationId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b" />
                   <target id="26bc33ed-71de-48c4-9021-be2f25aa3993" name="Model" type="element" specialization="Property" specializationId="356fbe17-bc63-4e16-b915-feefbc063cbe" />
-                  <target id="a4995de4-ff6d-45c7-9bfd-64706d5257b9" name="OrderLines" type="element" specialization="DTO-Field" specializationId="7baed1fd-469b-4980-8fd9-4cefb8331eb2" />
-                  <target id="8b99b108-f7c1-4d1b-9a55-aca64728c4d1" name="ProductId" type="element" specialization="DTO-Field" specializationId="7baed1fd-469b-4980-8fd9-4cefb8331eb2" />
+                  <target id="7ada006b-2886-4204-85de-c846a4656253" name="OrderLines" type="element" specialization="Property" specializationId="356fbe17-bc63-4e16-b915-feefbc063cbe" />
+                  <target id="91046ed1-c61d-4875-ab7b-5cd72c3687a2" name="ProductId" type="element" specialization="Property" specializationId="356fbe17-bc63-4e16-b915-feefbc063cbe" />
                 </path>
               </source>
             </sources>
@@ -191,8 +191,8 @@
                 <path>
                   <target id="fd65838a-6502-4d5f-9282-b6faa6a381fc" name="InvoiceAdd" type="element" specialization="Component" specializationId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b" />
                   <target id="26bc33ed-71de-48c4-9021-be2f25aa3993" name="Model" type="element" specialization="Property" specializationId="356fbe17-bc63-4e16-b915-feefbc063cbe" />
-                  <target id="a4995de4-ff6d-45c7-9bfd-64706d5257b9" name="OrderLines" type="element" specialization="DTO-Field" specializationId="7baed1fd-469b-4980-8fd9-4cefb8331eb2" />
-                  <target id="ba84c3a1-9d67-4638-9d29-cd2b204fea09" name="Units" type="element" specialization="DTO-Field" specializationId="7baed1fd-469b-4980-8fd9-4cefb8331eb2" />
+                  <target id="7ada006b-2886-4204-85de-c846a4656253" name="OrderLines" type="element" specialization="Property" specializationId="356fbe17-bc63-4e16-b915-feefbc063cbe" />
+                  <target id="669996b0-5eca-4372-ba7a-02a1f2e00994" name="Units" type="element" specialization="Property" specializationId="356fbe17-bc63-4e16-b915-feefbc063cbe" />
                 </path>
               </source>
             </sources>
@@ -210,8 +210,8 @@
                 <path>
                   <target id="fd65838a-6502-4d5f-9282-b6faa6a381fc" name="InvoiceAdd" type="element" specialization="Component" specializationId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b" />
                   <target id="26bc33ed-71de-48c4-9021-be2f25aa3993" name="Model" type="element" specialization="Property" specializationId="356fbe17-bc63-4e16-b915-feefbc063cbe" />
-                  <target id="a4995de4-ff6d-45c7-9bfd-64706d5257b9" name="OrderLines" type="element" specialization="DTO-Field" specializationId="7baed1fd-469b-4980-8fd9-4cefb8331eb2" />
-                  <target id="3e321aa1-0c3b-48bc-881c-25af431da33b" name="UnitPrice" type="element" specialization="DTO-Field" specializationId="7baed1fd-469b-4980-8fd9-4cefb8331eb2" />
+                  <target id="7ada006b-2886-4204-85de-c846a4656253" name="OrderLines" type="element" specialization="Property" specializationId="356fbe17-bc63-4e16-b915-feefbc063cbe" />
+                  <target id="0b2a8b5a-be8c-41a1-880d-cf2d67cffadb" name="UnitPrice" type="element" specialization="Property" specializationId="356fbe17-bc63-4e16-b915-feefbc063cbe" />
                 </path>
               </source>
             </sources>
@@ -229,8 +229,8 @@
                 <path>
                   <target id="fd65838a-6502-4d5f-9282-b6faa6a381fc" name="InvoiceAdd" type="element" specialization="Component" specializationId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b" />
                   <target id="26bc33ed-71de-48c4-9021-be2f25aa3993" name="Model" type="element" specialization="Property" specializationId="356fbe17-bc63-4e16-b915-feefbc063cbe" />
-                  <target id="a4995de4-ff6d-45c7-9bfd-64706d5257b9" name="OrderLines" type="element" specialization="DTO-Field" specializationId="7baed1fd-469b-4980-8fd9-4cefb8331eb2" />
-                  <target id="c42d80e7-fcc4-45d0-a0ce-948db15d25fc" name="Discount" type="element" specialization="DTO-Field" specializationId="7baed1fd-469b-4980-8fd9-4cefb8331eb2" />
+                  <target id="7ada006b-2886-4204-85de-c846a4656253" name="OrderLines" type="element" specialization="Property" specializationId="356fbe17-bc63-4e16-b915-feefbc063cbe" />
+                  <target id="9728d199-ef20-458c-85a7-5a5dc7d7c302" name="Discount" type="element" specialization="Property" specializationId="356fbe17-bc63-4e16-b915-feefbc063cbe" />
                 </path>
               </source>
             </sources>

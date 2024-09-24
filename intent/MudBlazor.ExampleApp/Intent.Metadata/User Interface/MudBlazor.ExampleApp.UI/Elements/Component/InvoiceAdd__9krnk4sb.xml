@@ -15,7 +15,7 @@
       <definitionPackageName>Intent.Modelers.UI</definitionPackageName>
       <definitionPackageId>5c4628ec-679e-4f3d-afda-137c978deae0</definitionPackageId>
       <properties>
-        <property name="9dff9df1-a993-4bf6-9aa7-c16811142228" display="Route" value="/invoices/invoice-add" isActive="true" />
+        <property name="9dff9df1-a993-4bf6-9aa7-c16811142228" display="Route" value="/invoices/add" isActive="true" />
         <property name="0a8627ba-ec45-4023-9c36-b0999f43e982" display="Title" isActive="true" />
       </properties>
     </stereotype>

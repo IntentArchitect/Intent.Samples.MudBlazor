@@ -95,6 +95,7 @@
                     <property name="7cee794d-e1a7-4590-b65a-6e56914a2a97" display="Type" value="Default" isActive="true" />
                     <property name="2265736b-4381-42dc-9dbf-b757188837bc" display="Form" isActive="false" />
                     <property name="d05f7b5b-fe45-4cbb-b938-380a4b68c0df" display="On Click" value="{Submit}" isActive="true" />
+                    <property name="86aeb4ba-54e8-4327-bcb0-166fb9b9968c" display="Link To" isActive="true" />
                   </properties>
                 </stereotype>
                 <stereotype stereotypeDefinitionId="b218f7cb-d150-401d-a17a-9e22fadf863f" name="Appearance">
@@ -104,7 +105,7 @@
                   <properties>
                     <property name="eecbc26c-443b-4d97-a706-a4e21fc13552" display="Icon Only" value="false" isActive="false" />
                     <property name="de8a25d2-a144-4806-b5ad-e6c195abfa43" display="Variant" value="93828c49-ea2f-46d2-b661-df6fc2c4a0e2" isActive="true" />
-                    <property name="d527d5a7-fd00-4486-a204-5c6fc93099a5" display="Color" isActive="true" />
+                    <property name="d527d5a7-fd00-4486-a204-5c6fc93099a5" display="Color" value="7e8569f5-4215-4ead-b111-b5aaf377bf09" isActive="true" />
                     <property name="9243cf9b-c6de-47d4-a914-382ab7ddf920" display="Class" isActive="true" />
                   </properties>
                 </stereotype>
@@ -133,6 +134,7 @@
                     <property name="7cee794d-e1a7-4590-b65a-6e56914a2a97" display="Type" value="Default" isActive="true" />
                     <property name="2265736b-4381-42dc-9dbf-b757188837bc" display="Form" isActive="false" />
                     <property name="d05f7b5b-fe45-4cbb-b938-380a4b68c0df" display="On Click" value="{Cancel}" isActive="true" />
+                    <property name="86aeb4ba-54e8-4327-bcb0-166fb9b9968c" display="Link To" isActive="true" />
                   </properties>
                 </stereotype>
                 <stereotype stereotypeDefinitionId="b218f7cb-d150-401d-a17a-9e22fadf863f" name="Appearance">

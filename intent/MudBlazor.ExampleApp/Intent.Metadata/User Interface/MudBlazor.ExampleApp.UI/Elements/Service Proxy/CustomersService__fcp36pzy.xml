@@ -88,6 +88,160 @@
         </childElement>
       </childElements>
     </childElement>
+    <childElement id="ed358e25-9856-4c07-977a-51c1ee233a72" type="Operation" typeId="aee6811e-b2f6-4562-a8eb-502029f63bc8">
+      <name>GetCustomersQuery</name>
+      <display>GetCustomersQuery(pageNo: int, pageSize: int, orderBy: string?, searchText: string?): PagedResult&lt;CustomerDto&gt;</display>
+      <isAbstract>false</isAbstract>
+      <sort-children>by-type-then-manually</sort-children>
+      <genericTypes />
+      <typeReference id="211a4ba6-dd8d-49ce-a096-299a278f47fd">
+        <typeId>9204e067-bdc8-45e7-8970-8a833fdc5253</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Modelers.Services.Pagination</typePackageName>
+        <typePackageId>7ed452ae-334c-48f7-b0aa-0426fc21e243</typePackageId>
+        <stereotypes />
+        <genericTypeParameters>
+          <genericTypeParameter id="49375762-2397-417e-8e38-bd20e03352a1">
+            <typeId>91f309f1-35fb-45f8-86d2-7b682ad5fe25</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <genericTypeId>b2e9202d-2fb1-426b-91a9-02b6a3a294bd</genericTypeId>
+            <typePackageName>MudBlazor.ExampleApp.Services</typePackageName>
+            <typePackageId>2dac69cf-9281-42ae-b529-49eb2e7a6d3f</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </genericTypeParameter>
+        </genericTypeParameters>
+      </typeReference>
+      <isMapped>true</isMapped>
+      <mappedClass>
+        <mappingSettingsId>df491bea-8a85-4bc9-a93d-41b7abb80ffb</mappingSettingsId>
+        <autoSyncTypeReference>false</autoSyncTypeReference>
+        <mappedPath>
+          <target id="675cead0-622c-4331-b54d-00cc4c59bee0" name="GetCustomersQuery" type="element" specialization="Query" specializationId="e71b0662-e29d-4db2-868b-8a12464b25d0" />
+        </mappedPath>
+      </mappedClass>
+      <parentFolderId>f9038dc1-c2df-447b-872f-cec8ef6a5fc9</parentFolderId>
+      <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
+      <packageName>MudBlazor.ExampleApp.UI</packageName>
+      <traits>
+        <trait id="2b6729eb-e2ae-4b5f-86fe-4f611d1f912e" name="[Processing Handler]" />
+        <trait id="12bec4f8-487a-40f8-a6d2-c519d995eb38" name="[Invokable Service Operation]" />
+      </traits>
+      <stereotypes />
+      <metadata />
+      <childElements>
+        <childElement id="be0690aa-280f-4160-a4ed-c4eaff6b20bd" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
+          <name>pageNo</name>
+          <display>pageNo: int</display>
+          <isAbstract>false</isAbstract>
+          <genericTypes />
+          <typeReference id="b409e4ac-0678-4c45-ab2a-59ca760598d1">
+            <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>Intent.Common.Types</typePackageName>
+            <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>false</isMapped>
+          <parentFolderId>ed358e25-9856-4c07-977a-51c1ee233a72</parentFolderId>
+          <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
+          <packageName>MudBlazor.ExampleApp.UI</packageName>
+          <stereotypes />
+          <metadata>
+            <entry key="endpoint-input-id" value="69325703-94d8-4199-8549-5e94dae7bee0" />
+          </metadata>
+          <childElements />
+        </childElement>
+        <childElement id="b4f9b73b-06d9-4f63-a1ed-dc79bb0b6c92" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
+          <name>pageSize</name>
+          <display>pageSize: int</display>
+          <isAbstract>false</isAbstract>
+          <genericTypes />
+          <typeReference id="8affec9e-28e4-4e5b-b629-c67144f58352">
+            <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>Intent.Common.Types</typePackageName>
+            <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>false</isMapped>
+          <parentFolderId>ed358e25-9856-4c07-977a-51c1ee233a72</parentFolderId>
+          <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
+          <packageName>MudBlazor.ExampleApp.UI</packageName>
+          <stereotypes />
+          <metadata>
+            <entry key="endpoint-input-id" value="cf0708d6-b64b-4beb-b8d7-06527901c619" />
+          </metadata>
+          <childElements />
+        </childElement>
+        <childElement id="846a5f64-787e-45f2-8a91-5cef95402d20" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
+          <name>orderBy</name>
+          <display>orderBy: string?</display>
+          <isAbstract>false</isAbstract>
+          <genericTypes />
+          <typeReference id="8f734d19-1ae1-432c-bffb-73464dde906c">
+            <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>true</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>Intent.Common.Types</typePackageName>
+            <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>false</isMapped>
+          <parentFolderId>ed358e25-9856-4c07-977a-51c1ee233a72</parentFolderId>
+          <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
+          <packageName>MudBlazor.ExampleApp.UI</packageName>
+          <stereotypes />
+          <metadata>
+            <entry key="endpoint-input-id" value="17c2f69a-6776-4366-867f-117b137263fe" />
+          </metadata>
+          <childElements />
+        </childElement>
+        <childElement id="63a8c678-02c0-4390-b328-30f7b389f5da" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
+          <name>searchText</name>
+          <display>searchText: string?</display>
+          <isAbstract>false</isAbstract>
+          <genericTypes />
+          <typeReference id="11b07f33-549a-4f67-bcfe-c5d7e84c09c2">
+            <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>true</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>Intent.Common.Types</typePackageName>
+            <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>false</isMapped>
+          <parentFolderId>ed358e25-9856-4c07-977a-51c1ee233a72</parentFolderId>
+          <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
+          <packageName>MudBlazor.ExampleApp.UI</packageName>
+          <stereotypes />
+          <metadata>
+            <entry key="endpoint-input-id" value="a9b3ccbe-2b02-47ef-a9e9-5f2e7fd71151" />
+          </metadata>
+          <childElements />
+        </childElement>
+      </childElements>
+    </childElement>
     <childElement id="4cb44a09-a555-4939-b826-c89537da148f" type="Operation" typeId="aee6811e-b2f6-4562-a8eb-502029f63bc8">
       <name>DeleteCustomerCommand</name>
       <display>DeleteCustomerCommand(id: guid): void</display>
@@ -292,160 +446,6 @@
           <stereotypes />
           <metadata>
             <entry key="endpoint-input-id" value="10169004-707d-4912-98f6-e12ef35c1f20" />
-          </metadata>
-          <childElements />
-        </childElement>
-      </childElements>
-    </childElement>
-    <childElement id="ed358e25-9856-4c07-977a-51c1ee233a72" type="Operation" typeId="aee6811e-b2f6-4562-a8eb-502029f63bc8">
-      <name>GetCustomersQuery</name>
-      <display>GetCustomersQuery(pageNo: int, pageSize: int, orderBy: string?, searchText: string?): PagedResult&lt;CustomerDto&gt;</display>
-      <isAbstract>false</isAbstract>
-      <sort-children>by-type-then-manually</sort-children>
-      <genericTypes />
-      <typeReference id="211a4ba6-dd8d-49ce-a096-299a278f47fd">
-        <typeId>9204e067-bdc8-45e7-8970-8a833fdc5253</typeId>
-        <isNavigable>true</isNavigable>
-        <isNullable>false</isNullable>
-        <isCollection>false</isCollection>
-        <isRequired>true</isRequired>
-        <typePackageName>Intent.Modelers.Services.Pagination</typePackageName>
-        <typePackageId>7ed452ae-334c-48f7-b0aa-0426fc21e243</typePackageId>
-        <stereotypes />
-        <genericTypeParameters>
-          <genericTypeParameter id="49375762-2397-417e-8e38-bd20e03352a1">
-            <typeId>91f309f1-35fb-45f8-86d2-7b682ad5fe25</typeId>
-            <isNavigable>true</isNavigable>
-            <isNullable>false</isNullable>
-            <isCollection>false</isCollection>
-            <isRequired>true</isRequired>
-            <genericTypeId>b2e9202d-2fb1-426b-91a9-02b6a3a294bd</genericTypeId>
-            <typePackageName>MudBlazor.ExampleApp.Services</typePackageName>
-            <typePackageId>2dac69cf-9281-42ae-b529-49eb2e7a6d3f</typePackageId>
-            <stereotypes />
-            <genericTypeParameters />
-          </genericTypeParameter>
-        </genericTypeParameters>
-      </typeReference>
-      <isMapped>true</isMapped>
-      <mappedClass>
-        <mappingSettingsId>df491bea-8a85-4bc9-a93d-41b7abb80ffb</mappingSettingsId>
-        <autoSyncTypeReference>false</autoSyncTypeReference>
-        <mappedPath>
-          <target id="675cead0-622c-4331-b54d-00cc4c59bee0" name="GetCustomersQuery" type="element" specialization="Query" specializationId="e71b0662-e29d-4db2-868b-8a12464b25d0" />
-        </mappedPath>
-      </mappedClass>
-      <parentFolderId>f9038dc1-c2df-447b-872f-cec8ef6a5fc9</parentFolderId>
-      <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
-      <packageName>MudBlazor.ExampleApp.UI</packageName>
-      <traits>
-        <trait id="2b6729eb-e2ae-4b5f-86fe-4f611d1f912e" name="[Processing Handler]" />
-        <trait id="12bec4f8-487a-40f8-a6d2-c519d995eb38" name="[Invokable Service Operation]" />
-      </traits>
-      <stereotypes />
-      <metadata />
-      <childElements>
-        <childElement id="be0690aa-280f-4160-a4ed-c4eaff6b20bd" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
-          <name>pageNo</name>
-          <display>pageNo: int</display>
-          <isAbstract>false</isAbstract>
-          <genericTypes />
-          <typeReference id="b409e4ac-0678-4c45-ab2a-59ca760598d1">
-            <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
-            <isNavigable>true</isNavigable>
-            <isNullable>false</isNullable>
-            <isCollection>false</isCollection>
-            <isRequired>true</isRequired>
-            <typePackageName>Intent.Common.Types</typePackageName>
-            <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
-            <stereotypes />
-            <genericTypeParameters />
-          </typeReference>
-          <isMapped>false</isMapped>
-          <parentFolderId>ed358e25-9856-4c07-977a-51c1ee233a72</parentFolderId>
-          <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
-          <packageName>MudBlazor.ExampleApp.UI</packageName>
-          <stereotypes />
-          <metadata>
-            <entry key="endpoint-input-id" value="69325703-94d8-4199-8549-5e94dae7bee0" />
-          </metadata>
-          <childElements />
-        </childElement>
-        <childElement id="b4f9b73b-06d9-4f63-a1ed-dc79bb0b6c92" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
-          <name>pageSize</name>
-          <display>pageSize: int</display>
-          <isAbstract>false</isAbstract>
-          <genericTypes />
-          <typeReference id="8affec9e-28e4-4e5b-b629-c67144f58352">
-            <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
-            <isNavigable>true</isNavigable>
-            <isNullable>false</isNullable>
-            <isCollection>false</isCollection>
-            <isRequired>true</isRequired>
-            <typePackageName>Intent.Common.Types</typePackageName>
-            <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
-            <stereotypes />
-            <genericTypeParameters />
-          </typeReference>
-          <isMapped>false</isMapped>
-          <parentFolderId>ed358e25-9856-4c07-977a-51c1ee233a72</parentFolderId>
-          <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
-          <packageName>MudBlazor.ExampleApp.UI</packageName>
-          <stereotypes />
-          <metadata>
-            <entry key="endpoint-input-id" value="cf0708d6-b64b-4beb-b8d7-06527901c619" />
-          </metadata>
-          <childElements />
-        </childElement>
-        <childElement id="846a5f64-787e-45f2-8a91-5cef95402d20" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
-          <name>orderBy</name>
-          <display>orderBy: string?</display>
-          <isAbstract>false</isAbstract>
-          <genericTypes />
-          <typeReference id="8f734d19-1ae1-432c-bffb-73464dde906c">
-            <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
-            <isNavigable>true</isNavigable>
-            <isNullable>true</isNullable>
-            <isCollection>false</isCollection>
-            <isRequired>true</isRequired>
-            <typePackageName>Intent.Common.Types</typePackageName>
-            <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
-            <stereotypes />
-            <genericTypeParameters />
-          </typeReference>
-          <isMapped>false</isMapped>
-          <parentFolderId>ed358e25-9856-4c07-977a-51c1ee233a72</parentFolderId>
-          <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
-          <packageName>MudBlazor.ExampleApp.UI</packageName>
-          <stereotypes />
-          <metadata>
-            <entry key="endpoint-input-id" value="17c2f69a-6776-4366-867f-117b137263fe" />
-          </metadata>
-          <childElements />
-        </childElement>
-        <childElement id="63a8c678-02c0-4390-b328-30f7b389f5da" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
-          <name>searchText</name>
-          <display>searchText: string?</display>
-          <isAbstract>false</isAbstract>
-          <genericTypes />
-          <typeReference id="11b07f33-549a-4f67-bcfe-c5d7e84c09c2">
-            <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
-            <isNavigable>true</isNavigable>
-            <isNullable>true</isNullable>
-            <isCollection>false</isCollection>
-            <isRequired>true</isRequired>
-            <typePackageName>Intent.Common.Types</typePackageName>
-            <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
-            <stereotypes />
-            <genericTypeParameters />
-          </typeReference>
-          <isMapped>false</isMapped>
-          <parentFolderId>ed358e25-9856-4c07-977a-51c1ee233a72</parentFolderId>
-          <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
-          <packageName>MudBlazor.ExampleApp.UI</packageName>
-          <stereotypes />
-          <metadata>
-            <entry key="endpoint-input-id" value="a9b3ccbe-2b02-47ef-a9e9-5f2e7fd71151" />
           </metadata>
           <childElements />
         </childElement>

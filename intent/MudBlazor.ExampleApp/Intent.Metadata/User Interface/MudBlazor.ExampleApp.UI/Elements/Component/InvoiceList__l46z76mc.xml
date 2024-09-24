@@ -15,7 +15,7 @@
       <definitionPackageName>Intent.Modelers.UI</definitionPackageName>
       <definitionPackageId>5c4628ec-679e-4f3d-afda-137c978deae0</definitionPackageId>
       <properties>
-        <property name="9dff9df1-a993-4bf6-9aa7-c16811142228" display="Route" value="/invoices/invoice-list" isActive="true" />
+        <property name="9dff9df1-a993-4bf6-9aa7-c16811142228" display="Route" value="/invoices" isActive="true" />
         <property name="0a8627ba-ec45-4023-9c36-b0999f43e982" display="Title" isActive="true" />
       </properties>
     </stereotype>
@@ -36,7 +36,7 @@
               <path>
                 <target id="a80d7708-e051-4927-b32e-c239affc1689" name="InvoiceList" type="element" specialization="Component" specializationId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b" />
                 <target id="3dfa6669-4af5-43df-b0c5-f26f301deed5" name="Model" type="element" specialization="Property" specializationId="356fbe17-bc63-4e16-b915-feefbc063cbe" />
-                <target id="85da666a-2f42-4c36-8189-62fb1ac27209" name="Data" type="element" specialization="DTO-Field" specializationId="7baed1fd-469b-4980-8fd9-4cefb8331eb2" />
+                <target id="85da666a-2f42-4c36-8189-62fb1ac27209" name="Data" type="element" specialization="Attribute" specializationId="0090fb93-483e-41af-a11d-5ad2dc796adf" />
               </path>
             </source>
           </sources>
@@ -53,7 +53,7 @@
               <path>
                 <target id="a80d7708-e051-4927-b32e-c239affc1689" name="InvoiceList" type="element" specialization="Component" specializationId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b" />
                 <target id="3dfa6669-4af5-43df-b0c5-f26f301deed5" name="Model" type="element" specialization="Property" specializationId="356fbe17-bc63-4e16-b915-feefbc063cbe" />
-                <target id="a98da735-b791-444a-b621-6c6bc9ce7b7d" name="TotalCount" type="element" specialization="DTO-Field" specializationId="7baed1fd-469b-4980-8fd9-4cefb8331eb2" />
+                <target id="a98da735-b791-444a-b621-6c6bc9ce7b7d" name="TotalCount" type="element" specialization="Attribute" specializationId="0090fb93-483e-41af-a11d-5ad2dc796adf" />
               </path>
             </source>
           </sources>
@@ -87,7 +87,7 @@
               <path>
                 <target id="a80d7708-e051-4927-b32e-c239affc1689" name="InvoiceList" type="element" specialization="Component" specializationId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b" />
                 <target id="3dfa6669-4af5-43df-b0c5-f26f301deed5" name="Model" type="element" specialization="Property" specializationId="356fbe17-bc63-4e16-b915-feefbc063cbe" />
-                <target id="85da666a-2f42-4c36-8189-62fb1ac27209" name="Data" type="element" specialization="DTO-Field" specializationId="7baed1fd-469b-4980-8fd9-4cefb8331eb2" />
+                <target id="85da666a-2f42-4c36-8189-62fb1ac27209" name="Data" type="element" specialization="Attribute" specializationId="0090fb93-483e-41af-a11d-5ad2dc796adf" />
                 <target id="ef4c1fad-602c-4a15-9699-9a72adc29566" name="Id" type="element" specialization="DTO-Field" specializationId="7baed1fd-469b-4980-8fd9-4cefb8331eb2" />
               </path>
             </source>
@@ -169,7 +169,7 @@
               <path>
                 <target id="a80d7708-e051-4927-b32e-c239affc1689" name="InvoiceList" type="element" specialization="Component" specializationId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b" />
                 <target id="3dfa6669-4af5-43df-b0c5-f26f301deed5" name="Model" type="element" specialization="Property" specializationId="356fbe17-bc63-4e16-b915-feefbc063cbe" />
-                <target id="85da666a-2f42-4c36-8189-62fb1ac27209" name="Data" type="element" specialization="DTO-Field" specializationId="7baed1fd-469b-4980-8fd9-4cefb8331eb2" />
+                <target id="85da666a-2f42-4c36-8189-62fb1ac27209" name="Data" type="element" specialization="Attribute" specializationId="0090fb93-483e-41af-a11d-5ad2dc796adf" />
                 <target id="1c038e03-f28e-4cf0-bff4-10e46abb28cf" name="InvoiceNo" type="element" specialization="DTO-Field" specializationId="7baed1fd-469b-4980-8fd9-4cefb8331eb2" />
               </path>
             </source>
@@ -187,7 +187,7 @@
               <path>
                 <target id="a80d7708-e051-4927-b32e-c239affc1689" name="InvoiceList" type="element" specialization="Component" specializationId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b" />
                 <target id="3dfa6669-4af5-43df-b0c5-f26f301deed5" name="Model" type="element" specialization="Property" specializationId="356fbe17-bc63-4e16-b915-feefbc063cbe" />
-                <target id="85da666a-2f42-4c36-8189-62fb1ac27209" name="Data" type="element" specialization="DTO-Field" specializationId="7baed1fd-469b-4980-8fd9-4cefb8331eb2" />
+                <target id="85da666a-2f42-4c36-8189-62fb1ac27209" name="Data" type="element" specialization="Attribute" specializationId="0090fb93-483e-41af-a11d-5ad2dc796adf" />
                 <target id="4b298dbd-d51d-4768-be06-280ef18d5381" name="CustomerName" type="element" specialization="DTO-Field" specializationId="7baed1fd-469b-4980-8fd9-4cefb8331eb2" />
               </path>
             </source>
@@ -205,7 +205,7 @@
               <path>
                 <target id="a80d7708-e051-4927-b32e-c239affc1689" name="InvoiceList" type="element" specialization="Component" specializationId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b" />
                 <target id="3dfa6669-4af5-43df-b0c5-f26f301deed5" name="Model" type="element" specialization="Property" specializationId="356fbe17-bc63-4e16-b915-feefbc063cbe" />
-                <target id="85da666a-2f42-4c36-8189-62fb1ac27209" name="Data" type="element" specialization="DTO-Field" specializationId="7baed1fd-469b-4980-8fd9-4cefb8331eb2" />
+                <target id="85da666a-2f42-4c36-8189-62fb1ac27209" name="Data" type="element" specialization="Attribute" specializationId="0090fb93-483e-41af-a11d-5ad2dc796adf" />
                 <target id="7c62efb4-03b9-4cbe-b42c-1e8410f69dd5" name="CustomerAccountNo" type="element" specialization="DTO-Field" specializationId="7baed1fd-469b-4980-8fd9-4cefb8331eb2" />
               </path>
             </source>
@@ -223,7 +223,7 @@
               <path>
                 <target id="a80d7708-e051-4927-b32e-c239affc1689" name="InvoiceList" type="element" specialization="Component" specializationId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b" />
                 <target id="3dfa6669-4af5-43df-b0c5-f26f301deed5" name="Model" type="element" specialization="Property" specializationId="356fbe17-bc63-4e16-b915-feefbc063cbe" />
-                <target id="85da666a-2f42-4c36-8189-62fb1ac27209" name="Data" type="element" specialization="DTO-Field" specializationId="7baed1fd-469b-4980-8fd9-4cefb8331eb2" />
+                <target id="85da666a-2f42-4c36-8189-62fb1ac27209" name="Data" type="element" specialization="Attribute" specializationId="0090fb93-483e-41af-a11d-5ad2dc796adf" />
                 <target id="abb0c3b7-40ff-4b7d-9272-40467dcba4dd" name="AddressLine1" type="element" specialization="DTO-Field" specializationId="7baed1fd-469b-4980-8fd9-4cefb8331eb2" />
               </path>
             </source>
@@ -241,7 +241,7 @@
               <path>
                 <target id="a80d7708-e051-4927-b32e-c239affc1689" name="InvoiceList" type="element" specialization="Component" specializationId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b" />
                 <target id="3dfa6669-4af5-43df-b0c5-f26f301deed5" name="Model" type="element" specialization="Property" specializationId="356fbe17-bc63-4e16-b915-feefbc063cbe" />
-                <target id="85da666a-2f42-4c36-8189-62fb1ac27209" name="Data" type="element" specialization="DTO-Field" specializationId="7baed1fd-469b-4980-8fd9-4cefb8331eb2" />
+                <target id="85da666a-2f42-4c36-8189-62fb1ac27209" name="Data" type="element" specialization="Attribute" specializationId="0090fb93-483e-41af-a11d-5ad2dc796adf" />
                 <target id="a51ca0c8-ce08-4f85-ad6c-4aec696fc6e2" name="AddressLine2" type="element" specialization="DTO-Field" specializationId="7baed1fd-469b-4980-8fd9-4cefb8331eb2" />
               </path>
             </source>
@@ -259,7 +259,7 @@
               <path>
                 <target id="a80d7708-e051-4927-b32e-c239affc1689" name="InvoiceList" type="element" specialization="Component" specializationId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b" />
                 <target id="3dfa6669-4af5-43df-b0c5-f26f301deed5" name="Model" type="element" specialization="Property" specializationId="356fbe17-bc63-4e16-b915-feefbc063cbe" />
-                <target id="85da666a-2f42-4c36-8189-62fb1ac27209" name="Data" type="element" specialization="DTO-Field" specializationId="7baed1fd-469b-4980-8fd9-4cefb8331eb2" />
+                <target id="85da666a-2f42-4c36-8189-62fb1ac27209" name="Data" type="element" specialization="Attribute" specializationId="0090fb93-483e-41af-a11d-5ad2dc796adf" />
                 <target id="4a9d062c-bb90-4f4f-bc72-1003103c2542" name="AddressCity" type="element" specialization="DTO-Field" specializationId="7baed1fd-469b-4980-8fd9-4cefb8331eb2" />
               </path>
             </source>
@@ -277,7 +277,7 @@
               <path>
                 <target id="a80d7708-e051-4927-b32e-c239affc1689" name="InvoiceList" type="element" specialization="Component" specializationId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b" />
                 <target id="3dfa6669-4af5-43df-b0c5-f26f301deed5" name="Model" type="element" specialization="Property" specializationId="356fbe17-bc63-4e16-b915-feefbc063cbe" />
-                <target id="85da666a-2f42-4c36-8189-62fb1ac27209" name="Data" type="element" specialization="DTO-Field" specializationId="7baed1fd-469b-4980-8fd9-4cefb8331eb2" />
+                <target id="85da666a-2f42-4c36-8189-62fb1ac27209" name="Data" type="element" specialization="Attribute" specializationId="0090fb93-483e-41af-a11d-5ad2dc796adf" />
                 <target id="ad5927fd-21aa-4c93-b4a0-1f795ad6ed95" name="AddressCountry" type="element" specialization="DTO-Field" specializationId="7baed1fd-469b-4980-8fd9-4cefb8331eb2" />
               </path>
             </source>
@@ -295,7 +295,7 @@
               <path>
                 <target id="a80d7708-e051-4927-b32e-c239affc1689" name="InvoiceList" type="element" specialization="Component" specializationId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b" />
                 <target id="3dfa6669-4af5-43df-b0c5-f26f301deed5" name="Model" type="element" specialization="Property" specializationId="356fbe17-bc63-4e16-b915-feefbc063cbe" />
-                <target id="85da666a-2f42-4c36-8189-62fb1ac27209" name="Data" type="element" specialization="DTO-Field" specializationId="7baed1fd-469b-4980-8fd9-4cefb8331eb2" />
+                <target id="85da666a-2f42-4c36-8189-62fb1ac27209" name="Data" type="element" specialization="Attribute" specializationId="0090fb93-483e-41af-a11d-5ad2dc796adf" />
                 <target id="0f65b936-d1e2-4b12-bcc9-51b5c5c88db5" name="AddressPostal" type="element" specialization="DTO-Field" specializationId="7baed1fd-469b-4980-8fd9-4cefb8331eb2" />
               </path>
             </source>

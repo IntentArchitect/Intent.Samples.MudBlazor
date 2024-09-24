@@ -73,6 +73,7 @@
                     <property name="7cee794d-e1a7-4590-b65a-6e56914a2a97" display="Type" value="Default" isActive="true" />
                     <property name="2265736b-4381-42dc-9dbf-b757188837bc" display="Form" isActive="false" />
                     <property name="d05f7b5b-fe45-4cbb-b938-380a4b68c0df" display="On Click" value="{AddInvoiceClick}" isActive="true" />
+                    <property name="86aeb4ba-54e8-4327-bcb0-166fb9b9968c" display="Link To" isActive="true" />
                   </properties>
                 </stereotype>
                 <stereotype stereotypeDefinitionId="b218f7cb-d150-401d-a17a-9e22fadf863f" name="Appearance">

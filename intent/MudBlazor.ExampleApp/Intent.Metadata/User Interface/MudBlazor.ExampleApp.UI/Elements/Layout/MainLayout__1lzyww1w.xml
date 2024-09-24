@@ -138,6 +138,7 @@
                 <property name="7cee794d-e1a7-4590-b65a-6e56914a2a97" display="Type" value="Default" isActive="true" />
                 <property name="2265736b-4381-42dc-9dbf-b757188837bc" display="Form" isActive="false" />
                 <property name="d05f7b5b-fe45-4cbb-b938-380a4b68c0df" display="On Click" isActive="true" />
+                <property name="86aeb4ba-54e8-4327-bcb0-166fb9b9968c" display="Link To" value="{NavigateToHome}" isActive="true" />
               </properties>
             </stereotype>
             <stereotype stereotypeDefinitionId="b218f7cb-d150-401d-a17a-9e22fadf863f" name="Appearance">
@@ -191,8 +192,8 @@
           <childElements />
         </childElement>
         <childElement id="e42960cc-9596-45f1-801e-d7d8194c7e15" type="Navigation Menu" typeId="d7282bf2-1626-4b8b-9446-1d530527db06">
-          <name>Menu</name>
-          <display>Menu</display>
+          <name>Right Corner Menu</name>
+          <display>Right Corner Menu</display>
           <externalReference>bbb814d0-6892-40a2-8539-d0de0adb98d0</externalReference>
           <isAbstract>false</isAbstract>
           <sort-children>by-type-then-manually</sort-children>

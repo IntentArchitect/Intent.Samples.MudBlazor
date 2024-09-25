@@ -57,12 +57,23 @@
           <sources />
         </mappedEnd>
         <mappedEnd>
-          <expression>https://intentarchitect.com</expression>
+          <expression>https://form.jotform.com/242681456283563</expression>
           <path>
             <target id="dbb7eb1c-f5ef-484d-a1eb-a433f8ba0479" name="[view]" type="element" specialization="Component View" specializationId="624513a6-cba8-4dde-8ebe-6b19f00f0364" />
             <target id="d4599d94-37fe-4592-8db7-66bb6eb2a29e" name="Welcome Card" type="element" specialization="Card" specializationId="dfe420aa-426a-4517-bcd1-83cf5ec074fe" />
             <target id="efd9d1ff-7d02-4dc2-beb0-1d3953824562" name="Actions" type="element" specialization="Card Actions" specializationId="8dd9e894-be78-41ec-89f2-d2bd2d26d8d6" />
             <target id="496255a1-ff84-4be3-9388-09333f55d9ae" name="Give Feedback" type="element" specialization="Button" specializationId="4474d808-f6fd-405f-a9c7-6998cd000ede" />
+            <target id="ddfa6961-1042-4bea-84c7-4b2e9853c80a" name="Link To" type="static-mappable" specialization="Link To" specializationId="ddfa6961-1042-4bea-84c7-4b2e9853c80a" />
+          </path>
+          <sources />
+        </mappedEnd>
+        <mappedEnd>
+          <expression>https://intentarchitect.com/#/redirect/?category=clientResource&amp;subCategory=home.needHelp</expression>
+          <path>
+            <target id="dbb7eb1c-f5ef-484d-a1eb-a433f8ba0479" name="[view]" type="element" specialization="Component View" specializationId="624513a6-cba8-4dde-8ebe-6b19f00f0364" />
+            <target id="d4599d94-37fe-4592-8db7-66bb6eb2a29e" name="Welcome Card" type="element" specialization="Card" specializationId="dfe420aa-426a-4517-bcd1-83cf5ec074fe" />
+            <target id="efd9d1ff-7d02-4dc2-beb0-1d3953824562" name="Actions" type="element" specialization="Card Actions" specializationId="8dd9e894-be78-41ec-89f2-d2bd2d26d8d6" />
+            <target id="f64adcda-a612-4628-b265-8923b14524f4" name="Log an Issue" type="element" specialization="Button" specializationId="4474d808-f6fd-405f-a9c7-6998cd000ede" />
             <target id="ddfa6961-1042-4bea-84c7-4b2e9853c80a" name="Link To" type="static-mappable" specialization="Link To" specializationId="ddfa6961-1042-4bea-84c7-4b2e9853c80a" />
           </path>
           <sources />

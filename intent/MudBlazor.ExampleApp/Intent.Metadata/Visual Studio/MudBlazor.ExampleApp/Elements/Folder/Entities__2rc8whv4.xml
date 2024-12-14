@@ -84,5 +84,19 @@
       <metadata />
       <childElements />
     </childElement>
+    <childElement id="5d58256d-d7f0-4f4f-9d64-d656fbfbea4b" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Intent.AspNetCore.Identity.AccountController.ApplicationIdentityUser</name>
+      <display>Intent.AspNetCore.Identity.AccountController.ApplicationIdentityUser</display>
+      <externalReference>Intent.AspNetCore.Identity.AccountController</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>f0e8d727-9fef-4634-b483-9dab584a714f</parentFolderId>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
   </childElements>
 </class>

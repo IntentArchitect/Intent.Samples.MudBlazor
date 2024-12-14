@@ -117,5 +117,33 @@
       </metadata>
       <childElements />
     </childElement>
+    <childElement id="41b99e81-df50-4676-8605-9560422f038f" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Intent.AspNetCore.Identity.AspNetCoreIdentityConfiguration</name>
+      <display>Intent.AspNetCore.Identity.AspNetCoreIdentityConfiguration</display>
+      <externalReference>Intent.AspNetCore.Identity</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>d6af2e1c-def0-4b33-b0b3-52e5e5912781</parentFolderId>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="3da3edc7-eeb2-4ed7-b85a-600238816617" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Intent.AspNetCore.Identity.IdentityServiceCollectionExtensions</name>
+      <display>Intent.AspNetCore.Identity.IdentityServiceCollectionExtensions</display>
+      <externalReference>Intent.AspNetCore.Identity</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>d6af2e1c-def0-4b33-b0b3-52e5e5912781</parentFolderId>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
   </childElements>
 </class>

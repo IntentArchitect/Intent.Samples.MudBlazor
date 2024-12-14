@@ -1,0 +1,12 @@
+using Intent.RoslynWeaver.Attributes;
+
+[assembly: DefaultIntentManaged(Mode.Fully)]
+[assembly: IntentTemplate("Intent.AspNetCore.Identity.AccountController.AccountEmailSenderInterface", Version = "1.0")]
+
+namespace MudBlazor.ExampleApp.Application.Account;
+
+public interface IAccountEmailSender
+{
+    Task SendEmailConfirmationRequest(string email, string userId, string code);
+    Task SendPasswordResetCode(string email, string userId, string resetCode);
+}

@@ -1,0 +1,23 @@
+@page "/auth/login"
+@rendermode InteractiveWebAssembly
+<MudCard>
+    <MudCardHeader>
+        <CardHeaderContent />
+    </MudCardHeader>
+    <MudCardContent>
+        <MudTextField @bind-Value="Username"
+                      InputType="InputType.Text"
+                      Label="Username" />
+        <MudTextField @bind-Value="Password"
+                      InputType="InputType.Password"
+                      Label="Password" />
+    </MudCardContent>
+    <MudCardActions>
+        <MudButton Variant="Variant.Filled"
+                   Class="my-2 mr-2"
+                   Color="Color.Default"
+                   OnClick="() => OnLoginClicked()">
+            <MudText>Login</MudText>
+        </MudButton>
+    </MudCardActions>
+</MudCard>

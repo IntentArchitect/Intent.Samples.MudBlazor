@@ -52,10 +52,26 @@
     </FileLog>
     <FileLog>
       <ProjectId>d6af2e1c-def0-4b33-b0b3-52e5e5912781</ProjectId>
+      <CorrelationId>Intent.AspNetCore.Identity.AspNetCoreIdentityConfiguration</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../MudBlazor.ExampleApp/MudBlazor.ExampleApp.Api/Configuration/AspNetCoreIdentityConfiguration.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>AspNetCoreIdentityConfiguration.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d6af2e1c-def0-4b33-b0b3-52e5e5912781</ProjectId>
       <CorrelationId>Intent.AspNetCore.HealthChecks.HealthChecksConfiguration</CorrelationId>
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../MudBlazor.ExampleApp/MudBlazor.ExampleApp.Api/Configuration/HealthChecksConfiguration.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>HealthChecksConfiguration.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d6af2e1c-def0-4b33-b0b3-52e5e5912781</ProjectId>
+      <CorrelationId>Intent.AspNetCore.Identity.IdentityServiceCollectionExtensions</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../MudBlazor.ExampleApp/MudBlazor.ExampleApp.Api/Configuration/IdentityServiceCollectionExtensions.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>IdentityServiceCollectionExtensions.cs</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
@@ -72,6 +88,14 @@
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../MudBlazor.ExampleApp/MudBlazor.ExampleApp.Api/Configuration/SwashbuckleConfiguration.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>SwashbuckleConfiguration.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>c54329c2-ce25-47b5-a839-a35441048aff</ProjectId>
+      <CorrelationId>Intent.AspNetCore.Identity.AccountController.AccountController</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../MudBlazor.ExampleApp/MudBlazor.ExampleApp.Api/Controllers/AccountController.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>AccountController.cs</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
@@ -163,11 +187,43 @@
       <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
+      <ProjectId>cd37b68f-6697-4383-865a-3138a1b677a9</ProjectId>
+      <CorrelationId>Intent.AspNetCore.Identity.AccountController.TokenServiceInterface</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../MudBlazor.ExampleApp/MudBlazor.ExampleApp.Api/Services/ITokenService.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>ITokenService.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>cd37b68f-6697-4383-865a-3138a1b677a9</ProjectId>
+      <CorrelationId>Intent.AspNetCore.Identity.AccountController.TokenServiceConcrete</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../MudBlazor.ExampleApp/MudBlazor.ExampleApp.Api/Services/TokenService.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>TokenService.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
       <ProjectId>60cba7c4-b64f-482b-889d-4f45af82a317</ProjectId>
       <CorrelationId>Intent.AspNetCore.Startup</CorrelationId>
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../MudBlazor.ExampleApp/MudBlazor.ExampleApp.Api/Startup.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Startup.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>fa5c3afb-aff3-4d8d-a047-39d067cb3333</ProjectId>
+      <CorrelationId>Intent.AspNetCore.Identity.AccountController.AccountEmailSender</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../MudBlazor.ExampleApp/MudBlazor.ExampleApp.Application/Account/AccountEmailSender.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>AccountEmailSender.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>fa5c3afb-aff3-4d8d-a047-39d067cb3333</ProjectId>
+      <CorrelationId>Intent.AspNetCore.Identity.AccountController.AccountEmailSenderInterface</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../MudBlazor.ExampleApp/MudBlazor.ExampleApp.Application/Account/IAccountEmailSender.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>IAccountEmailSender.cs</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
@@ -1292,6 +1348,22 @@
     </FileLog>
     <FileLog>
       <ProjectId>034e5ad7-94f5-45b1-a010-3d60bd78514a</ProjectId>
+      <CorrelationId>Intent.Blazor.Templates.Client.RazorComponentTemplate#9202df0d-7aaf-4232-8273-9ae6319dd021</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../MudBlazor.ExampleApp/MudBlazor.ExampleApp.Client/Pages/Auth/Login.razor</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>Pages/Auth/Login.razor</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>034e5ad7-94f5-45b1-a010-3d60bd78514a</ProjectId>
+      <CorrelationId>Intent.Blazor.Templates.Client.RazorComponentCodeBehindTemplate#9202df0d-7aaf-4232-8273-9ae6319dd021</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../MudBlazor.ExampleApp/MudBlazor.ExampleApp.Client/Pages/Auth/Login.razor.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>Pages/Auth/Login.razor.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>034e5ad7-94f5-45b1-a010-3d60bd78514a</ProjectId>
       <CorrelationId>Intent.Blazor.Templates.Client.RazorComponentTemplate#4255cff1-e16b-4c21-b4f4-8646011c7339</CorrelationId>
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../MudBlazor.ExampleApp/MudBlazor.ExampleApp.Client/Pages/Customers/Components/ConfirmationDialog.razor</ApplicationRelativeFilePath>
@@ -1520,7 +1592,7 @@
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../MudBlazor.ExampleApp/MudBlazor.ExampleApp.Client/Program.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Program.cs</ProjectRelativeFilePath>
-      <IsIgnored>false</IsIgnored>
+      <IsIgnored>true</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>034e5ad7-94f5-45b1-a010-3d60bd78514a</ProjectId>
@@ -1528,7 +1600,7 @@
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../MudBlazor.ExampleApp/MudBlazor.ExampleApp.Client/Routes.razor</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Routes.razor</ProjectRelativeFilePath>
-      <IsIgnored>false</IsIgnored>
+      <IsIgnored>true</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>034e5ad7-94f5-45b1-a010-3d60bd78514a</ProjectId>
@@ -1592,6 +1664,14 @@
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../MudBlazor.ExampleApp/MudBlazor.ExampleApp.Domain/Common/UpdateHelper.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>UpdateHelper.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>f0e8d727-9fef-4634-b483-9dab584a714f</ProjectId>
+      <CorrelationId>Intent.AspNetCore.Identity.AccountController.ApplicationIdentityUser</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../MudBlazor.ExampleApp/MudBlazor.ExampleApp.Domain/Entities/ApplicationIdentityUser.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>ApplicationIdentityUser.cs</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
@@ -1712,6 +1792,14 @@
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../MudBlazor.ExampleApp/MudBlazor.ExampleApp.Infrastructure/Persistence/ApplicationDbContext.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>ApplicationDbContext.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>c3c7b494-f37f-4b46-8205-504132a4eefd</ProjectId>
+      <CorrelationId>Intent.AspNetCore.Identity.AccountController.ApplicationIdentityUserConfiguration</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../MudBlazor.ExampleApp/MudBlazor.ExampleApp.Infrastructure/Persistence/Configurations/ApplicationIdentityUserConfiguration.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>ApplicationIdentityUserConfiguration.cs</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>

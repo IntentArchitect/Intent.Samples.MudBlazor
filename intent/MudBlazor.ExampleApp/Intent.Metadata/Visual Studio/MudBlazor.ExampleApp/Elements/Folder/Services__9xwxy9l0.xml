@@ -37,5 +37,33 @@
       </metadata>
       <childElements />
     </childElement>
+    <childElement id="6cc2b0ca-7b41-4c39-861a-2a1769aadd10" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Intent.AspNetCore.Identity.AccountController.TokenServiceConcrete</name>
+      <display>Intent.AspNetCore.Identity.AccountController.TokenServiceConcrete</display>
+      <externalReference>Intent.AspNetCore.Identity.AccountController</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>cd37b68f-6697-4383-865a-3138a1b677a9</parentFolderId>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="e2cdb333-ff35-4cf5-9cb6-7ca082055abb" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Intent.AspNetCore.Identity.AccountController.TokenServiceInterface</name>
+      <display>Intent.AspNetCore.Identity.AccountController.TokenServiceInterface</display>
+      <externalReference>Intent.AspNetCore.Identity.AccountController</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>cd37b68f-6697-4383-865a-3138a1b677a9</parentFolderId>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
   </childElements>
 </class>

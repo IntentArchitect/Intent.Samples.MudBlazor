@@ -968,7 +968,7 @@
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../MudBlazor.ExampleApp/MudBlazor.ExampleApp.Client/_Imports.razor</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>_Imports.razor</ProjectRelativeFilePath>
-      <IsIgnored>false</IsIgnored>
+      <IsIgnored>true</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>9013626c-b9dd-4b17-ad58-86e5c7c406a4</ProjectId>
@@ -1360,6 +1360,22 @@
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../MudBlazor.ExampleApp/MudBlazor.ExampleApp.Client/Pages/Auth/Login.razor.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Pages/Auth/Login.razor.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>034e5ad7-94f5-45b1-a010-3d60bd78514a</ProjectId>
+      <CorrelationId>Intent.Blazor.Templates.Client.RazorComponentTemplate#4162f680-1af2-4d82-b760-6989f2246679</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../MudBlazor.ExampleApp/MudBlazor.ExampleApp.Client/Pages/Auth/Register.razor</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>Pages/Auth/Register.razor</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>034e5ad7-94f5-45b1-a010-3d60bd78514a</ProjectId>
+      <CorrelationId>Intent.Blazor.Templates.Client.RazorComponentCodeBehindTemplate#4162f680-1af2-4d82-b760-6989f2246679</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../MudBlazor.ExampleApp/MudBlazor.ExampleApp.Client/Pages/Auth/Register.razor.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>Pages/Auth/Register.razor.cs</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>

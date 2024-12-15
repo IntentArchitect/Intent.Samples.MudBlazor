@@ -1,4 +1,5 @@
 using Intent.RoslynWeaver.Attributes;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Components;
 using MudBlazor.ExampleApp.Client.HttpClients;
 using MudBlazor.ExampleApp.Client.HttpClients.Common;

@@ -5,12 +5,14 @@
         <CardHeaderContent />
     </MudCardHeader>
     <MudCardContent>
-        <MudTextField @bind-Value="Username"
-                      InputType="InputType.Text"
-                      Label="Username" />
-        <MudTextField @bind-Value="Password"
-                      InputType="InputType.Password"
-                      Label="Password" />
+        <MudForm @ref="@_form" Model="Model">
+            <MudTextField @bind-Value="Model.Email"
+                          InputType="InputType.Text"
+                          Label="Username" />
+            <MudTextField @bind-Value="Model.Password"
+                          InputType="InputType.Password"
+                          Label="Password" />
+        </MudForm>
     </MudCardContent>
     <MudCardActions>
         <MudButton Variant="Variant.Filled"
@@ -20,4 +22,13 @@
             <MudText>Login</MudText>
         </MudButton>
     </MudCardActions>
+    <!-- Footer Section -->
+    <div class="mt-4 text-center">
+        <MudText Typo="Typo.caption">
+            <MudLink Href="/auth/forgot-password">Forgot your password?</MudLink>
+        </MudText>
+        <MudText Typo="Typo.caption" Class="mt-2">
+            Don't have an account? <MudLink Href="/auth/register">Sign up</MudLink>
+        </MudText>
+    </div>
 </MudCard>

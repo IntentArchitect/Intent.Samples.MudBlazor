@@ -1,39 +1,45 @@
 using Intent.RoslynWeaver.Attributes;
 using Microsoft.AspNetCore.Components;
-using Microsoft.Extensions.Logging;
 using MudBlazor.ExampleApp.Client.HttpClients;
-using System.Net.Http;
 
 [assembly: DefaultIntentManaged(Mode.Fully)]
 [assembly: IntentTemplate("Intent.Blazor.Templates.Client.RazorComponentCodeBehindTemplate", Version = "1.0")]
 
 namespace MudBlazor.ExampleApp.Client.Pages.Auth
 {
+    [IntentMerge]
     public partial class Login
     {
+        private MudForm _form;
+
         [Inject]
         public IAuthService AuthService { get; set; } = default!;
         [Inject]
-        public NavigationManager NavigationManager{ get; set; } = default!;
+        public NavigationManager NavigationManager { get; set; } = default!;
+        [Inject]
+        public ISnackbar Snackbar { get; set; } = default!;
 
         [SupplyParameterFromQuery]
         private string? ReturnUrl { get; set; }
+        public string ErrorMessage { get; set; }
 
-        public string Username { get; set; }
-        public string Password { get; set; }
-
-        private string errorMessage;
+        public LoginModel Model { get; set; } = new();
         protected override async Task OnInitializedAsync()
         {
         }
 
+        [IntentIgnore]
         private async Task OnLoginClicked()
         {
-            errorMessage = null;
-            var success = await AuthService.Login(Username, Password);
+            await _form!.Validate();
+            if (!_form.IsValid)
+            {
+                return;
+            }
+            var success = await AuthService.Login(Model.Email, Model.Password);
             if (success)
             {
-                NavigationManager.NavigateTo(ReturnUrl);
+                NavigationManager.NavigateTo(ReturnUrl ?? "/");
             }
             //else if (result.RequiresTwoFactor)
             //{
@@ -48,9 +54,16 @@ namespace MudBlazor.ExampleApp.Client.Pages.Auth
             //}
             else
             {
-                errorMessage = "Error: Invalid login attempt.";
+                Snackbar.Add("Error: Invalid login attempt.", Severity.Error);
             }
         }
 
+    }
+
+    public class LoginModel
+    {
+        public string Email { get; set; }
+        public string Password { get; set; }
+        public bool RememberMe { get; set; }
     }
 }

@@ -6,6 +6,7 @@ using Microsoft.JSInterop;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.JSInterop;
+using Microsoft.AspNetCore.Components.WebAssembly.Authentication;
 
 public class TokenHandler : DelegatingHandler
 {
@@ -38,6 +39,7 @@ public class TokenHandler : DelegatingHandler
 
 public interface IAuthService
 {
+    Task Register(string username, string password);
     Task<bool> Login(string username, string password);
     Task Logout();
 }
@@ -48,11 +50,17 @@ public class AuthService : IAuthService
     private readonly CustomAuthenticationStateProvider _authenticationStateProvider;
     private readonly IJSRuntime _jsRuntime;
 
-    public AuthService(HttpClient httpClient, CustomAuthenticationStateProvider authenticationStateProvider, IJSRuntime jsRuntime)
+    public AuthService(HttpClient httpClient, AuthenticationStateProvider authenticationStateProvider, IJSRuntime jsRuntime)
     {
         _httpClient = httpClient;
-        _authenticationStateProvider = authenticationStateProvider;
+        _authenticationStateProvider = (CustomAuthenticationStateProvider) authenticationStateProvider;
         _jsRuntime = jsRuntime;
+    }
+
+    public async Task Register(string username, string password)
+    {
+        var loginRequest = new { Email = username, Password = password };
+        var response = await _httpClient.PostAsJsonAsync("api/Account/Register", loginRequest);
     }
 
     public async Task<bool> Login(string username, string password)
@@ -63,10 +71,11 @@ public class AuthService : IAuthService
         if (!response.IsSuccessStatusCode) return false;
 
         var result = await response.Content.ReadFromJsonAsync<TokenResponse>();
-        await _jsRuntime.InvokeVoidAsync("localStorage.setItem", "authToken", result.Token);
+        Console.Write(result);
+        await _jsRuntime.InvokeVoidAsync("localStorage.setItem", "authToken", result.AuthenticationToken);
 
-        _authenticationStateProvider.NotifyUserAuthentication(result.Token);
-        _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", result.Token);
+        _authenticationStateProvider.NotifyUserAuthentication(result.AuthenticationToken);
+        _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", result.AuthenticationToken);
 
         return true;
     }
@@ -80,8 +89,42 @@ public class AuthService : IAuthService
 
     private class TokenResponse
     {
-        public string Token { get; set; }
-        public DateTime Expiration { get; set; }
+        public string AuthenticationToken { get; set; }
+        public string RefreshToken { get; set; }
+        public int ExpiresIn { get; set; }
+    }
+}
+
+internal class AccessTokenProvider : IAccessTokenProvider
+{
+    private readonly IJSRuntime _jsRuntime;
+
+    public AccessTokenProvider(IJSRuntime jsRuntime)
+    {
+        _jsRuntime = jsRuntime;
+    }
+    public async ValueTask<AccessTokenResult> RequestAccessToken()
+    {
+        var token = await _jsRuntime.InvokeAsync<string>("localStorage.getItem", "authToken");
+
+        if (string.IsNullOrEmpty(token))
+        {
+            return new AccessTokenResult(AccessTokenResultStatus.RequiresRedirect, null, "auth/login");
+        }
+        var accessToken = new AccessToken
+        {
+            Expires = DateTimeOffset.MaxValue,
+            Value = token
+        };
+
+        var result = new AccessTokenResult(AccessTokenResultStatus.Success, accessToken, null);
+
+        return result;
+    }
+
+    public async ValueTask<AccessTokenResult> RequestAccessToken(AccessTokenRequestOptions options)
+    {
+        return await RequestAccessToken();
     }
 }
 
@@ -103,10 +146,17 @@ public class CustomAuthenticationStateProvider : AuthenticationStateProvider
             return new AuthenticationState(new ClaimsPrincipal(new ClaimsIdentity()));
         }
 
-        var identity = new ClaimsIdentity(ParseClaimsFromJwt(token), "jwt");
-        var user = new ClaimsPrincipal(identity);
+        try
+        {
+            var identity = new ClaimsIdentity(ParseClaimsFromJwt(token), "jwt");
+            var user = new ClaimsPrincipal(identity);
 
-        return new AuthenticationState(user);
+            return new AuthenticationState(user);
+        }
+        catch
+        {
+            return new AuthenticationState(new ClaimsPrincipal(new ClaimsIdentity()));
+        }
     }
 
     public void NotifyUserAuthentication(string token)

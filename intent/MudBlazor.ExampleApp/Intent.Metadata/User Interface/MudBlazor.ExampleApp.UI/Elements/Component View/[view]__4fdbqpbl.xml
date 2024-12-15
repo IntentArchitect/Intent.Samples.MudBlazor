@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<class id="fcf56fa7-d183-4864-920c-b2c009c417c1" type="Component View" typeId="624513a6-cba8-4dde-8ebe-6b19f00f0364">
+<class id="15532140-3cd8-4b31-abdb-07d6c77179dd" type="Component View" typeId="624513a6-cba8-4dde-8ebe-6b19f00f0364">
   <name>[view]</name>
   <display>[view]</display>
   <isAbstract>false</isAbstract>
@@ -7,20 +7,20 @@
   <order>0</order>
   <genericTypes />
   <isMapped>false</isMapped>
-  <parentFolderId>9202df0d-7aaf-4232-8273-9ae6319dd021</parentFolderId>
+  <parentFolderId>4162f680-1af2-4d82-b760-6989f2246679</parentFolderId>
   <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
   <packageName>MudBlazor.ExampleApp.UI</packageName>
   <stereotypes />
   <metadata />
   <childElements>
-    <childElement id="207a3b70-c890-4511-8c0f-08038f2d6fcd" type="Card" typeId="dfe420aa-426a-4517-bcd1-83cf5ec074fe">
+    <childElement id="407019ac-c268-4040-bead-ca69fcc913ca" type="Card" typeId="dfe420aa-426a-4517-bcd1-83cf5ec074fe">
       <name>Card</name>
       <display>Card</display>
       <isAbstract>false</isAbstract>
       <sort-children>by-type-then-by-name</sort-children>
       <genericTypes />
       <isMapped>false</isMapped>
-      <parentFolderId>fcf56fa7-d183-4864-920c-b2c009c417c1</parentFolderId>
+      <parentFolderId>15532140-3cd8-4b31-abdb-07d6c77179dd</parentFolderId>
       <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
       <packageName>MudBlazor.ExampleApp.UI</packageName>
       <traits>
@@ -29,40 +29,40 @@
       <stereotypes />
       <metadata />
       <childElements>
-        <childElement id="11d8180f-2e5a-4953-8c5a-2bd09e876e26" type="Card Header" typeId="61bd2c09-fb56-4f0a-9d45-7a04c649a965">
+        <childElement id="53f05adf-f00c-46ca-b27c-9bb4979de8e3" type="Card Header" typeId="61bd2c09-fb56-4f0a-9d45-7a04c649a965">
           <name>Header</name>
           <display>Header</display>
           <isAbstract>false</isAbstract>
           <genericTypes />
           <isMapped>false</isMapped>
-          <parentFolderId>207a3b70-c890-4511-8c0f-08038f2d6fcd</parentFolderId>
+          <parentFolderId>407019ac-c268-4040-bead-ca69fcc913ca</parentFolderId>
           <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
           <packageName>MudBlazor.ExampleApp.UI</packageName>
           <stereotypes />
           <metadata />
           <childElements />
         </childElement>
-        <childElement id="dce7a98a-5336-4240-92fc-b356f3bfe9a7" type="Card Content" typeId="57319385-c7e0-43eb-a2d8-b7cb1ddce2e2">
+        <childElement id="4738e8b4-c323-48e6-8c66-080c4acc5f90" type="Card Content" typeId="57319385-c7e0-43eb-a2d8-b7cb1ddce2e2">
           <name>Content</name>
           <display>Content</display>
           <isAbstract>false</isAbstract>
           <sort-children>manually</sort-children>
           <genericTypes />
           <isMapped>false</isMapped>
-          <parentFolderId>207a3b70-c890-4511-8c0f-08038f2d6fcd</parentFolderId>
+          <parentFolderId>407019ac-c268-4040-bead-ca69fcc913ca</parentFolderId>
           <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
           <packageName>MudBlazor.ExampleApp.UI</packageName>
           <stereotypes />
           <metadata />
           <childElements>
-            <childElement id="ded7b0b1-923b-4a03-845f-e47a87902532" type="Text Input" typeId="4803bf60-c626-4cbe-94ed-0f1eafff9fe3">
-              <name>Username</name>
-              <display>Username = {Email}</display>
+            <childElement id="52376155-cbd8-4032-8b23-65189a44b310" type="Text Input" typeId="4803bf60-c626-4cbe-94ed-0f1eafff9fe3">
+              <name>Email</name>
+              <display>Email = {Email}</display>
               <isAbstract>false</isAbstract>
               <value>{Email}</value>
               <genericTypes />
               <isMapped>false</isMapped>
-              <parentFolderId>dce7a98a-5336-4240-92fc-b356f3bfe9a7</parentFolderId>
+              <parentFolderId>4738e8b4-c323-48e6-8c66-080c4acc5f90</parentFolderId>
               <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
               <packageName>MudBlazor.ExampleApp.UI</packageName>
               <traits>
@@ -102,14 +102,14 @@
               <metadata />
               <childElements />
             </childElement>
-            <childElement id="cdb49c4d-a602-442c-9173-52d11a73a150" type="Text Input" typeId="4803bf60-c626-4cbe-94ed-0f1eafff9fe3">
+            <childElement id="d77f7233-cbd7-4cdd-9061-92a5bacd823e" type="Text Input" typeId="4803bf60-c626-4cbe-94ed-0f1eafff9fe3">
               <name>Password</name>
               <display>Password = {Password}</display>
               <isAbstract>false</isAbstract>
               <value>{Password}</value>
               <genericTypes />
               <isMapped>false</isMapped>
-              <parentFolderId>dce7a98a-5336-4240-92fc-b356f3bfe9a7</parentFolderId>
+              <parentFolderId>4738e8b4-c323-48e6-8c66-080c4acc5f90</parentFolderId>
               <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
               <packageName>MudBlazor.ExampleApp.UI</packageName>
               <traits>
@@ -151,26 +151,26 @@
             </childElement>
           </childElements>
         </childElement>
-        <childElement id="8071def9-d6a7-4be1-b1ff-8085c07025d8" type="Card Actions" typeId="8dd9e894-be78-41ec-89f2-d2bd2d26d8d6">
+        <childElement id="3168baa2-aafa-4650-83b9-231c6c938db6" type="Card Actions" typeId="8dd9e894-be78-41ec-89f2-d2bd2d26d8d6">
           <name>Actions</name>
           <display>Actions</display>
           <isAbstract>false</isAbstract>
           <sort-children>manually</sort-children>
           <genericTypes />
           <isMapped>false</isMapped>
-          <parentFolderId>207a3b70-c890-4511-8c0f-08038f2d6fcd</parentFolderId>
+          <parentFolderId>407019ac-c268-4040-bead-ca69fcc913ca</parentFolderId>
           <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
           <packageName>MudBlazor.ExampleApp.UI</packageName>
           <stereotypes />
           <metadata />
           <childElements>
-            <childElement id="9a8c8bed-62a6-42cc-a5cc-767f1681472f" type="Button" typeId="4474d808-f6fd-405f-a9c7-6998cd000ede">
-              <name>Login</name>
-              <display>Login</display>
+            <childElement id="a55419b6-7545-47b2-8c18-a35b28536ba0" type="Button" typeId="4474d808-f6fd-405f-a9c7-6998cd000ede">
+              <name>Register</name>
+              <display>Register</display>
               <isAbstract>false</isAbstract>
               <genericTypes />
               <isMapped>false</isMapped>
-              <parentFolderId>8071def9-d6a7-4be1-b1ff-8085c07025d8</parentFolderId>
+              <parentFolderId>3168baa2-aafa-4650-83b9-231c6c938db6</parentFolderId>
               <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
               <packageName>MudBlazor.ExampleApp.UI</packageName>
               <traits>
@@ -195,7 +195,7 @@
                   <properties>
                     <property name="7cee794d-e1a7-4590-b65a-6e56914a2a97" display="Type" value="Default" isActive="true" />
                     <property name="2265736b-4381-42dc-9dbf-b757188837bc" display="Form" isActive="false" />
-                    <property name="d05f7b5b-fe45-4cbb-b938-380a4b68c0df" display="On Click" value="{OnLoginClicked}" isActive="true" />
+                    <property name="d05f7b5b-fe45-4cbb-b938-380a4b68c0df" display="On Click" value="{OnRegisterClicked}" isActive="true" />
                     <property name="86aeb4ba-54e8-4327-bcb0-166fb9b9968c" display="Link To" isActive="true" />
                   </properties>
                 </stereotype>

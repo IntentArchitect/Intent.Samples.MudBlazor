@@ -1,0 +1,23 @@
+@page "/auth/register"
+
+<MudCard>
+    <MudCardHeader>
+        <CardHeaderContent />
+    </MudCardHeader>
+    <MudCardContent>
+        <MudTextField @bind-Value="Email"
+                      InputType="InputType.Text"
+                      Label="Username" />
+        <MudTextField @bind-Value="Password"
+                      InputType="InputType.Password"
+                      Label="Password" />
+    </MudCardContent>
+    <MudCardActions>
+        <MudButton Variant="Variant.Filled"
+                   Class="my-2 mr-2"
+                   Color="Color.Default"
+                   OnClick="() => OnRegisterClicked()">
+            <MudText>Register</MudText>
+        </MudButton>
+    </MudCardActions>
+</MudCard>

@@ -1,5 +1,6 @@
 using Intent.RoslynWeaver.Attributes;
 using Microsoft.AspNetCore.Components.Authorization;
+using Microsoft.AspNetCore.Components.WebAssembly.Authentication;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using MudBlazor.Services;
 
@@ -18,9 +19,12 @@ namespace MudBlazor.ExampleApp.Client
             builder.Services.AddClientServices(builder.Configuration);
 
             builder.Services.AddScoped<AuthenticationStateProvider, CustomAuthenticationStateProvider>();
-            builder.Services.AddScoped<CustomAuthenticationStateProvider>();
+            //builder.Services.AddScoped<CustomAuthenticationStateProvider>();
             builder.Services.AddScoped<IAuthService, AuthService>();
+            builder.Services.AddScoped<IAccessTokenProvider, AccessTokenProvider>();
             builder.Services.AddScoped<TokenHandler>();
+
+            builder.Services.AddTransient<AuthorizationMessageHandler>();
             builder.Services.AddAuthorizationCore();
 
             builder.Services.AddMudServices();

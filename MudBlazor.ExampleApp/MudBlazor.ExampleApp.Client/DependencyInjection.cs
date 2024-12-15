@@ -17,13 +17,20 @@ namespace MudBlazor.ExampleApp.Client
             services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly(), lifetime: ServiceLifetime.Transient);
             services.AddHttpClients(configuration);
             services.AddScoped<IValidatorProvider, ValidatorProvider>();
+            // [IntentIgnore]
             services.AddScoped<IAuthService, PlaceholderAuthService>();
             return services;
         }
     }
 
+    [IntentIgnore]
     public class PlaceholderAuthService : IAuthService
     {
+        public Task Register(string username, string password)
+        {
+            throw new InvalidOperationException("Register is not available during server-side prerendering.");
+        }
+
         public Task<bool> Login(string username, string password)
         {
             throw new InvalidOperationException("Login is not available during server-side prerendering.");

@@ -1,5 +1,7 @@
 @page "/products"
+@using Microsoft.AspNetCore.Authorization
 @using MudBlazor.ExampleApp.Client.HttpClients.Contracts.Services.Products
+@attribute [Authorize]
 
 <MudDataGrid T="ProductDto"
              @ref="DataGrid"

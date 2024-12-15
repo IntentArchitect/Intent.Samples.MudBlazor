@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="4162f680-1af2-4d82-b760-6989f2246679" type="Component" typeId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b">
+  <name>Register</name>
+  <display>Register</display>
+  <isAbstract>false</isAbstract>
+  <sort-children>by-type-then-manually</sort-children>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>0b932a83-c3a7-4a72-b0e2-4b389a58c12e</parentFolderId>
+  <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
+  <packageName>MudBlazor.ExampleApp.UI</packageName>
+  <stereotypes>
+    <stereotype stereotypeDefinitionId="ea4adc09-8978-4ede-ba5f-265debb2b60c" name="Page">
+      <addedByDefault>false</addedByDefault>
+      <definitionPackageName>Intent.Modelers.UI</definitionPackageName>
+      <definitionPackageId>5c4628ec-679e-4f3d-afda-137c978deae0</definitionPackageId>
+      <properties>
+        <property name="9dff9df1-a993-4bf6-9aa7-c16811142228" display="Route" value="/auth/register" isActive="true" />
+        <property name="0a8627ba-ec45-4023-9c36-b0999f43e982" display="Title" isActive="true" />
+      </properties>
+    </stereotype>
+  </stereotypes>
+  <mappings>
+    <mapping type="View Binding" typeId="c33f86ad-423a-4a6f-a80c-a3206eafe5cd">
+      <source applicationId="00727c17-aeb5-470b-991f-68c0b481117e" designerId="f492faed-0665-4513-9853-5a230721786f" elementId="4162f680-1af2-4d82-b760-6989f2246679" location="[MudBlazor.ExampleApp].[User Interface].[Register]" />
+      <target applicationId="00727c17-aeb5-470b-991f-68c0b481117e" designerId="f492faed-0665-4513-9853-5a230721786f" elementId="15532140-3cd8-4b31-abdb-07d6c77179dd" location="[MudBlazor.ExampleApp].[User Interface].[[view]]" />
+      <mappedEnds>
+        <mappedEnd>
+          <expression>{Email}</expression>
+          <path>
+            <target id="15532140-3cd8-4b31-abdb-07d6c77179dd" name="[view]" type="element" specialization="Component View" specializationId="624513a6-cba8-4dde-8ebe-6b19f00f0364" />
+            <target id="407019ac-c268-4040-bead-ca69fcc913ca" name="Card" type="element" specialization="Card" specializationId="dfe420aa-426a-4517-bcd1-83cf5ec074fe" />
+            <target id="4738e8b4-c323-48e6-8c66-080c4acc5f90" name="Content" type="element" specialization="Card Content" specializationId="57319385-c7e0-43eb-a2d8-b7cb1ddce2e2" />
+            <target id="52376155-cbd8-4032-8b23-65189a44b310" name="Email" type="element" specialization="Text Input" specializationId="4803bf60-c626-4cbe-94ed-0f1eafff9fe3" />
+          </path>
+          <sources>
+            <source identifier="Email" mappingType="Data Mapping" mappingTypeId="ee19a932-0cea-4b90-bd3c-857d7942d390">
+              <path>
+                <target id="4162f680-1af2-4d82-b760-6989f2246679" name="Register" type="element" specialization="Component" specializationId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b" />
+                <target id="02409177-f45d-43f2-bff5-84b2d5ba0929" name="Email" type="element" specialization="Property" specializationId="356fbe17-bc63-4e16-b915-feefbc063cbe" />
+              </path>
+            </source>
+          </sources>
+        </mappedEnd>
+        <mappedEnd>
+          <expression>{Password}</expression>
+          <path>
+            <target id="15532140-3cd8-4b31-abdb-07d6c77179dd" name="[view]" type="element" specialization="Component View" specializationId="624513a6-cba8-4dde-8ebe-6b19f00f0364" />
+            <target id="407019ac-c268-4040-bead-ca69fcc913ca" name="Card" type="element" specialization="Card" specializationId="dfe420aa-426a-4517-bcd1-83cf5ec074fe" />
+            <target id="4738e8b4-c323-48e6-8c66-080c4acc5f90" name="Content" type="element" specialization="Card Content" specializationId="57319385-c7e0-43eb-a2d8-b7cb1ddce2e2" />
+            <target id="d77f7233-cbd7-4cdd-9061-92a5bacd823e" name="Password" type="element" specialization="Text Input" specializationId="4803bf60-c626-4cbe-94ed-0f1eafff9fe3" />
+          </path>
+          <sources>
+            <source identifier="Password" mappingType="Data Mapping" mappingTypeId="ee19a932-0cea-4b90-bd3c-857d7942d390">
+              <path>
+                <target id="4162f680-1af2-4d82-b760-6989f2246679" name="Register" type="element" specialization="Component" specializationId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b" />
+                <target id="92719d42-4aa2-4295-8c7f-cdd44c213b1e" name="Password" type="element" specialization="Property" specializationId="356fbe17-bc63-4e16-b915-feefbc063cbe" />
+              </path>
+            </source>
+          </sources>
+        </mappedEnd>
+        <mappedEnd>
+          <expression>{OnRegisterClicked}</expression>
+          <path>
+            <target id="15532140-3cd8-4b31-abdb-07d6c77179dd" name="[view]" type="element" specialization="Component View" specializationId="624513a6-cba8-4dde-8ebe-6b19f00f0364" />
+            <target id="407019ac-c268-4040-bead-ca69fcc913ca" name="Card" type="element" specialization="Card" specializationId="dfe420aa-426a-4517-bcd1-83cf5ec074fe" />
+            <target id="3168baa2-aafa-4650-83b9-231c6c938db6" name="Actions" type="element" specialization="Card Actions" specializationId="8dd9e894-be78-41ec-89f2-d2bd2d26d8d6" />
+            <target id="a55419b6-7545-47b2-8c18-a35b28536ba0" name="Register" type="element" specialization="Button" specializationId="4474d808-f6fd-405f-a9c7-6998cd000ede" />
+            <target id="b80f61a7-3b9e-4b75-806f-71d4f8b9900a" name="On Click" type="static-mappable" specialization="On Click" specializationId="b80f61a7-3b9e-4b75-806f-71d4f8b9900a" />
+          </path>
+          <sources>
+            <source identifier="OnRegisterClicked" mappingType="Event Mapping" mappingTypeId="95ce3c3e-ddf4-440b-a9b2-6b152a5fc1b8">
+              <path>
+                <target id="4162f680-1af2-4d82-b760-6989f2246679" name="Register" type="element" specialization="Component" specializationId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b" />
+                <target id="3ba879fc-48dc-423f-9755-ea9757afceef" name="OnRegisterClicked" type="element" specialization="Component Operation" specializationId="e030c97a-e066-40a7-8188-808c275df3cb" />
+              </path>
+            </source>
+          </sources>
+        </mappedEnd>
+      </mappedEnds>
+    </mapping>
+  </mappings>
+  <metadata />
+  <childElements>
+    <childElement id="02409177-f45d-43f2-bff5-84b2d5ba0929" type="Property" typeId="356fbe17-bc63-4e16-b915-feefbc063cbe">
+      <name>Email</name>
+      <display>Email: string</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <typeReference id="a979d1b5-b3db-427e-a6dc-187bd1d9bffe">
+        <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>4162f680-1af2-4d82-b760-6989f2246679</parentFolderId>
+      <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
+      <packageName>MudBlazor.ExampleApp.UI</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="92719d42-4aa2-4295-8c7f-cdd44c213b1e" type="Property" typeId="356fbe17-bc63-4e16-b915-feefbc063cbe">
+      <name>Password</name>
+      <display>Password: string</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <typeReference id="b75e8cad-fcaa-48c1-8359-9315707533b9">
+        <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>4162f680-1af2-4d82-b760-6989f2246679</parentFolderId>
+      <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
+      <packageName>MudBlazor.ExampleApp.UI</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="bbbc6480-987b-47c4-8946-cd9467f3a549" type="Component Operation" typeId="e030c97a-e066-40a7-8188-808c275df3cb">
+      <name>OnInitializedAsync</name>
+      <display>OnInitializedAsync(): void</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <typeReference id="89859650-ea5a-41bf-a8a2-1d7191ce4903">
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>4162f680-1af2-4d82-b760-6989f2246679</parentFolderId>
+      <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
+      <packageName>MudBlazor.ExampleApp.UI</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="3ba879fc-48dc-423f-9755-ea9757afceef" type="Component Operation" typeId="e030c97a-e066-40a7-8188-808c275df3cb">
+      <name>OnRegisterClicked</name>
+      <display>OnRegisterClicked(): void</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <typeReference id="105c185f-f4da-4f2a-9452-1173000269b0">
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>4162f680-1af2-4d82-b760-6989f2246679</parentFolderId>
+      <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
+      <packageName>MudBlazor.ExampleApp.UI</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements />
+    </childElement>
+  </childElements>
+</class>

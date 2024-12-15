@@ -19,7 +19,7 @@
       <updatedByDisplayName>Gareth Baars</updatedByDisplayName>
       <updatedAt>2024-12-14T13:28:20.1354463Z</updatedAt>
       <deviationsHash>3381401CBD7E6789403818D5D9AC448123642AFEE91C1B0981E48C1306B0A66D</deviationsHash>
-      <fileHash>89C7C69FDC6EA6D3B5C59F5C70ED2783141FA3C60F2A52F56C5808D7CAB3F688</fileHash>
+      <fileHash>A423231934F04243ACF29284F7BDF4A7D4152F5001F3376458E0C54938ECEB6F</fileHash>
     </file>
     <file>
       <correlationId>Intent.Blazor.Templates.Client.RazorComponentCodeBehindTemplate#9202df0d-7aaf-4232-8273-9ae6319dd021</correlationId>
@@ -29,7 +29,17 @@
       <updatedByDisplayName>Gareth Baars</updatedByDisplayName>
       <updatedAt>2024-12-14T13:28:20.1354715Z</updatedAt>
       <deviationsHash>6B3492ED82E7F1C90CE7BDCF3D7FC8DEF35221BF3C004700A319D063603AEB3C</deviationsHash>
-      <fileHash>D0EA4274949589D9035302C1EE22D95DEB6E40FC2313951C5EA0C80ADB85B9B3</fileHash>
+      <fileHash>6F02EB86330C0038C68E1B8F67E0CA823B4489D907E5D2DF3A688226E997CE84</fileHash>
+    </file>
+    <file>
+      <correlationId>Intent.Blazor.Templates.Client.RazorComponentCodeBehindTemplate#4162f680-1af2-4d82-b760-6989f2246679</correlationId>
+      <path>MudBlazor.ExampleApp.Client/Pages/Auth/Register.razor.cs</path>
+      <count>2</count>
+      <updatedByAccountName>gareth.baars@intentarchitect.com</updatedByAccountName>
+      <updatedByDisplayName>Gareth Baars</updatedByDisplayName>
+      <updatedAt>2024-12-15T12:44:26.5626016Z</updatedAt>
+      <deviationsHash>35EEFB3568125CF400BAB279546E4085CB6C06B1F9F6D653156D7F3303B6776F</deviationsHash>
+      <fileHash>D32BFCAB34B5F3B410A36F9BB7C3A3F4ADEE3E46C79E561D706546DBD81B5F14</fileHash>
     </file>
   </files>
 </deviationsLog>

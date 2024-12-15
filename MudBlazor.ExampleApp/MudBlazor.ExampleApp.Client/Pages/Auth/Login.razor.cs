@@ -11,6 +11,7 @@ namespace MudBlazor.ExampleApp.Client.Pages.Auth
     public partial class Login
     {
         private MudForm _form;
+        private bool _onLoginClickedProcessing = false;
 
         [Inject]
         public IAuthService AuthService { get; set; } = default!;
@@ -58,12 +59,5 @@ namespace MudBlazor.ExampleApp.Client.Pages.Auth
             }
         }
 
-    }
-
-    public class LoginModel
-    {
-        public string Email { get; set; }
-        public string Password { get; set; }
-        public bool RememberMe { get; set; }
     }
 }

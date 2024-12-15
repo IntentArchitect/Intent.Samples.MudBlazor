@@ -1,24 +1,41 @@
 @page "/auth/login"
+@using MudBlazor.ExampleApp.Client.Common.Validation
+@inject IValidatorProvider ValidatorProvider
 @rendermode InteractiveWebAssembly
 <MudCard>
     <MudCardHeader>
         <CardHeaderContent />
     </MudCardHeader>
     <MudCardContent>
-        <MudForm @ref="@_form" Model="Model">
-            <MudTextField @bind-Value="Model.Email"
-                          InputType="InputType.Text"
-                          Label="Username" />
-            <MudTextField @bind-Value="Model.Password"
-                          InputType="InputType.Password"
-                          Label="Password" />
-        </MudForm>
+        @if (Model is not null) 
+        {
+            <MudForm @ref="@_form"
+                     Model="Model"
+                     Validation="@(ValidatorProvider.GetValidationFunc<LoginModel>())">
+                <MudTextField @bind-Value="Model.Email"
+                              Label="Username"
+                              For="@(() => Model.Email)"
+                              autocomplete="email" />
+                <MudTextField @bind-Value="Model.Password"
+                              Label="Password"
+                              InputType="InputType.Password"
+                              For="@(() => Model.Password)"
+                              autocomplete="current-password" />
+            </MudForm>
+        }
     </MudCardContent>
     <MudCardActions>
         <MudButton Variant="Variant.Filled"
                    Class="my-2 mr-2"
-                   Color="Color.Default"
-                   OnClick="() => OnLoginClicked()">
+                   Color="Color.Primary"
+                   OnClick="() => OnLoginClicked()"
+                   Disabled="@_onLoginClickedProcessing">
+            @if (_onLoginClickedProcessing) 
+            {
+                <MudProgressCircular Class="ms-n1"
+                                     Size="Size.Small"
+                                     Indeterminate="true" />
+            }
             <MudText>Login</MudText>
         </MudButton>
     </MudCardActions>

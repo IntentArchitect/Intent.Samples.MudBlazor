@@ -18,12 +18,12 @@ namespace MudBlazor.ExampleApp.Client
             builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
             builder.Services.AddClientServices(builder.Configuration);
 
-            builder.Services.AddScoped<AuthenticationStateProvider, CustomAuthenticationStateProvider>();
+            builder.Services.AddScoped<AuthenticationStateProvider, JwtAuthenticationStateProvider>();
             //builder.Services.AddScoped<CustomAuthenticationStateProvider>();
             builder.Services.AddScoped<IAuthService, AuthService>();
+            builder.Services.AddScoped<Func<IAuthService>>(sp => sp.GetRequiredService<IAuthService>);
             builder.Services.AddScoped<IAccessTokenProvider, AccessTokenProvider>();
-            builder.Services.AddScoped<TokenHandler>();
-
+            
             builder.Services.AddTransient<AuthorizationMessageHandler>();
             builder.Services.AddAuthorizationCore();
 

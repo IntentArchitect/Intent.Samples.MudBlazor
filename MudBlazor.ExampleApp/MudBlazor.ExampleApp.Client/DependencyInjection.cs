@@ -40,5 +40,20 @@ namespace MudBlazor.ExampleApp.Client
         {
             throw new InvalidOperationException("Logout is not available during server-side prerendering.");
         }
+
+        public Task<string> GetAccessTokenAsync()
+        {
+            throw new InvalidOperationException("GetAccessTokenAsync is not available during server-side prerendering.");
+        }
+
+        public Task<string> RefreshAccessTokenAsync()
+        {
+            throw new InvalidOperationException("RefreshAccessTokenAsync is not available during server-side prerendering.");
+        }
+
+        public Task<bool> IsLoggedIn()
+        {
+            throw new InvalidOperationException("IsLoggedIn is not available during server-side prerendering.");
+        }
     }
 }

@@ -4,12 +4,12 @@
     <file>
       <correlationId>Intent.Blazor.Templates.Server.AppRazorTemplate</correlationId>
       <path>MudBlazor.ExampleApp.Api/Components/App.razor</path>
-      <count>1</count>
+      <count>3</count>
       <updatedByAccountName>gareth.baars@intentarchitect.com</updatedByAccountName>
       <updatedByDisplayName>Gareth Baars</updatedByDisplayName>
-      <updatedAt>2024-12-14T13:28:20.1352461Z</updatedAt>
-      <deviationsHash>893C9908022B9CC7B3AD652648668F510AB887D1A33888EF4F789DB8DAC66DEE</deviationsHash>
-      <fileHash>D4F61C0216D0EA8984EF0F6E92A852A758B1D281BED885D2CA6523A88A84ED02</fileHash>
+      <updatedAt>2024-12-16T12:43:49.7576792Z</updatedAt>
+      <deviationsHash>34A9DED66A0DA4A4E42FBA1800BDECEDF136B073307D25E1D9F0C517E88DF51A</deviationsHash>
+      <fileHash>CFB803565E949B69234B8007C8281B399FF8200B6FFA0CC05459EB18E02F413E</fileHash>
     </file>
     <file>
       <correlationId>Intent.Blazor.Templates.Client.DependencyInjection</correlationId>

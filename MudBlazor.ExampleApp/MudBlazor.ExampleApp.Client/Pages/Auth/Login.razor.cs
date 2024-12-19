@@ -1,5 +1,6 @@
 using Intent.RoslynWeaver.Attributes;
 using Microsoft.AspNetCore.Components;
+using MudBlazor.ExampleApp.Client.Common.Auth;
 using MudBlazor.ExampleApp.Client.HttpClients;
 
 [assembly: DefaultIntentManaged(Mode.Fully)]

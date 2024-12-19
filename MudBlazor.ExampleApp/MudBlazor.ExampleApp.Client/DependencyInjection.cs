@@ -2,6 +2,7 @@ using System.Reflection;
 using FluentValidation;
 using Intent.RoslynWeaver.Attributes;
 using Microsoft.AspNetCore.Components.Authorization;
+using MudBlazor.ExampleApp.Client.Common.Auth;
 using MudBlazor.ExampleApp.Client.Common.Validation;
 using MudBlazor.ExampleApp.Client.HttpClients;
 

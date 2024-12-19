@@ -2,6 +2,7 @@ using Intent.RoslynWeaver.Attributes;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Components.WebAssembly.Authentication;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
+using MudBlazor.ExampleApp.Client.Common.Auth;
 using MudBlazor.Services;
 
 [assembly: DefaultIntentManaged(Mode.Fully)]

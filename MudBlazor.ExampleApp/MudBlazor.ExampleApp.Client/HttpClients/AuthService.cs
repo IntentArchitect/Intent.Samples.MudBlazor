@@ -1,7 +1,10 @@
 using System.Net.Http.Headers;
 using System.Net.Http.Json;
+using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Authorization;
+using Microsoft.Extensions.Options;
 using Microsoft.JSInterop;
+using MudBlazor.ExampleApp.Client;
 
 
 public class AuthService : IAuthService
@@ -12,20 +15,34 @@ public class AuthService : IAuthService
     private readonly HttpClient _httpClient;
     private readonly JwtAuthenticationStateProvider _authenticationStateProvider;
     private readonly IJSRuntime _jsRuntime;
+    private readonly NavigationManager _navigationManager;
+    private readonly AuthApiEndpoints _configuration;
     private readonly Timer _tokenCheckTimer;
 
-    public AuthService(HttpClient httpClient, AuthenticationStateProvider authenticationStateProvider, IJSRuntime jsRuntime)
+    public AuthService(
+        HttpClient httpClient, 
+        AuthenticationStateProvider authenticationStateProvider, 
+        IJSRuntime jsRuntime, 
+        NavigationManager navigationManager,
+        IOptions<AuthApiEndpoints> configuration)
     {
         _httpClient = httpClient;
         _authenticationStateProvider = (JwtAuthenticationStateProvider) authenticationStateProvider;
         _jsRuntime = jsRuntime;
+        _navigationManager = navigationManager;
+        _configuration = configuration.Value;
 
         _tokenCheckTimer = new Timer(async _ =>
         {
+            var isLoggedIn = await IsLoggedIn();
+            if (!isLoggedIn)
+            {
+                return;
+            }
             var token = await GetAccessTokenAsync();
             if (token == null)
             {
-                _authenticationStateProvider.NotifyUserLogout();
+                await Logout();
             }
         }, null, TimeSpan.Zero, TimeSpan.FromMinutes(1)); // Check every minute
     }
@@ -39,7 +56,7 @@ public class AuthService : IAuthService
     public async Task<bool> Login(string username, string password)
     {
         var loginRequest = new { Email = username, Password = password };
-        var response = await _httpClient.PostAsJsonAsync("api/Account/Login", loginRequest);
+        var response = await _httpClient.PostAsJsonAsync(_configuration.Login, loginRequest);
 
         if (!response.IsSuccessStatusCode) return false;
 
@@ -47,7 +64,6 @@ public class AuthService : IAuthService
         await StoreTokens(result.AuthenticationToken, result.RefreshToken);
 
         _authenticationStateProvider.NotifyUserAuthentication(result.AuthenticationToken);
-        //_httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", result.AuthenticationToken);
 
         return true;
     }
@@ -58,7 +74,7 @@ public class AuthService : IAuthService
         if (string.IsNullOrWhiteSpace(accessToken))
             return null;
 
-        if (IsTokenExpired(accessToken))
+        if (IsTokenAboutToExpire(accessToken))
         {
             accessToken = await RefreshAccessTokenAsync();
         }
@@ -74,7 +90,7 @@ public class AuthService : IAuthService
             return null;
 
         var refreshRequest = new { RefreshToken = refreshToken };
-        var response = await _httpClient.PostAsJsonAsync("api/Account/Refresh", refreshRequest);
+        var response = await _httpClient.PostAsJsonAsync(_configuration.Refresh, refreshRequest);
 
         if (response.IsSuccessStatusCode)
         {
@@ -101,11 +117,11 @@ public class AuthService : IAuthService
         await _jsRuntime.InvokeVoidAsync("localStorage.setItem", RefreshTokenKey, refreshToken);
     }
 
-    private bool IsTokenExpired(string token)
+    private bool IsTokenAboutToExpire(string token)
     {
         var handler = new Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler();
         var jwt = handler.ReadJsonWebToken(token);
-        return jwt.ValidTo < DateTime.UtcNow.AddMinutes(-1); // Check if expiring within a minute
+        return jwt.ValidTo < DateTime.UtcNow.AddMinutes(-2); // Check if expiring within two minute
     }
 
     public async Task Logout()
@@ -113,7 +129,7 @@ public class AuthService : IAuthService
         await _jsRuntime.InvokeVoidAsync("localStorage.removeItem", AuthTokenKey);
         await _jsRuntime.InvokeVoidAsync("localStorage.removeItem", RefreshTokenKey);
         _authenticationStateProvider.NotifyUserLogout();
-        _httpClient.DefaultRequestHeaders.Authorization = null;
+        _navigationManager.NavigateTo($"Auth/Login?returnUrl={Uri.EscapeDataString(_navigationManager.Uri)}", forceLoad: true);
     }
 
     private class TokenResponse

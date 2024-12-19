@@ -17,6 +17,7 @@ namespace MudBlazor.ExampleApp.Client
             await LoadAppSettings(builder);
             builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
             builder.Services.AddClientServices(builder.Configuration);
+            builder.Services.Configure<AuthApiEndpoints>(builder.Configuration.GetSection("Urls"));
 
             builder.Services.AddScoped<AuthenticationStateProvider, JwtAuthenticationStateProvider>();
             //builder.Services.AddScoped<CustomAuthenticationStateProvider>();
@@ -39,5 +40,10 @@ namespace MudBlazor.ExampleApp.Client
             using var stream = await response.Content.ReadAsStreamAsync();
             builder.Configuration.AddJsonStream(stream);
         }
+    }
+    public class AuthApiEndpoints
+    {
+        public string Login { get; set; }
+        public string Refresh { get; set; }
     }
 }

@@ -13,8 +13,7 @@ namespace MudBlazor.ExampleApp.Client.Layout
 
         [Inject]
         public IAuthService AuthService { get; set; } = default!;
-        [Inject]
-        public NavigationManager NavigationManager { get; set; } = default!;
+
         public void DrawerToggle()
         {
             _drawerOpen = !_drawerOpen;
@@ -23,7 +22,6 @@ namespace MudBlazor.ExampleApp.Client.Layout
         private async Task Logout()
         {
             await AuthService.Logout();
-            NavigationManager.NavigateTo("Auth/Login");
         }
     }
 }

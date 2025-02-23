@@ -1,11 +1,13 @@
-using System.Net.Http.Headers;
 using System.Security.Claims;
 using System.Text.Json;
-using Microsoft.JSInterop;
-using System.Security.Claims;
+using Intent.RoslynWeaver.Attributes;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.JSInterop;
-using Microsoft.AspNetCore.Components;
+
+[assembly: DefaultIntentManaged(Mode.Fully)]
+[assembly: IntentTemplate("Intent.Blazor.JwtAuth.JwtAuthenticationStateProvider", Version = "1.0")]
+
+namespace MudBlazor.ExampleApp.Client.Common.Auth;
 
 public class JwtAuthenticationStateProvider : AuthenticationStateProvider
 {

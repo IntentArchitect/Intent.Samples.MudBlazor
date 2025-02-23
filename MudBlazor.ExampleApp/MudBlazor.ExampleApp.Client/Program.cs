@@ -1,7 +1,9 @@
+using Blazr.RenderState.WASM;
 using Intent.RoslynWeaver.Attributes;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Components.WebAssembly.Authentication;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
+using Microsoft.Extensions.Configuration;
 using MudBlazor.ExampleApp.Client.Common.Auth;
 using MudBlazor.Services;
 
@@ -18,18 +20,15 @@ namespace MudBlazor.ExampleApp.Client
             await LoadAppSettings(builder);
             builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
             builder.Services.AddClientServices(builder.Configuration);
-            builder.Services.Configure<AuthApiEndpoints>(builder.Configuration.GetSection("Urls"));
 
             builder.Services.AddScoped<AuthenticationStateProvider, JwtAuthenticationStateProvider>();
-            //builder.Services.AddScoped<CustomAuthenticationStateProvider>();
-            builder.Services.AddScoped<IAuthService, AuthService>();
-            builder.Services.AddScoped<Func<IAuthService>>(sp => sp.GetRequiredService<IAuthService>);
             builder.Services.AddScoped<IAccessTokenProvider, AccessTokenProvider>();
             
             builder.Services.AddTransient<AuthorizationMessageHandler>();
             builder.Services.AddAuthorizationCore();
 
             builder.Services.AddMudServices();
+            builder.AddBlazrRenderStateWASMServices();
 
             await builder.Build().RunAsync();
         }
@@ -41,10 +40,5 @@ namespace MudBlazor.ExampleApp.Client
             using var stream = await response.Content.ReadAsStreamAsync();
             builder.Configuration.AddJsonStream(stream);
         }
-    }
-    public class AuthApiEndpoints
-    {
-        public string Login { get; set; }
-        public string Refresh { get; set; }
     }
 }

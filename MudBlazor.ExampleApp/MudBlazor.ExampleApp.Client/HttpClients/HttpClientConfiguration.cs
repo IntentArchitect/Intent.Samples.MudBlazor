@@ -1,9 +1,9 @@
 using Intent.RoslynWeaver.Attributes;
 using Microsoft.AspNetCore.Components.WebAssembly.Authentication;
+using MudBlazor.ExampleApp.Client.Common.Auth;
 using MudBlazor.ExampleApp.Client.HttpClients.Implementations;
 
 [assembly: DefaultIntentManaged(Mode.Fully)]
-[assembly: DefaultIntentManaged(Mode.Fully, Targets = Targets.Usings)]
 [assembly: IntentTemplate("Intent.Blazor.HttpClients.HttpClientConfiguration", Version = "2.0")]
 
 namespace MudBlazor.ExampleApp.Client.HttpClients
@@ -12,6 +12,12 @@ namespace MudBlazor.ExampleApp.Client.HttpClients
     {
         public static void AddHttpClients(this IServiceCollection services, IConfiguration configuration)
         {
+            // [IntentIgnore]
+            services
+                .AddHttpClient<IAuthService, AuthService>(http =>
+                {
+                    http.BaseAddress = GetUrl(configuration, "MudBlazorExampleApp");
+                });
             services
                 .AddHttpClient<ICustomersService, CustomersServiceHttpClient>(http =>
                 {

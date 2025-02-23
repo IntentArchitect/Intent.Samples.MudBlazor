@@ -1,3 +1,8 @@
+using Intent.RoslynWeaver.Attributes;
+
+[assembly: DefaultIntentManaged(Mode.Fully)]
+[assembly: IntentTemplate("Intent.Blazor.JwtAuth.AuthServiceInterface", Version = "1.0")]
+
 namespace MudBlazor.ExampleApp.Client.Common.Auth;
 
 public interface IAuthService

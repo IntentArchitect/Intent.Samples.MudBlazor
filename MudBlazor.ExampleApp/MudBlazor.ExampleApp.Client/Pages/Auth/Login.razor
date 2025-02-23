@@ -1,10 +1,14 @@
 @page "/auth/login"
 @using MudBlazor.ExampleApp.Client.Common.Validation
+@using MudBlazor.ExampleApp.Client.Layout
 @inject IValidatorProvider ValidatorProvider
 @rendermode InteractiveWebAssembly
+@layout UnauthorizedLayout
 <MudCard>
     <MudCardHeader>
-        <CardHeaderContent />
+        <CardHeaderContent>
+            <MudText Typo="Typo.h4">Login</MudText>
+        </CardHeaderContent>
     </MudCardHeader>
     <MudCardContent>
         @if (Model is not null) 

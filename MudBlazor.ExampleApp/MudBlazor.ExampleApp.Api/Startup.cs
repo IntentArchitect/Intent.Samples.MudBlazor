@@ -1,3 +1,5 @@
+using Blazr.RenderState;
+using Blazr.RenderState.Server;
 using Intent.RoslynWeaver.Attributes;
 using Microsoft.Extensions.Options;
 using MudBlazor.ExampleApp.Api.Components;
@@ -6,6 +8,7 @@ using MudBlazor.ExampleApp.Api.Filters;
 using MudBlazor.ExampleApp.Application;
 using MudBlazor.ExampleApp.Application.Account;
 using MudBlazor.ExampleApp.Client;
+using MudBlazor.ExampleApp.Client.Common.Auth;
 using MudBlazor.ExampleApp.Infrastructure;
 using MudBlazor.Services;
 using Serilog;
@@ -25,6 +28,9 @@ namespace MudBlazor.ExampleApp.Api
 
         public IConfiguration Configuration { get; }
 
+        // Issues with auth throwing 401:
+        // See: https://learn.microsoft.com/en-us/aspnet/core/blazor/security/?view=aspnetcore-9.0&tabs=visual-studio#manage-authentication-state-in-blazor-web-apps
+        [IntentManaged(Mode.Fully, Comments = Mode.Ignore)]
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers(
@@ -42,10 +48,15 @@ namespace MudBlazor.ExampleApp.Api
             services.ConfigureSwagger(Configuration);
             services.AddClientServices(Configuration);
             services.AddTransient<IAccountEmailSender, AccountEmailSender>();
-
+            //services.AddScoped<IAuthService, PlaceholderAuthService>();
             services.AddRazorComponents()
                 .AddInteractiveServerComponents()
                 .AddInteractiveWebAssemblyComponents();
+
+            // [IntentIgnore]
+            services.AddHttpContextAccessor();
+            // [IntentIgnore]
+            services.AddScoped<IBlazrRenderStateService, ServerRenderStateService>();
 
             services.AddMudServices();
         }
@@ -79,7 +90,8 @@ namespace MudBlazor.ExampleApp.Api
                 endpoints.MapRazorComponents<App>()
                     .AddInteractiveServerRenderMode()
                     .AddInteractiveWebAssemblyRenderMode()
-                    .AddAdditionalAssemblies(typeof(Client._Imports).Assembly);
+                    .AddAdditionalAssemblies(typeof(Client._Imports).Assembly)
+                    ;
             });
             app.UseSwashbuckle(Configuration);
         }

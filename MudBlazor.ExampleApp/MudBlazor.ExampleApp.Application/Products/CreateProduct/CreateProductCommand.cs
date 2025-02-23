@@ -1,12 +1,14 @@
 using Intent.RoslynWeaver.Attributes;
 using MediatR;
 using MudBlazor.ExampleApp.Application.Common.Interfaces;
+using MudBlazor.ExampleApp.Application.Common.Security;
 
 [assembly: DefaultIntentManaged(Mode.Fully)]
 [assembly: IntentTemplate("Intent.Application.MediatR.CommandModels", Version = "1.0")]
 
 namespace MudBlazor.ExampleApp.Application.Products.CreateProduct
 {
+    [Authorize]
     public class CreateProductCommand : IRequest<Guid>, ICommand
     {
         public CreateProductCommand(string name, string description, decimal price, string? imageUrl)

@@ -19,7 +19,7 @@ namespace MudBlazor.ExampleApp.Client
             services.AddHttpClients(configuration);
             services.AddScoped<IValidatorProvider, ValidatorProvider>();
             // [IntentIgnore]
-            services.AddScoped<IAuthService, PlaceholderAuthService>();
+            //services.AddScoped<IAuthService, PlaceholderAuthService>();
             return services;
         }
     }

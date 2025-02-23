@@ -58,6 +58,7 @@
               <name>Header</name>
               <display>Header</display>
               <isAbstract>false</isAbstract>
+              <sort-children>manually</sort-children>
               <genericTypes />
               <isMapped>false</isMapped>
               <parentFolderId>c7272715-81a0-4124-b37f-9bfe5e02e707</parentFolderId>
@@ -65,7 +66,24 @@
               <packageName>MudBlazor.ExampleApp.UI</packageName>
               <stereotypes />
               <metadata />
-              <childElements />
+              <childElements>
+                <childElement id="54971720-48a7-44a9-9817-fa430e4e91e7" type="Text" typeId="922150d2-42e6-4805-a002-f9580cdf7f6f">
+                  <name>####Register</name>
+                  <display>####Register</display>
+                  <isAbstract>false</isAbstract>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>17a60216-8d48-4fe2-83fb-d98459763aa9</parentFolderId>
+                  <packageId>11cdc31a-966a-4a9c-8796-a321cda740a4</packageId>
+                  <packageName>MudBlazor.ExampleApp.UI</packageName>
+                  <traits>
+                    <trait id="b407aace-ad14-484e-ac93-4762a3d182d8" name="[Component]" />
+                  </traits>
+                  <stereotypes />
+                  <metadata />
+                  <childElements />
+                </childElement>
+              </childElements>
             </childElement>
             <childElement id="effa0d6e-dfe6-40d7-aa84-650598b1f4a5" type="Card Content" typeId="57319385-c7e0-43eb-a2d8-b7cb1ddce2e2">
               <name>Content</name>

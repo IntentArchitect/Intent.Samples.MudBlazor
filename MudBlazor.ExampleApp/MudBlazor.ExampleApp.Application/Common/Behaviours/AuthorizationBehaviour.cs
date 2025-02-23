@@ -15,62 +15,69 @@ namespace MudBlazor.ExampleApp.Application.Common.Behaviours
     {
         private readonly ICurrentUserService _currentUserService;
 
-        public AuthorizationBehaviour(
-            ICurrentUserService currentUserService)
+        public AuthorizationBehaviour(ICurrentUserService currentUserService)
         {
             _currentUserService = currentUserService;
         }
 
-        public async Task<TResponse> Handle(TRequest request, RequestHandlerDelegate<TResponse> next, CancellationToken cancellationToken)
+        public async Task<TResponse> Handle(
+            TRequest request,
+            RequestHandlerDelegate<TResponse> next,
+            CancellationToken cancellationToken)
         {
-            var authorizeAttributes = request.GetType().GetCustomAttributes<AuthorizeAttribute>().ToList();
+            var authorizeAttributes = request.GetType().GetCustomAttributes<AuthorizeAttribute>();
 
-            if (authorizeAttributes.Any())
+            foreach (var authorizeAttribute in authorizeAttributes)
             {
-                // Must be authenticated user
-                if (_currentUserService.UserId == null)
+                // Must be an authenticated user
+                if (_currentUserService.UserId is null)
                 {
                     throw new UnauthorizedAccessException();
                 }
 
                 // Role-based authorization
-                var authorizeAttributesWithRoles = authorizeAttributes.Where(a => !string.IsNullOrWhiteSpace(a.Roles)).ToList();
-
-                if (authorizeAttributesWithRoles.Any())
+                if (!string.IsNullOrWhiteSpace(authorizeAttribute.Roles))
                 {
-                    foreach (var roles in authorizeAttributesWithRoles.Select(a => a.Roles.Split(',')))
-                    {
-                        var authorized = false;
-                        foreach (var role in roles)
-                        {
-                            var isInRole = await _currentUserService.IsInRoleAsync(role.Trim());
-                            if (isInRole)
-                            {
-                                authorized = true;
-                                break;
-                            }
-                        }
+                    var authorized = false;
+                    var roles = authorizeAttribute.Roles.Split(",").Select(x => x.Trim());
 
-                        // Must be a member of at least one role in roles
-                        if (!authorized)
+                    foreach (var role in roles)
+                    {
+                        var isInRole = await _currentUserService.IsInRoleAsync(role);
+                        if (isInRole)
                         {
-                            throw new ForbiddenAccessException();
+                            authorized = true;
+                            break;
                         }
+                    }
+
+                    // Must be a member of at least one role in roles
+                    if (!authorized)
+                    {
+                        throw new ForbiddenAccessException();
                     }
                 }
 
                 // Policy-based authorization
-                var authorizeAttributesWithPolicies = authorizeAttributes.Where(a => !string.IsNullOrWhiteSpace(a.Policy)).ToList();
-                if (authorizeAttributesWithPolicies.Any())
+                if (!string.IsNullOrWhiteSpace(authorizeAttribute.Policy))
                 {
-                    foreach (var policy in authorizeAttributesWithPolicies.Select(a => a.Policy))
-                    {
-                        var authorized = await _currentUserService.AuthorizeAsync(policy);
+                    var authorized = false;
+                    var policies = authorizeAttribute.Policy.Split(",").Select(x => x.Trim());
 
-                        if (!authorized)
+                    foreach (var policy in policies)
+                    {
+                        var isAuthorized = await _currentUserService.AuthorizeAsync(policy);
+                        if (isAuthorized)
                         {
-                            throw new ForbiddenAccessException();
+                            authorized = true;
+                            break;
                         }
+                    }
+
+                    // Must be authorized by at least one policy
+                    if (!authorized)
+                    {
+                        throw new ForbiddenAccessException();
                     }
                 }
             }

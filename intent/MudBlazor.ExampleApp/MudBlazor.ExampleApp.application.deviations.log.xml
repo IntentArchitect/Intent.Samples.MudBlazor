@@ -4,12 +4,22 @@
     <file>
       <correlationId>Intent.Blazor.Templates.Server.AppRazorTemplate</correlationId>
       <path>MudBlazor.ExampleApp.Api/Components/App.razor</path>
+      <count>4</count>
+      <updatedByAccountName>gareth.baars@intentarchitect.com</updatedByAccountName>
+      <updatedByDisplayName>Gareth Baars</updatedByDisplayName>
+      <updatedAt>2025-01-08T06:31:04.6063718Z</updatedAt>
+      <deviationsHash>B2AA05A6C853DBFCAB62DEEB509A2C68005508D808ACB2D1F91E401E22ABEBD3</deviationsHash>
+      <fileHash>D5314713D6318934B41C6D0C72751A5F570DE600BEE78CA9A11BAFF0D6017B6E</fileHash>
+    </file>
+    <file>
+      <correlationId>Intent.AspNetCore.Startup</correlationId>
+      <path>MudBlazor.ExampleApp.Api/Startup.cs</path>
       <count>3</count>
       <updatedByAccountName>gareth.baars@intentarchitect.com</updatedByAccountName>
       <updatedByDisplayName>Gareth Baars</updatedByDisplayName>
-      <updatedAt>2024-12-16T12:43:49.7576792Z</updatedAt>
-      <deviationsHash>34A9DED66A0DA4A4E42FBA1800BDECEDF136B073307D25E1D9F0C517E88DF51A</deviationsHash>
-      <fileHash>CFB803565E949B69234B8007C8281B399FF8200B6FFA0CC05459EB18E02F413E</fileHash>
+      <updatedAt>2025-02-23T05:19:25.0199459Z</updatedAt>
+      <deviationsHash>E94ECC97ABE2054B2BB15B33B3F130A44A4C49B3D35FC3FB505119463BF7FBBE</deviationsHash>
+      <fileHash>15ED5BD397FAEF70C28EECC55C3707991F22A8A6A49B78D43B294F30290479F7</fileHash>
     </file>
     <file>
       <correlationId>Intent.Blazor.Templates.Client.DependencyInjection</correlationId>
@@ -17,9 +27,19 @@
       <count>2</count>
       <updatedByAccountName>gareth.baars@intentarchitect.com</updatedByAccountName>
       <updatedByDisplayName>Gareth Baars</updatedByDisplayName>
-      <updatedAt>2024-12-14T13:28:20.1354463Z</updatedAt>
-      <deviationsHash>3381401CBD7E6789403818D5D9AC448123642AFEE91C1B0981E48C1306B0A66D</deviationsHash>
-      <fileHash>A423231934F04243ACF29284F7BDF4A7D4152F5001F3376458E0C54938ECEB6F</fileHash>
+      <updatedAt>2025-02-22T08:54:38.3311487Z</updatedAt>
+      <deviationsHash>4AFFE10AF67CC6C9E273D16AA6B0960E666B1E7DD0E0EF3E1D79A2B8366C0203</deviationsHash>
+      <fileHash>87661277A31B515C40422542AEC9858E1C26C17FE42B8E22BE5FD76375177B3C</fileHash>
+    </file>
+    <file>
+      <correlationId>Intent.Blazor.HttpClients.HttpClientConfiguration</correlationId>
+      <path>MudBlazor.ExampleApp.Client/HttpClients/HttpClientConfiguration.cs</path>
+      <count>2</count>
+      <updatedByAccountName>gareth.baars@intentarchitect.com</updatedByAccountName>
+      <updatedByDisplayName>Gareth Baars</updatedByDisplayName>
+      <updatedAt>2025-02-22T08:54:38.3313751Z</updatedAt>
+      <deviationsHash>C2E5C2306F9E495A307C7C3206948B2E04F7B29574F1033AE9A08B64FF66D036</deviationsHash>
+      <fileHash>7DF2CEA57691624FA0CD8C1B2CCDA938DEA253CA8DD9C53864D80C94DE65F60D</fileHash>
     </file>
     <file>
       <correlationId>Intent.Blazor.Templates.Client.RazorComponentCodeBehindTemplate#9202df0d-7aaf-4232-8273-9ae6319dd021</correlationId>
@@ -27,9 +47,9 @@
       <count>2</count>
       <updatedByAccountName>gareth.baars@intentarchitect.com</updatedByAccountName>
       <updatedByDisplayName>Gareth Baars</updatedByDisplayName>
-      <updatedAt>2024-12-14T13:28:20.1354715Z</updatedAt>
-      <deviationsHash>6B3492ED82E7F1C90CE7BDCF3D7FC8DEF35221BF3C004700A319D063603AEB3C</deviationsHash>
-      <fileHash>6F02EB86330C0038C68E1B8F67E0CA823B4489D907E5D2DF3A688226E997CE84</fileHash>
+      <updatedAt>2025-01-08T06:58:27.5020041Z</updatedAt>
+      <deviationsHash>5BB74D8189CA4E2C631CC9DC12E30D7DFB7ABCCC2DD83583B8B532AD2EC75595</deviationsHash>
+      <fileHash>4DE5B45B7AF5D6D6248DC0478C13F898AD89F864C1C905C98BE536BC3CFB6E1C</fileHash>
     </file>
     <file>
       <correlationId>Intent.Blazor.Templates.Client.RazorComponentCodeBehindTemplate#4162f680-1af2-4d82-b760-6989f2246679</correlationId>
@@ -37,9 +57,9 @@
       <count>2</count>
       <updatedByAccountName>gareth.baars@intentarchitect.com</updatedByAccountName>
       <updatedByDisplayName>Gareth Baars</updatedByDisplayName>
-      <updatedAt>2024-12-15T12:44:26.5626016Z</updatedAt>
-      <deviationsHash>35EEFB3568125CF400BAB279546E4085CB6C06B1F9F6D653156D7F3303B6776F</deviationsHash>
-      <fileHash>D32BFCAB34B5F3B410A36F9BB7C3A3F4ADEE3E46C79E561D706546DBD81B5F14</fileHash>
+      <updatedAt>2025-01-08T06:58:27.5020143Z</updatedAt>
+      <deviationsHash>4A5F031ACB6A524129292BA58CCC8A457827C6A9D34926D33A6DB60856CE88F7</deviationsHash>
+      <fileHash>502EB7EBAE070C58A2CAE3BE418A1D456096D3A3DE789076DF1D57EA8A1C6CF7</fileHash>
     </file>
   </files>
 </deviationsLog>

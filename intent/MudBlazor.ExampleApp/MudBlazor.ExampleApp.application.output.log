@@ -971,6 +971,38 @@
       <IsIgnored>true</IsIgnored>
     </FileLog>
     <FileLog>
+      <ProjectId>f2b7c32f-5f22-4982-a4ef-c5d62b02c7d5</ProjectId>
+      <CorrelationId>Intent.Blazor.JwtAuth.AccessTokenProvider</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../MudBlazor.ExampleApp/MudBlazor.ExampleApp.Client/Common/Auth/AccessTokenProvider.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>AccessTokenProvider.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>f2b7c32f-5f22-4982-a4ef-c5d62b02c7d5</ProjectId>
+      <CorrelationId>Intent.Blazor.JwtAuth.AuthServiceImplementation</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../MudBlazor.ExampleApp/MudBlazor.ExampleApp.Client/Common/Auth/AuthService.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>AuthService.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>f2b7c32f-5f22-4982-a4ef-c5d62b02c7d5</ProjectId>
+      <CorrelationId>Intent.Blazor.JwtAuth.AuthServiceInterface</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../MudBlazor.ExampleApp/MudBlazor.ExampleApp.Client/Common/Auth/IAuthService.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>IAuthService.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>f2b7c32f-5f22-4982-a4ef-c5d62b02c7d5</ProjectId>
+      <CorrelationId>Intent.Blazor.JwtAuth.JwtAuthenticationStateProvider</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../MudBlazor.ExampleApp/MudBlazor.ExampleApp.Client/Common/Auth/JwtAuthenticationStateProvider.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>JwtAuthenticationStateProvider.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
       <ProjectId>9013626c-b9dd-4b17-ad58-86e5c7c406a4</ProjectId>
       <CorrelationId>Intent.Blazor.FluentValidation.ValidatorProviderInterface</CorrelationId>
       <OverwriteBehaviour>always</OverwriteBehaviour>
@@ -1337,6 +1369,22 @@
       <ApplicationRelativeFilePath>../../MudBlazor.ExampleApp/MudBlazor.ExampleApp.Client/Layout/MainLayout.razor.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Layout/MainLayout.razor.cs</ProjectRelativeFilePath>
       <IsIgnored>true</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>034e5ad7-94f5-45b1-a010-3d60bd78514a</ProjectId>
+      <CorrelationId>Intent.Blazor.Templates.Client.RazorLayoutTemplate#f89cad12-c44e-4e1b-a309-f0d85935e1ca</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../MudBlazor.ExampleApp/MudBlazor.ExampleApp.Client/Layout/UnauthorizedLayout.razor</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>Layout/UnauthorizedLayout.razor</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>034e5ad7-94f5-45b1-a010-3d60bd78514a</ProjectId>
+      <CorrelationId>Intent.Blazor.Templates.Client.RazorLayoutCodeBehindTemplate#f89cad12-c44e-4e1b-a309-f0d85935e1ca</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../MudBlazor.ExampleApp/MudBlazor.ExampleApp.Client/Layout/UnauthorizedLayout.razor.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>Layout/UnauthorizedLayout.razor.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>034e5ad7-94f5-45b1-a010-3d60bd78514a</ProjectId>

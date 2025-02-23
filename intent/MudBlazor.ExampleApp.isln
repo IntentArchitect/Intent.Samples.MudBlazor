@@ -6,7 +6,7 @@
   <iconType>UrlImagePath</iconType>
   <metadataRelativePath>Intent.Metadata</metadataRelativePath>
   <modulesCacheRelativePath>.intent/modules</modulesCacheRelativePath>
-  <lastUsedApplicationTemplate id="Intent.ApplicationTemplate.AspNetCore6.0.CleanArchitecture" version="4.3.53" />
+  <lastUsedApplicationTemplate id="Intent.ApplicationTemplate.AspNetCore6.0.CleanArchitecture" version="5.0.12" />
   <applications>
     <application id="00727c17-aeb5-470b-991f-68c0b481117e" name="MudBlazor.ExampleApp" relativePath="MudBlazor.ExampleApp/MudBlazor.ExampleApp.application.config" />
   </applications>

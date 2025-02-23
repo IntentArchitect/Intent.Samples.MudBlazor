@@ -7,7 +7,7 @@ using MudBlazor.ExampleApp.Client.Common.Auth;
 
 namespace MudBlazor.ExampleApp.Client.Pages.Auth
 {
-    [IntentMerge]
+    [IntentIgnore]
     public partial class Register
     {
         private MudForm _form;

@@ -1,3 +1,26 @@
+@using Blazr.RenderState
+@inject IBlazrRenderStateService RenderState
+
+@if (RenderState.IsPreRender)
+{
+    <MudThemeProvider />
+    <MudPaper Style="position: relative; min-height: 100vh; background-color: #102b51;">
+        <!-- Center Image Container -->
+        <div class="text-center" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center">
+            <img src="https://cdn.pixabay.com/animation/2022/07/29/03/42/03-42-11-849_512.gif" alt="Main Logo" style="max-width: 300px; width: 100%;" />
+            <MudText Color="Color.Info" Align="Align.Center" Typo="Typo.h3">Blazor Sample App</MudText>
+            <MudText Style="color: white" Align="Align.Center">Loading...</MudText>
+        </div>
+        <!-- Bottom Center Image Container -->
+        <div style="position: absolute; bottom: 20px; left: 0; right: 0; display: flex; justify-content: center;">
+            <div class="d-block">
+                <MudText Color="Color.Info" Align="Align.Center">Powered by</MudText>
+                <img src="https://docs.intentarchitect.com/images/logo-dark.png" alt="Small Logo" style="max-width: 200px; width: 100%;" />
+            </div>
+        </div>
+    </MudPaper>
+    return;
+}
 <Router AppAssembly="@typeof(Program).Assembly">
     <Found Context="routeData">
         <AuthorizeRouteView RouteData="@routeData" DefaultLayout="@typeof(Layout.MainLayout)">

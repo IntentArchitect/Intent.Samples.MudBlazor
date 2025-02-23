@@ -45,6 +45,8 @@
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>cd37b68f-6697-4383-865a-3138a1b677a9</parentFolderId>
+      <packageId>96180650-c419-412c-87ba-a67befe3a60a</packageId>
+      <packageName>MudBlazor.ExampleApp</packageName>
       <stereotypes />
       <metadata>
         <entry key="status" value="assigned" />
@@ -59,6 +61,8 @@
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>cd37b68f-6697-4383-865a-3138a1b677a9</parentFolderId>
+      <packageId>96180650-c419-412c-87ba-a67befe3a60a</packageId>
+      <packageName>MudBlazor.ExampleApp</packageName>
       <stereotypes />
       <metadata>
         <entry key="status" value="assigned" />

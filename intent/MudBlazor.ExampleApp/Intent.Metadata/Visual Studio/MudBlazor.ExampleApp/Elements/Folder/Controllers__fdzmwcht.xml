@@ -45,6 +45,8 @@
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>c54329c2-ce25-47b5-a839-a35441048aff</parentFolderId>
+      <packageId>96180650-c419-412c-87ba-a67befe3a60a</packageId>
+      <packageName>MudBlazor.ExampleApp</packageName>
       <stereotypes />
       <metadata>
         <entry key="status" value="assigned" />

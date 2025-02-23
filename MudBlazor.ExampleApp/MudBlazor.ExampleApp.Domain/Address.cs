@@ -18,6 +18,10 @@ namespace MudBlazor.ExampleApp.Domain
 
         protected Address()
         {
+            Line1 = null!;
+            City = null!;
+            Country = null!;
+            Postal = null!;
         }
 
         public string Line1 { get; private set; }

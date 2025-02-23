@@ -1,5 +1,10 @@
+using Intent.RoslynWeaver.Attributes;
 using Microsoft.AspNetCore.Components.WebAssembly.Authentication;
-using MudBlazor.ExampleApp.Client.Common.Auth;
+
+[assembly: DefaultIntentManaged(Mode.Fully)]
+[assembly: IntentTemplate("Intent.Blazor.JwtAuth.AccessTokenProvider", Version = "1.0")]
+
+namespace MudBlazor.ExampleApp.Client.Common.Auth;
 
 internal class AccessTokenProvider : IAccessTokenProvider
 {

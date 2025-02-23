@@ -33,7 +33,7 @@
             <target id="dce7a98a-5336-4240-92fc-b356f3bfe9a7" name="Content" type="element" specialization="Card Content" specializationId="57319385-c7e0-43eb-a2d8-b7cb1ddce2e2" />
             <target id="6b10dee8-d1ba-4c69-90cf-6031c148b5d8" name="Form" type="element" specialization="Form" specializationId="1cfd2d9d-1061-4c45-8b4e-074cfa8dacfd" />
             <target id="9d16e967-a2ab-45b4-ba69-b286daf4488c" name="Model" type="static-mappable" specialization="Model" specializationId="9d16e967-a2ab-45b4-ba69-b286daf4488c">
-              <typeReference id="422a11c5-9cd6-4ae6-9e62-1c4048a354d3">
+              <typeReference id="e2ed61f2-1d1f-48a8-b6cb-f625dbf73110">
                 <isNavigable>true</isNavigable>
                 <isNullable>false</isNullable>
                 <isCollection>false</isCollection>

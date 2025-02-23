@@ -4,6 +4,6 @@
     protected override void OnInitialized()
     {
         Console.WriteLine("Navigating to login");
-        NavigationManager.NavigateTo($"Auth/Login?returnUrl={Uri.EscapeDataString(NavigationManager.Uri)}", forceLoad: true);
+        NavigationManager.NavigateTo($"Auth/Login?returnUrl={Uri.EscapeDataString(NavigationManager.Uri)}");
     }
 }

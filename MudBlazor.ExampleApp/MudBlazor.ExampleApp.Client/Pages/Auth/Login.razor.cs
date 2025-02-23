@@ -1,14 +1,13 @@
 using Intent.RoslynWeaver.Attributes;
 using Microsoft.AspNetCore.Components;
 using MudBlazor.ExampleApp.Client.Common.Auth;
-using MudBlazor.ExampleApp.Client.HttpClients;
 
 [assembly: DefaultIntentManaged(Mode.Fully)]
 [assembly: IntentTemplate("Intent.Blazor.Templates.Client.RazorComponentCodeBehindTemplate", Version = "1.0")]
 
 namespace MudBlazor.ExampleApp.Client.Pages.Auth
 {
-    [IntentMerge]
+    [IntentIgnore]
     public partial class Login
     {
         private MudForm _form;

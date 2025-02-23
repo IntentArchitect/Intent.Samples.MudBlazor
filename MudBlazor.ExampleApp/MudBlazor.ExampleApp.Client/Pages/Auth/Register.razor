@@ -1,6 +1,8 @@
 @page "/auth/register"
 @using MudBlazor.ExampleApp.Client.Common.Validation
+@using MudBlazor.ExampleApp.Client.Layout
 @inject IValidatorProvider ValidatorProvider
+@layout UnauthorizedLayout
 
 @if (Model is not null) 
 {
@@ -9,7 +11,9 @@
              Validation="@(ValidatorProvider.GetValidationFunc<RegisterModel>())">
         <MudCard>
             <MudCardHeader>
-                <CardHeaderContent />
+                <CardHeaderContent>
+                    <MudText Typo="Typo.h4">Register</MudText>
+                </CardHeaderContent>
             </MudCardHeader>
             <MudCardContent>
                 <MudTextField @bind-Value="Model.Email"
